@@ -54,7 +54,7 @@ helper context BibTeX!BibTeXEntry def: buildEntryPara() : String =
 	   then self.authors->iterate(e; str : String = '' | str + ' ' + e.author)
 	   else ''
 	   endif)
-	+ (if self.oclIsKindOf(BibTeX!DatedEntry) then ' ' + self.year else '' endif)
+	+ (if self.oclIsKindOf(BibTeX!DatedEntry) then ' ' + self.year.toString() else '' endif)
 	+ (if self.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + self.booktitle else '' endif)
 	+ (if self.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  self.school else '' endif)
 	+ (if self.oclIsKindOf(BibTeX!Article) then ' ' + self.journal else '' endif)
