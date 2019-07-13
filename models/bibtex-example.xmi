@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="BibTeX">
+<BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.transformation-tool-contest.eu/2019/bibtex">
   <entries xsi:type="PhDThesis" id="a" year="2004" title="Interrogation continue des Systèmes d'Information de Proximité" school="IFSIC">
     <authors author="Touzet, D."/>
   </entries>
