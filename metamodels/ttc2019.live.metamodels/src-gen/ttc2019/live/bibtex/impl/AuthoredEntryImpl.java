@@ -66,6 +66,7 @@ public abstract class AuthoredEntryImpl extends BibTeXEntryImpl implements Autho
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Author> getAuthors() {
 		if (authors == null) {
 			authors = new EObjectContainmentEList<Author>(Author.class, this, BibtexPackage.AUTHORED_ENTRY__AUTHORS);

@@ -70,6 +70,7 @@ public class AuthorImpl extends MinimalEObjectImpl.Container implements Author {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAuthor() {
 		return author;
 	}
@@ -79,6 +80,7 @@ public class AuthorImpl extends MinimalEObjectImpl.Container implements Author {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAuthor(String newAuthor) {
 		String oldAuthor = author;
 		author = newAuthor;

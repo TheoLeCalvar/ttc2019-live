@@ -81,6 +81,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BibTeXFile createBibTeXFile() {
 		BibTeXFileImpl bibTeXFile = new BibTeXFileImpl();
 		return bibTeXFile;
@@ -91,6 +92,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Author createAuthor() {
 		AuthorImpl author = new AuthorImpl();
 		return author;
@@ -101,6 +103,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Article createArticle() {
 		ArticleImpl article = new ArticleImpl();
 		return article;
@@ -111,6 +114,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public TechReport createTechReport() {
 		TechReportImpl techReport = new TechReportImpl();
 		return techReport;
@@ -121,6 +125,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Unpublished createUnpublished() {
 		UnpublishedImpl unpublished = new UnpublishedImpl();
 		return unpublished;
@@ -131,6 +136,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Manual createManual() {
 		ManualImpl manual = new ManualImpl();
 		return manual;
@@ -141,6 +147,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Proceedings createProceedings() {
 		ProceedingsImpl proceedings = new ProceedingsImpl();
 		return proceedings;
@@ -151,6 +158,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InProceedings createInProceedings() {
 		InProceedingsImpl inProceedings = new InProceedingsImpl();
 		return inProceedings;
@@ -161,6 +169,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Booklet createBooklet() {
 		BookletImpl booklet = new BookletImpl();
 		return booklet;
@@ -171,6 +180,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Book createBook() {
 		BookImpl book = new BookImpl();
 		return book;
@@ -181,6 +191,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InCollection createInCollection() {
 		InCollectionImpl inCollection = new InCollectionImpl();
 		return inCollection;
@@ -191,6 +202,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public InBook createInBook() {
 		InBookImpl inBook = new InBookImpl();
 		return inBook;
@@ -201,6 +213,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Misc createMisc() {
 		MiscImpl misc = new MiscImpl();
 		return misc;
@@ -211,6 +224,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public PhDThesis createPhDThesis() {
 		PhDThesisImpl phDThesis = new PhDThesisImpl();
 		return phDThesis;
@@ -221,6 +235,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public MasterThesis createMasterThesis() {
 		MasterThesisImpl masterThesis = new MasterThesisImpl();
 		return masterThesis;
@@ -231,6 +246,7 @@ public class BibtexFactoryImpl extends EFactoryImpl implements BibtexFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BibtexPackage getBibtexPackage() {
 		return (BibtexPackage)getEPackage();
 	}

@@ -70,6 +70,7 @@ public class InCollectionImpl extends BookImpl implements InCollection {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getBooktitle() {
 		return booktitle;
 	}
@@ -79,6 +80,7 @@ public class InCollectionImpl extends BookImpl implements InCollection {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBooktitle(String newBooktitle) {
 		String oldBooktitle = booktitle;
 		booktitle = newBooktitle;

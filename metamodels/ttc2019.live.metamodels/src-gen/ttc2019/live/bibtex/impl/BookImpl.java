@@ -37,7 +37,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String YEAR_EDEFAULT = null;
+	protected static final int YEAR_EDEFAULT = 0;
 
 	/**
 	 * The cached value of the '{@link #getYear() <em>Year</em>}' attribute.
@@ -47,7 +47,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * @generated
 	 * @ordered
 	 */
-	protected String year = YEAR_EDEFAULT;
+	protected int year = YEAR_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getTitle() <em>Title</em>}' attribute.
@@ -113,7 +113,8 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getYear() {
+	@Override
+	public int getYear() {
 		return year;
 	}
 
@@ -122,8 +123,9 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setYear(String newYear) {
-		String oldYear = year;
+	@Override
+	public void setYear(int newYear) {
+		int oldYear = year;
 		year = newYear;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, BibtexPackage.BOOK__YEAR, oldYear, year));
@@ -134,6 +136,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -143,6 +146,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;
@@ -155,6 +159,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getPublisher() {
 		return publisher;
 	}
@@ -164,6 +169,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPublisher(String newPublisher) {
 		String oldPublisher = publisher;
 		publisher = newPublisher;
@@ -198,7 +204,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case BibtexPackage.BOOK__YEAR:
-				setYear((String)newValue);
+				setYear((Integer)newValue);
 				return;
 			case BibtexPackage.BOOK__TITLE:
 				setTitle((String)newValue);
@@ -240,7 +246,7 @@ public class BookImpl extends AuthoredEntryImpl implements Book {
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case BibtexPackage.BOOK__YEAR:
-				return YEAR_EDEFAULT == null ? year != null : !YEAR_EDEFAULT.equals(year);
+				return year != YEAR_EDEFAULT;
 			case BibtexPackage.BOOK__TITLE:
 				return TITLE_EDEFAULT == null ? title != null : !TITLE_EDEFAULT.equals(title);
 			case BibtexPackage.BOOK__PUBLISHER:

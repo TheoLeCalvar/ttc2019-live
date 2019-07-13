@@ -69,6 +69,7 @@ public class InBookImpl extends BookImpl implements InBook {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getChapter() {
 		return chapter;
 	}
@@ -78,6 +79,7 @@ public class InBookImpl extends BookImpl implements InBook {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setChapter(int newChapter) {
 		int oldChapter = chapter;
 		chapter = newChapter;

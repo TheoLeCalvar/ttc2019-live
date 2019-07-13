@@ -253,6 +253,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getBibTeXFile() {
 		return bibTeXFileEClass;
 	}
@@ -262,6 +263,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getBibTeXFile_Entries() {
 		return (EReference)bibTeXFileEClass.getEStructuralFeatures().get(0);
 	}
@@ -271,6 +273,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAuthor() {
 		return authorEClass;
 	}
@@ -280,6 +283,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAuthor_Author() {
 		return (EAttribute)authorEClass.getEStructuralFeatures().get(0);
 	}
@@ -289,6 +293,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getBibTeXEntry() {
 		return bibTeXEntryEClass;
 	}
@@ -298,6 +303,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getBibTeXEntry_Id() {
 		return (EAttribute)bibTeXEntryEClass.getEStructuralFeatures().get(0);
 	}
@@ -307,6 +313,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAuthoredEntry() {
 		return authoredEntryEClass;
 	}
@@ -316,6 +323,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAuthoredEntry_Authors() {
 		return (EReference)authoredEntryEClass.getEStructuralFeatures().get(0);
 	}
@@ -325,6 +333,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getDatedEntry() {
 		return datedEntryEClass;
 	}
@@ -334,6 +343,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getDatedEntry_Year() {
 		return (EAttribute)datedEntryEClass.getEStructuralFeatures().get(0);
 	}
@@ -343,6 +353,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getTitledEntry() {
 		return titledEntryEClass;
 	}
@@ -352,6 +363,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getTitledEntry_Title() {
 		return (EAttribute)titledEntryEClass.getEStructuralFeatures().get(0);
 	}
@@ -361,6 +373,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getBookTitledEntry() {
 		return bookTitledEntryEClass;
 	}
@@ -370,6 +383,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getBookTitledEntry_Booktitle() {
 		return (EAttribute)bookTitledEntryEClass.getEStructuralFeatures().get(0);
 	}
@@ -379,6 +393,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getArticle() {
 		return articleEClass;
 	}
@@ -388,6 +403,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getArticle_Journal() {
 		return (EAttribute)articleEClass.getEStructuralFeatures().get(0);
 	}
@@ -397,6 +413,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getTechReport() {
 		return techReportEClass;
 	}
@@ -406,6 +423,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getUnpublished() {
 		return unpublishedEClass;
 	}
@@ -415,6 +433,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getUnpublished_Note() {
 		return (EAttribute)unpublishedEClass.getEStructuralFeatures().get(0);
 	}
@@ -424,6 +443,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getManual() {
 		return manualEClass;
 	}
@@ -433,6 +453,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getProceedings() {
 		return proceedingsEClass;
 	}
@@ -442,6 +463,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getInProceedings() {
 		return inProceedingsEClass;
 	}
@@ -451,6 +473,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getBooklet() {
 		return bookletEClass;
 	}
@@ -460,6 +483,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getBook() {
 		return bookEClass;
 	}
@@ -469,6 +493,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getBook_Publisher() {
 		return (EAttribute)bookEClass.getEStructuralFeatures().get(0);
 	}
@@ -478,6 +503,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getInCollection() {
 		return inCollectionEClass;
 	}
@@ -487,6 +513,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getInBook() {
 		return inBookEClass;
 	}
@@ -496,6 +523,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getInBook_Chapter() {
 		return (EAttribute)inBookEClass.getEStructuralFeatures().get(0);
 	}
@@ -505,6 +533,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getMisc() {
 		return miscEClass;
 	}
@@ -514,6 +543,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getThesisEntry() {
 		return thesisEntryEClass;
 	}
@@ -523,6 +553,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getThesisEntry_School() {
 		return (EAttribute)thesisEntryEClass.getEStructuralFeatures().get(0);
 	}
@@ -532,6 +563,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getPhDThesis() {
 		return phDThesisEClass;
 	}
@@ -541,6 +573,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getMasterThesis() {
 		return masterThesisEClass;
 	}
@@ -550,6 +583,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public BibtexFactory getBibtexFactory() {
 		return (BibtexFactory)getEFactoryInstance();
 	}
@@ -702,7 +736,7 @@ public class BibtexPackageImpl extends EPackageImpl implements BibtexPackage {
 		initEReference(getAuthoredEntry_Authors(), this.getAuthor(), null, "authors", null, 1, -1, AuthoredEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
 
 		initEClass(datedEntryEClass, DatedEntry.class, "DatedEntry", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getDatedEntry_Year(), ecorePackage.getEString(), "year", null, 1, 1, DatedEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+		initEAttribute(getDatedEntry_Year(), ecorePackage.getEInt(), "year", null, 1, 1, DatedEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
 
 		initEClass(titledEntryEClass, TitledEntry.class, "TitledEntry", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getTitledEntry_Title(), ecorePackage.getEString(), "title", null, 1, 1, TitledEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);

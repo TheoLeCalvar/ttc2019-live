@@ -70,6 +70,7 @@ public class ProceedingsImpl extends DatedEntryImpl implements Proceedings {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -79,6 +80,7 @@ public class ProceedingsImpl extends DatedEntryImpl implements Proceedings {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;

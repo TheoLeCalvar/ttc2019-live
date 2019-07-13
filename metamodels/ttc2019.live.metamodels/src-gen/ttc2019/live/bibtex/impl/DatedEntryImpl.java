@@ -33,7 +33,7 @@ public abstract class DatedEntryImpl extends BibTeXEntryImpl implements DatedEnt
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String YEAR_EDEFAULT = null;
+	protected static final int YEAR_EDEFAULT = 0;
 
 	/**
 	 * The cached value of the '{@link #getYear() <em>Year</em>}' attribute.
@@ -43,7 +43,7 @@ public abstract class DatedEntryImpl extends BibTeXEntryImpl implements DatedEnt
 	 * @generated
 	 * @ordered
 	 */
-	protected String year = YEAR_EDEFAULT;
+	protected int year = YEAR_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -69,7 +69,8 @@ public abstract class DatedEntryImpl extends BibTeXEntryImpl implements DatedEnt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getYear() {
+	@Override
+	public int getYear() {
 		return year;
 	}
 
@@ -78,8 +79,9 @@ public abstract class DatedEntryImpl extends BibTeXEntryImpl implements DatedEnt
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setYear(String newYear) {
-		String oldYear = year;
+	@Override
+	public void setYear(int newYear) {
+		int oldYear = year;
 		year = newYear;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, BibtexPackage.DATED_ENTRY__YEAR, oldYear, year));
@@ -108,7 +110,7 @@ public abstract class DatedEntryImpl extends BibTeXEntryImpl implements DatedEnt
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case BibtexPackage.DATED_ENTRY__YEAR:
-				setYear((String)newValue);
+				setYear((Integer)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -138,7 +140,7 @@ public abstract class DatedEntryImpl extends BibTeXEntryImpl implements DatedEnt
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case BibtexPackage.DATED_ENTRY__YEAR:
-				return YEAR_EDEFAULT == null ? year != null : !YEAR_EDEFAULT.equals(year);
+				return year != YEAR_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

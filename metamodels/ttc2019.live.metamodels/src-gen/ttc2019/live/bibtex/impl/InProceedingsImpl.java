@@ -92,6 +92,7 @@ public class InProceedingsImpl extends ProceedingsImpl implements InProceedings 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Author> getAuthors() {
 		if (authors == null) {
 			authors = new EObjectContainmentEList<Author>(Author.class, this, BibtexPackage.IN_PROCEEDINGS__AUTHORS);
@@ -104,6 +105,7 @@ public class InProceedingsImpl extends ProceedingsImpl implements InProceedings 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getBooktitle() {
 		return booktitle;
 	}
@@ -113,6 +115,7 @@ public class InProceedingsImpl extends ProceedingsImpl implements InProceedings 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setBooktitle(String newBooktitle) {
 		String oldBooktitle = booktitle;
 		booktitle = newBooktitle;

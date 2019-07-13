@@ -68,6 +68,7 @@ public class BibTeXFileImpl extends MinimalEObjectImpl.Container implements BibT
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<BibTeXEntry> getEntries() {
 		if (entries == null) {
 			entries = new EObjectContainmentEList<BibTeXEntry>(BibTeXEntry.class, this, BibtexPackage.BIB_TE_XFILE__ENTRIES);

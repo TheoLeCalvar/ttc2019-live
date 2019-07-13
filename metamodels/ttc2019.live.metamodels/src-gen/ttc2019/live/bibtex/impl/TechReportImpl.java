@@ -36,7 +36,7 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String YEAR_EDEFAULT = null;
+	protected static final int YEAR_EDEFAULT = 0;
 
 	/**
 	 * The cached value of the '{@link #getYear() <em>Year</em>}' attribute.
@@ -46,7 +46,7 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	 * @generated
 	 * @ordered
 	 */
-	protected String year = YEAR_EDEFAULT;
+	protected int year = YEAR_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getTitle() <em>Title</em>}' attribute.
@@ -92,7 +92,8 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getYear() {
+	@Override
+	public int getYear() {
 		return year;
 	}
 
@@ -101,8 +102,9 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setYear(String newYear) {
-		String oldYear = year;
+	@Override
+	public void setYear(int newYear) {
+		int oldYear = year;
 		year = newYear;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, BibtexPackage.TECH_REPORT__YEAR, oldYear, year));
@@ -113,6 +115,7 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -122,6 +125,7 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;
@@ -154,7 +158,7 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case BibtexPackage.TECH_REPORT__YEAR:
-				setYear((String)newValue);
+				setYear((Integer)newValue);
 				return;
 			case BibtexPackage.TECH_REPORT__TITLE:
 				setTitle((String)newValue);
@@ -190,7 +194,7 @@ public class TechReportImpl extends AuthoredEntryImpl implements TechReport {
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case BibtexPackage.TECH_REPORT__YEAR:
-				return YEAR_EDEFAULT == null ? year != null : !YEAR_EDEFAULT.equals(year);
+				return year != YEAR_EDEFAULT;
 			case BibtexPackage.TECH_REPORT__TITLE:
 				return TITLE_EDEFAULT == null ? title != null : !TITLE_EDEFAULT.equals(title);
 		}

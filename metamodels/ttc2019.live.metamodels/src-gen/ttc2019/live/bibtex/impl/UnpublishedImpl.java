@@ -91,6 +91,7 @@ public class UnpublishedImpl extends AuthoredEntryImpl implements Unpublished {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -100,6 +101,7 @@ public class UnpublishedImpl extends AuthoredEntryImpl implements Unpublished {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;
@@ -112,6 +114,7 @@ public class UnpublishedImpl extends AuthoredEntryImpl implements Unpublished {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getNote() {
 		return note;
 	}
@@ -121,6 +124,7 @@ public class UnpublishedImpl extends AuthoredEntryImpl implements Unpublished {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNote(String newNote) {
 		String oldNote = note;
 		note = newNote;

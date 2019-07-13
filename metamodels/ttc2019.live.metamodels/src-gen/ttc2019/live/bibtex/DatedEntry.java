@@ -29,12 +29,12 @@ public interface DatedEntry extends BibTeXEntry {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Year</em>' attribute.
-	 * @see #setYear(String)
+	 * @see #setYear(int)
 	 * @see ttc2019.live.bibtex.BibtexPackage#getDatedEntry_Year()
 	 * @model required="true" ordered="false"
 	 * @generated
 	 */
-	String getYear();
+	int getYear();
 
 	/**
 	 * Sets the value of the '{@link ttc2019.live.bibtex.DatedEntry#getYear <em>Year</em>}' attribute.
@@ -44,6 +44,6 @@ public interface DatedEntry extends BibTeXEntry {
 	 * @see #getYear()
 	 * @generated
 	 */
-	void setYear(String value);
+	void setYear(int value);
 
 } // DatedEntry
