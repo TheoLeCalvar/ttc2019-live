@@ -95,6 +95,7 @@ public class CompositionMoveToListImpl extends CompositionChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getIndex() {
 		return index;
 	}
@@ -104,6 +105,7 @@ public class CompositionMoveToListImpl extends CompositionChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(int newIndex) {
 		int oldIndex = index;
 		index = newIndex;
@@ -116,6 +118,7 @@ public class CompositionMoveToListImpl extends CompositionChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getMovedElement() {
 		if (movedElement != null && movedElement.eIsProxy()) {
 			InternalEObject oldMovedElement = (InternalEObject)movedElement;
@@ -142,6 +145,7 @@ public class CompositionMoveToListImpl extends CompositionChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setMovedElement(EObject newMovedElement) {
 		EObject oldMovedElement = movedElement;
 		movedElement = newMovedElement;
@@ -154,6 +158,7 @@ public class CompositionMoveToListImpl extends CompositionChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ElementaryChange getOrigin() {
 		return origin;
 	}
@@ -178,6 +183,7 @@ public class CompositionMoveToListImpl extends CompositionChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrigin(ElementaryChange newOrigin) {
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;

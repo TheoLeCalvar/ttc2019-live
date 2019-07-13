@@ -83,6 +83,7 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getAddedElement() {
 		return addedElement;
 	}
@@ -107,6 +108,7 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddedElement(EObject newAddedElement) {
 		if (newAddedElement != addedElement) {
 			NotificationChain msgs = null;
@@ -126,6 +128,7 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getIndex() {
 		return index;
 	}
@@ -135,6 +138,7 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(int newIndex) {
 		int oldIndex = index;
 		index = newIndex;

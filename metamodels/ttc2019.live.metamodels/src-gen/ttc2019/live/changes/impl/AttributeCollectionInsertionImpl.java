@@ -69,6 +69,7 @@ public class AttributeCollectionInsertionImpl extends AttributeChangeImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAddedValue() {
 		return addedValue;
 	}
@@ -78,6 +79,7 @@ public class AttributeCollectionInsertionImpl extends AttributeChangeImpl implem
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddedValue(String newAddedValue) {
 		String oldAddedValue = addedValue;
 		addedValue = newAddedValue;

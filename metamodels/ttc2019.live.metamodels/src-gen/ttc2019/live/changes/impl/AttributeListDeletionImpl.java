@@ -90,6 +90,7 @@ public class AttributeListDeletionImpl extends AttributeChangeImpl implements At
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getDeletedValue() {
 		return deletedValue;
 	}
@@ -99,6 +100,7 @@ public class AttributeListDeletionImpl extends AttributeChangeImpl implements At
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeletedValue(String newDeletedValue) {
 		String oldDeletedValue = deletedValue;
 		deletedValue = newDeletedValue;
@@ -111,6 +113,7 @@ public class AttributeListDeletionImpl extends AttributeChangeImpl implements At
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getIndex() {
 		return index;
 	}
@@ -120,6 +123,7 @@ public class AttributeListDeletionImpl extends AttributeChangeImpl implements At
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(int newIndex) {
 		int oldIndex = index;
 		index = newIndex;

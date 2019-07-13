@@ -69,6 +69,7 @@ public class AttributeCollectionDeletionImpl extends AttributeChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getDeletedValue() {
 		return deletedValue;
 	}
@@ -78,6 +79,7 @@ public class AttributeCollectionDeletionImpl extends AttributeChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeletedValue(String newDeletedValue) {
 		String oldDeletedValue = deletedValue;
 		deletedValue = newDeletedValue;

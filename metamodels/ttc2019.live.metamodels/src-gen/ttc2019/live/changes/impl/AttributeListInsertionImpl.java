@@ -90,6 +90,7 @@ public class AttributeListInsertionImpl extends AttributeChangeImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getAddedValue() {
 		return addedValue;
 	}
@@ -99,6 +100,7 @@ public class AttributeListInsertionImpl extends AttributeChangeImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddedValue(String newAddedValue) {
 		String oldAddedValue = addedValue;
 		addedValue = newAddedValue;
@@ -111,6 +113,7 @@ public class AttributeListInsertionImpl extends AttributeChangeImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getIndex() {
 		return index;
 	}
@@ -120,6 +123,7 @@ public class AttributeListInsertionImpl extends AttributeChangeImpl implements A
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(int newIndex) {
 		int oldIndex = index;
 		index = newIndex;

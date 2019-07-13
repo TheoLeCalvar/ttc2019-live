@@ -82,6 +82,7 @@ public class AssociationListInsertionImpl extends AssociationChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getAddedElement() {
 		if (addedElement != null && addedElement.eIsProxy()) {
 			InternalEObject oldAddedElement = (InternalEObject)addedElement;
@@ -108,6 +109,7 @@ public class AssociationListInsertionImpl extends AssociationChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddedElement(EObject newAddedElement) {
 		EObject oldAddedElement = addedElement;
 		addedElement = newAddedElement;
@@ -120,6 +122,7 @@ public class AssociationListInsertionImpl extends AssociationChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getIndex() {
 		return index;
 	}
@@ -129,6 +132,7 @@ public class AssociationListInsertionImpl extends AssociationChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(int newIndex) {
 		int oldIndex = index;
 		index = newIndex;

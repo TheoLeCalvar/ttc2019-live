@@ -72,6 +72,7 @@ public class AssociationPropertyChangeImpl extends AssociationChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getNewValue() {
 		if (newValue != null && newValue.eIsProxy()) {
 			InternalEObject oldNewValue = (InternalEObject)newValue;
@@ -98,6 +99,7 @@ public class AssociationPropertyChangeImpl extends AssociationChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNewValue(EObject newNewValue) {
 		EObject oldNewValue = newValue;
 		newValue = newNewValue;
@@ -110,6 +112,7 @@ public class AssociationPropertyChangeImpl extends AssociationChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getOldValue() {
 		if (oldValue != null && oldValue.eIsProxy()) {
 			InternalEObject oldOldValue = (InternalEObject)oldValue;
@@ -136,6 +139,7 @@ public class AssociationPropertyChangeImpl extends AssociationChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOldValue(EObject newOldValue) {
 		EObject oldOldValue = oldValue;
 		oldValue = newOldValue;

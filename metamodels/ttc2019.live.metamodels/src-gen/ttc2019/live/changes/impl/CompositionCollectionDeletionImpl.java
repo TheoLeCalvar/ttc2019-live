@@ -61,6 +61,7 @@ public class CompositionCollectionDeletionImpl extends CompositionChangeImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getDeletedElement() {
 		if (deletedElement != null && deletedElement.eIsProxy()) {
 			InternalEObject oldDeletedElement = (InternalEObject)deletedElement;
@@ -87,6 +88,7 @@ public class CompositionCollectionDeletionImpl extends CompositionChangeImpl imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeletedElement(EObject newDeletedElement) {
 		EObject oldDeletedElement = deletedElement;
 		deletedElement = newDeletedElement;

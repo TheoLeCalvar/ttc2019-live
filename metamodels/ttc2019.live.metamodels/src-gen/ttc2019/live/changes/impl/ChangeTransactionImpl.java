@@ -80,6 +80,7 @@ public class ChangeTransactionImpl extends ModelChangeImpl implements ChangeTran
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ModelChange getSourceChange() {
 		return sourceChange;
 	}
@@ -104,6 +105,7 @@ public class ChangeTransactionImpl extends ModelChangeImpl implements ChangeTran
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setSourceChange(ModelChange newSourceChange) {
 		if (newSourceChange != sourceChange) {
 			NotificationChain msgs = null;
@@ -123,6 +125,7 @@ public class ChangeTransactionImpl extends ModelChangeImpl implements ChangeTran
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ModelChange> getNestedChanges() {
 		if (nestedChanges == null) {
 			nestedChanges = new EObjectContainmentEList<ModelChange>(ModelChange.class, this, ChangesPackage.CHANGE_TRANSACTION__NESTED_CHANGES);

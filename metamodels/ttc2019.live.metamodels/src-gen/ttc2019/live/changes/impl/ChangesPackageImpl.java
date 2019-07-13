@@ -33,7 +33,6 @@ import ttc2019.live.changes.CompositionCollectionReset;
 import ttc2019.live.changes.CompositionListDeletion;
 import ttc2019.live.changes.CompositionListInsertion;
 import ttc2019.live.changes.CompositionMoveIntoProperty;
-import ttc2019.live.changes.CompositionMoveToCollection;
 import ttc2019.live.changes.CompositionMoveToList;
 import ttc2019.live.changes.CompositionPropertyChange;
 import ttc2019.live.changes.ElementaryChange;
@@ -245,13 +244,6 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass compositionMoveToCollectionEClass = null;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	private EClass operationCallEClass = null;
 
 	/**
@@ -341,6 +333,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getModelChangeSet() {
 		return modelChangeSetEClass;
 	}
@@ -350,6 +343,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getModelChangeSet_Changes() {
 		return (EReference)modelChangeSetEClass.getEStructuralFeatures().get(0);
 	}
@@ -359,6 +353,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getModelChange() {
 		return modelChangeEClass;
 	}
@@ -368,6 +363,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getElementaryChange() {
 		return elementaryChangeEClass;
 	}
@@ -377,6 +373,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getElementaryChange_AffectedElement() {
 		return (EReference)elementaryChangeEClass.getEStructuralFeatures().get(0);
 	}
@@ -386,6 +383,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getElementaryChange_Feature() {
 		return (EReference)elementaryChangeEClass.getEStructuralFeatures().get(1);
 	}
@@ -395,6 +393,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getChangeTransaction() {
 		return changeTransactionEClass;
 	}
@@ -404,6 +403,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getChangeTransaction_SourceChange() {
 		return (EReference)changeTransactionEClass.getEStructuralFeatures().get(0);
 	}
@@ -413,6 +413,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getChangeTransaction_NestedChanges() {
 		return (EReference)changeTransactionEClass.getEStructuralFeatures().get(1);
 	}
@@ -422,6 +423,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionChange() {
 		return compositionChangeEClass;
 	}
@@ -431,6 +433,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationChange() {
 		return associationChangeEClass;
 	}
@@ -440,6 +443,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributeChange() {
 		return attributeChangeEClass;
 	}
@@ -449,6 +453,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationCollectionDeletion() {
 		return associationCollectionDeletionEClass;
 	}
@@ -458,6 +463,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAssociationCollectionDeletion_DeletedElement() {
 		return (EReference)associationCollectionDeletionEClass.getEStructuralFeatures().get(0);
 	}
@@ -467,6 +473,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionCollectionDeletion() {
 		return compositionCollectionDeletionEClass;
 	}
@@ -476,6 +483,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionCollectionDeletion_DeletedElement() {
 		return (EReference)compositionCollectionDeletionEClass.getEStructuralFeatures().get(0);
 	}
@@ -485,6 +493,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributeCollectionDeletion() {
 		return attributeCollectionDeletionEClass;
 	}
@@ -494,6 +503,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributeCollectionDeletion_DeletedValue() {
 		return (EAttribute)attributeCollectionDeletionEClass.getEStructuralFeatures().get(0);
 	}
@@ -503,6 +513,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationCollectionInsertion() {
 		return associationCollectionInsertionEClass;
 	}
@@ -512,6 +523,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAssociationCollectionInsertion_AddedElement() {
 		return (EReference)associationCollectionInsertionEClass.getEStructuralFeatures().get(0);
 	}
@@ -521,6 +533,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionCollectionInsertion() {
 		return compositionCollectionInsertionEClass;
 	}
@@ -530,6 +543,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionCollectionInsertion_AddedElement() {
 		return (EReference)compositionCollectionInsertionEClass.getEStructuralFeatures().get(0);
 	}
@@ -539,6 +553,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributeCollectionInsertion() {
 		return attributeCollectionInsertionEClass;
 	}
@@ -548,6 +563,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributeCollectionInsertion_AddedValue() {
 		return (EAttribute)attributeCollectionInsertionEClass.getEStructuralFeatures().get(0);
 	}
@@ -557,6 +573,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationCollectionReset() {
 		return associationCollectionResetEClass;
 	}
@@ -566,6 +583,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionCollectionReset() {
 		return compositionCollectionResetEClass;
 	}
@@ -575,6 +593,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributeCollectionReset() {
 		return attributeCollectionResetEClass;
 	}
@@ -584,6 +603,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationListDeletion() {
 		return associationListDeletionEClass;
 	}
@@ -593,6 +613,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAssociationListDeletion_DeletedElement() {
 		return (EReference)associationListDeletionEClass.getEStructuralFeatures().get(0);
 	}
@@ -602,6 +623,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAssociationListDeletion_Index() {
 		return (EAttribute)associationListDeletionEClass.getEStructuralFeatures().get(1);
 	}
@@ -611,6 +633,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionListDeletion() {
 		return compositionListDeletionEClass;
 	}
@@ -620,6 +643,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionListDeletion_DeletedElement() {
 		return (EReference)compositionListDeletionEClass.getEStructuralFeatures().get(0);
 	}
@@ -629,6 +653,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getCompositionListDeletion_Index() {
 		return (EAttribute)compositionListDeletionEClass.getEStructuralFeatures().get(1);
 	}
@@ -638,6 +663,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributeListDeletion() {
 		return attributeListDeletionEClass;
 	}
@@ -647,6 +673,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributeListDeletion_DeletedValue() {
 		return (EAttribute)attributeListDeletionEClass.getEStructuralFeatures().get(0);
 	}
@@ -656,6 +683,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributeListDeletion_Index() {
 		return (EAttribute)attributeListDeletionEClass.getEStructuralFeatures().get(1);
 	}
@@ -665,6 +693,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationListInsertion() {
 		return associationListInsertionEClass;
 	}
@@ -674,6 +703,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAssociationListInsertion_AddedElement() {
 		return (EReference)associationListInsertionEClass.getEStructuralFeatures().get(0);
 	}
@@ -683,6 +713,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAssociationListInsertion_Index() {
 		return (EAttribute)associationListInsertionEClass.getEStructuralFeatures().get(1);
 	}
@@ -692,6 +723,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionListInsertion() {
 		return compositionListInsertionEClass;
 	}
@@ -701,6 +733,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionListInsertion_AddedElement() {
 		return (EReference)compositionListInsertionEClass.getEStructuralFeatures().get(0);
 	}
@@ -710,6 +743,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getCompositionListInsertion_Index() {
 		return (EAttribute)compositionListInsertionEClass.getEStructuralFeatures().get(1);
 	}
@@ -719,6 +753,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributeListInsertion() {
 		return attributeListInsertionEClass;
 	}
@@ -728,6 +763,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributeListInsertion_AddedValue() {
 		return (EAttribute)attributeListInsertionEClass.getEStructuralFeatures().get(0);
 	}
@@ -737,6 +773,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributeListInsertion_Index() {
 		return (EAttribute)attributeListInsertionEClass.getEStructuralFeatures().get(1);
 	}
@@ -746,6 +783,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAttributePropertyChange() {
 		return attributePropertyChangeEClass;
 	}
@@ -755,6 +793,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributePropertyChange_NewValue() {
 		return (EAttribute)attributePropertyChangeEClass.getEStructuralFeatures().get(0);
 	}
@@ -764,6 +803,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAttributePropertyChange_OldValue() {
 		return (EAttribute)attributePropertyChangeEClass.getEStructuralFeatures().get(1);
 	}
@@ -773,6 +813,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssociationPropertyChange() {
 		return associationPropertyChangeEClass;
 	}
@@ -782,6 +823,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAssociationPropertyChange_NewValue() {
 		return (EReference)associationPropertyChangeEClass.getEStructuralFeatures().get(0);
 	}
@@ -791,6 +833,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getAssociationPropertyChange_OldValue() {
 		return (EReference)associationPropertyChangeEClass.getEStructuralFeatures().get(1);
 	}
@@ -800,6 +843,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionPropertyChange() {
 		return compositionPropertyChangeEClass;
 	}
@@ -809,6 +853,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionPropertyChange_NewValue() {
 		return (EReference)compositionPropertyChangeEClass.getEStructuralFeatures().get(0);
 	}
@@ -818,6 +863,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionPropertyChange_OldValue() {
 		return (EReference)compositionPropertyChangeEClass.getEStructuralFeatures().get(1);
 	}
@@ -827,6 +873,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionMoveIntoProperty() {
 		return compositionMoveIntoPropertyEClass;
 	}
@@ -836,6 +883,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionMoveIntoProperty_NewValue() {
 		return (EReference)compositionMoveIntoPropertyEClass.getEStructuralFeatures().get(0);
 	}
@@ -845,6 +893,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionMoveIntoProperty_OldValue() {
 		return (EReference)compositionMoveIntoPropertyEClass.getEStructuralFeatures().get(1);
 	}
@@ -854,6 +903,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionMoveIntoProperty_Origin() {
 		return (EReference)compositionMoveIntoPropertyEClass.getEStructuralFeatures().get(2);
 	}
@@ -863,6 +913,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCompositionMoveToList() {
 		return compositionMoveToListEClass;
 	}
@@ -872,6 +923,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getCompositionMoveToList_Index() {
 		return (EAttribute)compositionMoveToListEClass.getEStructuralFeatures().get(0);
 	}
@@ -881,6 +933,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionMoveToList_MovedElement() {
 		return (EReference)compositionMoveToListEClass.getEStructuralFeatures().get(1);
 	}
@@ -890,6 +943,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCompositionMoveToList_Origin() {
 		return (EReference)compositionMoveToListEClass.getEStructuralFeatures().get(2);
 	}
@@ -899,33 +953,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getCompositionMoveToCollection() {
-		return compositionMoveToCollectionEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getCompositionMoveToCollection_MovedElement() {
-		return (EReference)compositionMoveToCollectionEClass.getEStructuralFeatures().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getCompositionMoveToCollection_Origin() {
-		return (EReference)compositionMoveToCollectionEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@Override
 	public EClass getOperationCall() {
 		return operationCallEClass;
 	}
@@ -935,6 +963,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getOperationCall_Operation() {
 		return (EReference)operationCallEClass.getEStructuralFeatures().get(0);
 	}
@@ -944,6 +973,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getOperationCall_TargetElement() {
 		return (EReference)operationCallEClass.getEStructuralFeatures().get(1);
 	}
@@ -953,6 +983,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getOperationCall_Arguments() {
 		return (EReference)operationCallEClass.getEStructuralFeatures().get(2);
 	}
@@ -962,6 +993,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getOperationArgument() {
 		return operationArgumentEClass;
 	}
@@ -971,6 +1003,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getOperationArgument_Name() {
 		return (EAttribute)operationArgumentEClass.getEStructuralFeatures().get(0);
 	}
@@ -980,6 +1013,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getValueArgument() {
 		return valueArgumentEClass;
 	}
@@ -989,6 +1023,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getValueArgument_Value() {
 		return (EAttribute)valueArgumentEClass.getEStructuralFeatures().get(0);
 	}
@@ -998,6 +1033,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getReferenceArgument() {
 		return referenceArgumentEClass;
 	}
@@ -1007,6 +1043,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getReferenceArgument_Value() {
 		return (EReference)referenceArgumentEClass.getEStructuralFeatures().get(0);
 	}
@@ -1016,6 +1053,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ChangesFactory getChangesFactory() {
 		return (ChangesFactory)getEFactoryInstance();
 	}
@@ -1127,10 +1165,6 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 		createEAttribute(compositionMoveToListEClass, COMPOSITION_MOVE_TO_LIST__INDEX);
 		createEReference(compositionMoveToListEClass, COMPOSITION_MOVE_TO_LIST__MOVED_ELEMENT);
 		createEReference(compositionMoveToListEClass, COMPOSITION_MOVE_TO_LIST__ORIGIN);
-
-		compositionMoveToCollectionEClass = createEClass(COMPOSITION_MOVE_TO_COLLECTION);
-		createEReference(compositionMoveToCollectionEClass, COMPOSITION_MOVE_TO_COLLECTION__MOVED_ELEMENT);
-		createEReference(compositionMoveToCollectionEClass, COMPOSITION_MOVE_TO_COLLECTION__ORIGIN);
 
 		operationCallEClass = createEClass(OPERATION_CALL);
 		createEReference(operationCallEClass, OPERATION_CALL__OPERATION);
@@ -1293,10 +1327,6 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 		initEAttribute(getCompositionMoveToList_Index(), ecorePackage.getEInt(), "index", null, 1, 1, CompositionMoveToList.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCompositionMoveToList_MovedElement(), ecorePackage.getEObject(), null, "movedElement", null, 1, 1, CompositionMoveToList.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCompositionMoveToList_Origin(), this.getElementaryChange(), null, "origin", null, 1, 1, CompositionMoveToList.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
-		initEClass(compositionMoveToCollectionEClass, CompositionMoveToCollection.class, "CompositionMoveToCollection", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCompositionMoveToCollection_MovedElement(), ecorePackage.getEObject(), null, "movedElement", null, 1, 1, CompositionMoveToCollection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getCompositionMoveToCollection_Origin(), this.getElementaryChange(), null, "origin", null, 1, 1, CompositionMoveToCollection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(operationCallEClass, OperationCall.class, "OperationCall", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getOperationCall_Operation(), ecorePackage.getEOperation(), null, "operation", null, 1, 1, OperationCall.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

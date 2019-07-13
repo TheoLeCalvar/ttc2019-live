@@ -61,6 +61,7 @@ public class ReferenceArgumentImpl extends OperationArgumentImpl implements Refe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getValue() {
 		if (value != null && value.eIsProxy()) {
 			InternalEObject oldValue = (InternalEObject)value;
@@ -87,6 +88,7 @@ public class ReferenceArgumentImpl extends OperationArgumentImpl implements Refe
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setValue(EObject newValue) {
 		EObject oldValue = value;
 		value = newValue;

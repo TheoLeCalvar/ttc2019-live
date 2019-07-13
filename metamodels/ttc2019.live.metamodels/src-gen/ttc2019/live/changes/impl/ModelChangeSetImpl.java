@@ -68,6 +68,7 @@ public class ModelChangeSetImpl extends MinimalEObjectImpl.Container implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<ModelChange> getChanges() {
 		if (changes == null) {
 			changes = new EObjectContainmentEList<ModelChange>(ModelChange.class, this, ChangesPackage.MODEL_CHANGE_SET__CHANGES);

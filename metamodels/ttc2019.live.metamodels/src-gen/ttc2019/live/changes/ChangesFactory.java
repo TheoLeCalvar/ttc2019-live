@@ -247,15 +247,6 @@ public interface ChangesFactory extends EFactory {
 	CompositionMoveToList createCompositionMoveToList();
 
 	/**
-	 * Returns a new object of class '<em>Composition Move To Collection</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Composition Move To Collection</em>'.
-	 * @generated
-	 */
-	CompositionMoveToCollection createCompositionMoveToCollection();
-
-	/**
 	 * Returns a new object of class '<em>Operation Call</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

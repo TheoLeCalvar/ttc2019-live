@@ -62,6 +62,7 @@ public class CompositionCollectionInsertionImpl extends CompositionChangeImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getAddedElement() {
 		return addedElement;
 	}
@@ -86,6 +87,7 @@ public class CompositionCollectionInsertionImpl extends CompositionChangeImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddedElement(EObject newAddedElement) {
 		if (newAddedElement != addedElement) {
 			NotificationChain msgs = null;

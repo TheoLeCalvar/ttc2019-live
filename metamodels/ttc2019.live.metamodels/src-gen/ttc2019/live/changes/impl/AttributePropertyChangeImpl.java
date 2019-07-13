@@ -90,6 +90,7 @@ public class AttributePropertyChangeImpl extends AttributeChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getNewValue() {
 		return newValue;
 	}
@@ -99,6 +100,7 @@ public class AttributePropertyChangeImpl extends AttributeChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNewValue(String newNewValue) {
 		String oldNewValue = newValue;
 		newValue = newNewValue;
@@ -111,6 +113,7 @@ public class AttributePropertyChangeImpl extends AttributeChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getOldValue() {
 		return oldValue;
 	}
@@ -120,6 +123,7 @@ public class AttributePropertyChangeImpl extends AttributeChangeImpl implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOldValue(String newOldValue) {
 		String oldOldValue = oldValue;
 		oldValue = newOldValue;

@@ -81,7 +81,6 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 			case ChangesPackage.COMPOSITION_PROPERTY_CHANGE: return createCompositionPropertyChange();
 			case ChangesPackage.COMPOSITION_MOVE_INTO_PROPERTY: return createCompositionMoveIntoProperty();
 			case ChangesPackage.COMPOSITION_MOVE_TO_LIST: return createCompositionMoveToList();
-			case ChangesPackage.COMPOSITION_MOVE_TO_COLLECTION: return createCompositionMoveToCollection();
 			case ChangesPackage.OPERATION_CALL: return createOperationCall();
 			case ChangesPackage.VALUE_ARGUMENT: return createValueArgument();
 			case ChangesPackage.REFERENCE_ARGUMENT: return createReferenceArgument();
@@ -95,6 +94,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ModelChangeSet createModelChangeSet() {
 		ModelChangeSetImpl modelChangeSet = new ModelChangeSetImpl();
 		return modelChangeSet;
@@ -105,6 +105,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ChangeTransaction createChangeTransaction() {
 		ChangeTransactionImpl changeTransaction = new ChangeTransactionImpl();
 		return changeTransaction;
@@ -115,6 +116,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionChange createCompositionChange() {
 		CompositionChangeImpl compositionChange = new CompositionChangeImpl();
 		return compositionChange;
@@ -125,6 +127,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationChange createAssociationChange() {
 		AssociationChangeImpl associationChange = new AssociationChangeImpl();
 		return associationChange;
@@ -135,6 +138,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributeChange createAttributeChange() {
 		AttributeChangeImpl attributeChange = new AttributeChangeImpl();
 		return attributeChange;
@@ -145,6 +149,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationCollectionDeletion createAssociationCollectionDeletion() {
 		AssociationCollectionDeletionImpl associationCollectionDeletion = new AssociationCollectionDeletionImpl();
 		return associationCollectionDeletion;
@@ -155,6 +160,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionCollectionDeletion createCompositionCollectionDeletion() {
 		CompositionCollectionDeletionImpl compositionCollectionDeletion = new CompositionCollectionDeletionImpl();
 		return compositionCollectionDeletion;
@@ -165,6 +171,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributeCollectionDeletion createAttributeCollectionDeletion() {
 		AttributeCollectionDeletionImpl attributeCollectionDeletion = new AttributeCollectionDeletionImpl();
 		return attributeCollectionDeletion;
@@ -175,6 +182,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationCollectionInsertion createAssociationCollectionInsertion() {
 		AssociationCollectionInsertionImpl associationCollectionInsertion = new AssociationCollectionInsertionImpl();
 		return associationCollectionInsertion;
@@ -185,6 +193,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionCollectionInsertion createCompositionCollectionInsertion() {
 		CompositionCollectionInsertionImpl compositionCollectionInsertion = new CompositionCollectionInsertionImpl();
 		return compositionCollectionInsertion;
@@ -195,6 +204,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributeCollectionInsertion createAttributeCollectionInsertion() {
 		AttributeCollectionInsertionImpl attributeCollectionInsertion = new AttributeCollectionInsertionImpl();
 		return attributeCollectionInsertion;
@@ -205,6 +215,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationCollectionReset createAssociationCollectionReset() {
 		AssociationCollectionResetImpl associationCollectionReset = new AssociationCollectionResetImpl();
 		return associationCollectionReset;
@@ -215,6 +226,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionCollectionReset createCompositionCollectionReset() {
 		CompositionCollectionResetImpl compositionCollectionReset = new CompositionCollectionResetImpl();
 		return compositionCollectionReset;
@@ -225,6 +237,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributeCollectionReset createAttributeCollectionReset() {
 		AttributeCollectionResetImpl attributeCollectionReset = new AttributeCollectionResetImpl();
 		return attributeCollectionReset;
@@ -235,6 +248,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationListDeletion createAssociationListDeletion() {
 		AssociationListDeletionImpl associationListDeletion = new AssociationListDeletionImpl();
 		return associationListDeletion;
@@ -245,6 +259,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionListDeletion createCompositionListDeletion() {
 		CompositionListDeletionImpl compositionListDeletion = new CompositionListDeletionImpl();
 		return compositionListDeletion;
@@ -255,6 +270,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributeListDeletion createAttributeListDeletion() {
 		AttributeListDeletionImpl attributeListDeletion = new AttributeListDeletionImpl();
 		return attributeListDeletion;
@@ -265,6 +281,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationListInsertion createAssociationListInsertion() {
 		AssociationListInsertionImpl associationListInsertion = new AssociationListInsertionImpl();
 		return associationListInsertion;
@@ -275,6 +292,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionListInsertion createCompositionListInsertion() {
 		CompositionListInsertionImpl compositionListInsertion = new CompositionListInsertionImpl();
 		return compositionListInsertion;
@@ -285,6 +303,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributeListInsertion createAttributeListInsertion() {
 		AttributeListInsertionImpl attributeListInsertion = new AttributeListInsertionImpl();
 		return attributeListInsertion;
@@ -295,6 +314,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AttributePropertyChange createAttributePropertyChange() {
 		AttributePropertyChangeImpl attributePropertyChange = new AttributePropertyChangeImpl();
 		return attributePropertyChange;
@@ -305,6 +325,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssociationPropertyChange createAssociationPropertyChange() {
 		AssociationPropertyChangeImpl associationPropertyChange = new AssociationPropertyChangeImpl();
 		return associationPropertyChange;
@@ -315,6 +336,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionPropertyChange createCompositionPropertyChange() {
 		CompositionPropertyChangeImpl compositionPropertyChange = new CompositionPropertyChangeImpl();
 		return compositionPropertyChange;
@@ -325,6 +347,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionMoveIntoProperty createCompositionMoveIntoProperty() {
 		CompositionMoveIntoPropertyImpl compositionMoveIntoProperty = new CompositionMoveIntoPropertyImpl();
 		return compositionMoveIntoProperty;
@@ -335,6 +358,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionMoveToList createCompositionMoveToList() {
 		CompositionMoveToListImpl compositionMoveToList = new CompositionMoveToListImpl();
 		return compositionMoveToList;
@@ -345,16 +369,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public CompositionMoveToCollection createCompositionMoveToCollection() {
-		CompositionMoveToCollectionImpl compositionMoveToCollection = new CompositionMoveToCollectionImpl();
-		return compositionMoveToCollection;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@Override
 	public OperationCall createOperationCall() {
 		OperationCallImpl operationCall = new OperationCallImpl();
 		return operationCall;
@@ -365,6 +380,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ValueArgument createValueArgument() {
 		ValueArgumentImpl valueArgument = new ValueArgumentImpl();
 		return valueArgument;
@@ -375,6 +391,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ReferenceArgument createReferenceArgument() {
 		ReferenceArgumentImpl referenceArgument = new ReferenceArgumentImpl();
 		return referenceArgument;
@@ -385,6 +402,7 @@ public class ChangesFactoryImpl extends EFactoryImpl implements ChangesFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ChangesPackage getChangesPackage() {
 		return (ChangesPackage)getEPackage();
 	}

@@ -73,6 +73,7 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getNewValue() {
 		return newValue;
 	}
@@ -97,6 +98,7 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNewValue(EObject newNewValue) {
 		if (newNewValue != newValue) {
 			NotificationChain msgs = null;
@@ -116,6 +118,7 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getOldValue() {
 		if (oldValue != null && oldValue.eIsProxy()) {
 			InternalEObject oldOldValue = (InternalEObject)oldValue;
@@ -142,6 +145,7 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOldValue(EObject newOldValue) {
 		EObject oldOldValue = oldValue;
 		oldValue = newOldValue;

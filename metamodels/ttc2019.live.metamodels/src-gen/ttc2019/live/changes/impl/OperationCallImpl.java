@@ -93,6 +93,7 @@ public class OperationCallImpl extends ModelChangeImpl implements OperationCall 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EOperation getOperation() {
 		if (operation != null && operation.eIsProxy()) {
 			InternalEObject oldOperation = (InternalEObject)operation;
@@ -119,6 +120,7 @@ public class OperationCallImpl extends ModelChangeImpl implements OperationCall 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOperation(EOperation newOperation) {
 		EOperation oldOperation = operation;
 		operation = newOperation;
@@ -131,6 +133,7 @@ public class OperationCallImpl extends ModelChangeImpl implements OperationCall 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getTargetElement() {
 		if (targetElement != null && targetElement.eIsProxy()) {
 			InternalEObject oldTargetElement = (InternalEObject)targetElement;
@@ -157,6 +160,7 @@ public class OperationCallImpl extends ModelChangeImpl implements OperationCall 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTargetElement(EObject newTargetElement) {
 		EObject oldTargetElement = targetElement;
 		targetElement = newTargetElement;
@@ -169,6 +173,7 @@ public class OperationCallImpl extends ModelChangeImpl implements OperationCall 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<OperationArgument> getArguments() {
 		if (arguments == null) {
 			arguments = new EObjectContainmentEList<OperationArgument>(OperationArgument.class, this, ChangesPackage.OPERATION_CALL__ARGUMENTS);

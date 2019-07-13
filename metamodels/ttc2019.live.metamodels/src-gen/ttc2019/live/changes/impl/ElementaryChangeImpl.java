@@ -73,6 +73,7 @@ public abstract class ElementaryChangeImpl extends ModelChangeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getAffectedElement() {
 		if (affectedElement != null && affectedElement.eIsProxy()) {
 			InternalEObject oldAffectedElement = (InternalEObject)affectedElement;
@@ -99,6 +100,7 @@ public abstract class ElementaryChangeImpl extends ModelChangeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAffectedElement(EObject newAffectedElement) {
 		EObject oldAffectedElement = affectedElement;
 		affectedElement = newAffectedElement;
@@ -111,6 +113,7 @@ public abstract class ElementaryChangeImpl extends ModelChangeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EStructuralFeature getFeature() {
 		if (feature != null && feature.eIsProxy()) {
 			InternalEObject oldFeature = (InternalEObject)feature;
@@ -137,6 +140,7 @@ public abstract class ElementaryChangeImpl extends ModelChangeImpl implements El
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setFeature(EStructuralFeature newFeature) {
 		EStructuralFeature oldFeature = feature;
 		feature = newFeature;

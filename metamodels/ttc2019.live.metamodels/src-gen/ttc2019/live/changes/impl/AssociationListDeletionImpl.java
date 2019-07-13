@@ -82,6 +82,7 @@ public class AssociationListDeletionImpl extends AssociationChangeImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getDeletedElement() {
 		if (deletedElement != null && deletedElement.eIsProxy()) {
 			InternalEObject oldDeletedElement = (InternalEObject)deletedElement;
@@ -108,6 +109,7 @@ public class AssociationListDeletionImpl extends AssociationChangeImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setDeletedElement(EObject newDeletedElement) {
 		EObject oldDeletedElement = deletedElement;
 		deletedElement = newDeletedElement;
@@ -120,6 +122,7 @@ public class AssociationListDeletionImpl extends AssociationChangeImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getIndex() {
 		return index;
 	}
@@ -129,6 +132,7 @@ public class AssociationListDeletionImpl extends AssociationChangeImpl implement
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setIndex(int newIndex) {
 		int oldIndex = index;
 		index = newIndex;

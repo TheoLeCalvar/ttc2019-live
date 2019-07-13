@@ -61,6 +61,7 @@ public class AssociationCollectionInsertionImpl extends AssociationChangeImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getAddedElement() {
 		if (addedElement != null && addedElement.eIsProxy()) {
 			InternalEObject oldAddedElement = (InternalEObject)addedElement;
@@ -87,6 +88,7 @@ public class AssociationCollectionInsertionImpl extends AssociationChangeImpl im
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAddedElement(EObject newAddedElement) {
 		EObject oldAddedElement = addedElement;
 		addedElement = newAddedElement;

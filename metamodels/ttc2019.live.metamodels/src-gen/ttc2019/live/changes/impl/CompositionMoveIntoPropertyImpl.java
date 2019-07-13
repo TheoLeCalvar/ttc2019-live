@@ -85,6 +85,7 @@ public class CompositionMoveIntoPropertyImpl extends CompositionChangeImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getNewValue() {
 		if (newValue != null && newValue.eIsProxy()) {
 			InternalEObject oldNewValue = (InternalEObject)newValue;
@@ -111,6 +112,7 @@ public class CompositionMoveIntoPropertyImpl extends CompositionChangeImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setNewValue(EObject newNewValue) {
 		EObject oldNewValue = newValue;
 		newValue = newNewValue;
@@ -123,6 +125,7 @@ public class CompositionMoveIntoPropertyImpl extends CompositionChangeImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EObject getOldValue() {
 		if (oldValue != null && oldValue.eIsProxy()) {
 			InternalEObject oldOldValue = (InternalEObject)oldValue;
@@ -149,6 +152,7 @@ public class CompositionMoveIntoPropertyImpl extends CompositionChangeImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOldValue(EObject newOldValue) {
 		EObject oldOldValue = oldValue;
 		oldValue = newOldValue;
@@ -161,6 +165,7 @@ public class CompositionMoveIntoPropertyImpl extends CompositionChangeImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ElementaryChange getOrigin() {
 		return origin;
 	}
@@ -185,6 +190,7 @@ public class CompositionMoveIntoPropertyImpl extends CompositionChangeImpl imple
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setOrigin(ElementaryChange newOrigin) {
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;
