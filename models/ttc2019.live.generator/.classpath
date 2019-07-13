@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/jars/snakeyaml-1.23.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/automaton-1.11-8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/commons-lang3-3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/generex-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/javafaker-0.18.jar" sourcepath="lib/sources/javafaker-0.18.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ttc2019.live.generator/lib/javadocs/javafaker-0.18.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
