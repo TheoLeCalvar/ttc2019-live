@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated BibTeX -->
+      <package
+            uri="https://www.transformation-tool-contest.eu/2019/bibtex"
+            class="ttc2019.live.bibtex.BibtexPackage"
+            genModel="models/BibTeX.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated DocBook -->
+      <package
+            uri="https://www.transformation-tool-contest.eu/2019/docbook"
+            class="ttc2019.live.docbook.DocbookPackage"
+            genModel="models/DocBook.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated NMetaChanges -->
+      <package
+            uri="http://nmf.codeplex.com/changes/2019live"
+            class="ttc2019.live.changes.ChangesPackage"
+            genModel="models/NMetaChanges.genmodel"/>
+   </extension>
+
+</plugin>
