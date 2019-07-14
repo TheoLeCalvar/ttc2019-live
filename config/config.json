@@ -1,13 +1,13 @@
 {
-  "Queries": [
-    "Q1",
-    "Q2"
+  "Models": [
+    "random10.docbook",
+    "random100.docbook"
   ],
-  "Tools": ["EMFSolutionYAMTL", "EMFSolutionYAMTL_Batch"],
+  "Tools": ["Epsilon"],
   "ChangeSets": [
-    "1", "2", "4", "8", "16", "32", "64"
+    "single", "double", "triple"
   ],
-  "Sequences": 20,
+  "Mutants": 50,
   "Runs": 5,
   "Timeout": 6000
 }
