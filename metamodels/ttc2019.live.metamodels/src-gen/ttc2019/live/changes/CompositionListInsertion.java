@@ -23,26 +23,26 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface CompositionListInsertion extends CompositionChange {
 	/**
-	 * Returns the value of the '<em><b>Added Element</b></em>' containment reference.
+	 * Returns the value of the '<em><b>Added Element</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Added Element</em>' containment reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Added Element</em>' containment reference.
+	 * @return the value of the '<em>Added Element</em>' reference.
 	 * @see #setAddedElement(EObject)
 	 * @see ttc2019.live.changes.ChangesPackage#getCompositionListInsertion_AddedElement()
-	 * @model containment="true" required="true"
+	 * @model required="true"
 	 * @generated
 	 */
 	EObject getAddedElement();
 
 	/**
-	 * Sets the value of the '{@link ttc2019.live.changes.CompositionListInsertion#getAddedElement <em>Added Element</em>}' containment reference.
+	 * Sets the value of the '{@link ttc2019.live.changes.CompositionListInsertion#getAddedElement <em>Added Element</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Added Element</em>' containment reference.
+	 * @param value the new value of the '<em>Added Element</em>' reference.
 	 * @see #getAddedElement()
 	 * @generated
 	 */

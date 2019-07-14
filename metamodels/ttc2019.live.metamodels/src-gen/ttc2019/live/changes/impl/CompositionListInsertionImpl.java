@@ -3,8 +3,6 @@
 package ttc2019.live.changes.impl;
 
 import org.eclipse.emf.common.notify.Notification;
-import org.eclipse.emf.common.notify.NotificationChain;
-
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.InternalEObject;
@@ -30,7 +28,7 @@ import ttc2019.live.changes.CompositionListInsertion;
  */
 public class CompositionListInsertionImpl extends CompositionChangeImpl implements CompositionListInsertion {
 	/**
-	 * The cached value of the '{@link #getAddedElement() <em>Added Element</em>}' containment reference.
+	 * The cached value of the '{@link #getAddedElement() <em>Added Element</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getAddedElement()
@@ -85,6 +83,14 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 */
 	@Override
 	public EObject getAddedElement() {
+		if (addedElement != null && addedElement.eIsProxy()) {
+			InternalEObject oldAddedElement = (InternalEObject)addedElement;
+			addedElement = eResolveProxy(oldAddedElement);
+			if (addedElement != oldAddedElement) {
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT, oldAddedElement, addedElement));
+			}
+		}
 		return addedElement;
 	}
 
@@ -93,14 +99,8 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetAddedElement(EObject newAddedElement, NotificationChain msgs) {
-		EObject oldAddedElement = addedElement;
-		addedElement = newAddedElement;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT, oldAddedElement, newAddedElement);
-			if (msgs == null) msgs = notification; else msgs.add(notification);
-		}
-		return msgs;
+	public EObject basicGetAddedElement() {
+		return addedElement;
 	}
 
 	/**
@@ -110,17 +110,10 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 */
 	@Override
 	public void setAddedElement(EObject newAddedElement) {
-		if (newAddedElement != addedElement) {
-			NotificationChain msgs = null;
-			if (addedElement != null)
-				msgs = ((InternalEObject)addedElement).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT, null, msgs);
-			if (newAddedElement != null)
-				msgs = ((InternalEObject)newAddedElement).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT, null, msgs);
-			msgs = basicSetAddedElement(newAddedElement, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT, newAddedElement, newAddedElement));
+		EObject oldAddedElement = addedElement;
+		addedElement = newAddedElement;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT, oldAddedElement, addedElement));
 	}
 
 	/**
@@ -152,24 +145,11 @@ public class CompositionListInsertionImpl extends CompositionChangeImpl implemen
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-		switch (featureID) {
-			case ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT:
-				return basicSetAddedElement(null, msgs);
-		}
-		return super.eInverseRemove(otherEnd, featureID, msgs);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case ChangesPackage.COMPOSITION_LIST_INSERTION__ADDED_ELEMENT:
-				return getAddedElement();
+				if (resolve) return getAddedElement();
+				return basicGetAddedElement();
 			case ChangesPackage.COMPOSITION_LIST_INSERTION__INDEX:
 				return getIndex();
 		}
