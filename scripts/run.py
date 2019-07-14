@@ -46,7 +46,7 @@ def benchmark(conf):
     if os.path.exists(result_file):
         os.remove(result_file)
     shutil.copy(header, result_file)
-    os.environ['Sequences'] = str(conf.Sequences)
+    os.environ['Mutants'] = str(conf.Mutants)
     os.environ['Runs'] = str(conf.Runs)
     for r in range(0, conf.Runs):
         os.environ['RunIndex'] = str(r)
@@ -55,22 +55,26 @@ def benchmark(conf):
             config.read(os.path.join(BASE_DIRECTORY, "solutions", tool, "solution.ini"))
             set_working_directory("solutions", tool)
             os.environ['Tool'] = tool
-            for change_set in conf.ChangeSets:
-                full_change_path = os.path.abspath(os.path.join(BASE_DIRECTORY, "models", change_set))
-                os.environ['ChangeSet'] = change_set
-                os.environ['ChangePath'] = full_change_path
-                for query in conf.Queries:
-                    os.environ['Query'] = query
-                    print("Running benchmark: tool = " + tool + ", change set = " + change_set +
-                          ", query = " + query)
-                    try:
-                        output = subprocess.check_output(config.get('run', query), shell=True, timeout=conf.Timeout)
-                        with open(result_file, "ab") as file:
-                            file.write(output)
-                    except CalledProcessError as e:
-                        print("Program exited with error")
-                    except subprocess.TimeoutExpired as e:
-                        print("Program reached the timeout set ({0} seconds). The command we executed was '{1}'".format(e.timeout, e.cmd))
+            for model in conf.Models:
+                os.environ['SourcePath'] = os.path.abspath(os.path.join(BASE_DIRECTORY, 'models', model))
+                for change_set in conf.ChangeSets:
+                    os.environ['MutantSet'] = change_set
+                    no_ext = os.path.splitext(model)[0]
+                    for mutation in range(1, conf.Mutants + 1):
+                        os.environ['Mutant'] = str(mutation)
+                        os.environ['MutantPath'] = os.path.abspath(os.path.join(
+                            BASE_DIRECTORY, 'models', no_ext,
+                            no_ext + '-' + change_set + '-' + str(mutation),
+                            'mutated.docbook'))
+                        print("Running benchmark: tool = {}, mutant set = {}, mutant = {}".format(tool, change_set, mutation))
+                        try:
+                            output = subprocess.check_output(config.get('run', 'cmd'), shell=True, timeout=conf.Timeout)
+                            with open(result_file, "ab") as file:
+                                file.write(output)
+                        except CalledProcessError as e:
+                            print("Program exited with error")
+                        except subprocess.TimeoutExpired as e:
+                            print("Program reached the timeout set ({0} seconds). The command we executed was '{1}'".format(e.timeout, e.cmd))
 
 
 def clean_dir(*path):

@@ -1,7 +1,8 @@
 {
   "Models": [
-    "random10.docbook",
-    "random100.docbook"
+      "random10.bibtex",
+      "random100.bibtex",
+      "random1000.bibtex"
   ],
   "Tools": ["Epsilon"],
   "ChangeSets": [

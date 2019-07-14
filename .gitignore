@@ -30,3 +30,6 @@ build
 
 # Maven build directory
 target
+
+# Run outputs
+output/output.csv

@@ -24,7 +24,7 @@ public class LiveContestDriver {
 	}
 
     private static String Tool;
-    private static String ChangeSet;
+    private static String MutantSet;
     private static String SourcePath;
     private static String Mutant;
     private static String MutantPath;
@@ -69,7 +69,7 @@ public class LiveContestDriver {
     	DocbookPackage.eINSTANCE.getName();
 
 		Tool = System.getenv("Tool");
-		ChangeSet = System.getenv("ChangeSet");
+		MutantSet = System.getenv("MutantSet");
 		SourcePath = System.getenv("SourcePath");
 		Mutant = System.getenv("Mutant");
 		MutantPath = System.getenv("MutantPath");
@@ -106,7 +106,7 @@ public class LiveContestDriver {
 
     static void Report(BenchmarkPhase phase, String result)
     {
-        System.out.println(String.format("%s;%s;%s;%s;%s;%s;Time;%s", Tool, ChangeSet, new File(SourcePath).getName(), Mutant, RunIndex, phase.toString(), Long.toString(stopwatch)));
+        System.out.println(String.format("%s;%s;%s;%s;%s;%s;Time;%s", Tool, MutantSet, new File(SourcePath).getName(), Mutant, RunIndex, phase.toString(), Long.toString(stopwatch)));
 
         if ("true".equals(System.getenv("NoGC"))) {
 			// nothing to do
@@ -118,11 +118,11 @@ public class LiveContestDriver {
 			Runtime.getRuntime().gc();
 		}
         long memoryUsed = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
-        System.out.println(String.format("%s;%s;%s;%s;%s;%s;Memory;%s", Tool, ChangeSet, new File(SourcePath).getName(), Mutant, RunIndex, phase.toString(), Long.toString(memoryUsed)));
+        System.out.println(String.format("%s;%s;%s;%s;%s;%s;Memory;%s", Tool, MutantSet, new File(SourcePath).getName(), Mutant, RunIndex, phase.toString(), Long.toString(memoryUsed)));
 
         if (result != null)
         {
-            System.out.println(String.format("%s;%s;%s;%s;%s;%s;Problems;%s", Tool, ChangeSet, new File(SourcePath).getName(), Mutant, RunIndex, phase.toString(), result));
+            System.out.println(String.format("%s;%s;%s;%s;%s;%s;Problems;%s", Tool, MutantSet, new File(SourcePath).getName(), Mutant, RunIndex, phase.toString(), result));
         }
     }
 
