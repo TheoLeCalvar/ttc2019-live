@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="6">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="References List. Accusamus fugit facere voluptate. Distinctio reiciendis repellat id non. Non assumenda quae et ut incidunt." oldValue="References List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Journals List. Soluta similique magni accusantium. Consequatur recusandae est necessitatibus culpa iste." oldValue="Journals List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+</changes:ModelChangeSet>

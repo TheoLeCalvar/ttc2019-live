@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Joel Russel. Sunt eos ratione autem modi vero sapiente. Architecto impedit eum est nobis repellat libero." oldValue="Joel Russel">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.203"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="357">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e32] InProceedings The Torment of Others Shantay Sanford Percy Grady Genevieve Rice Sherlyn Gibson DDS Sonja Quigley Otto Kemmer Missy Christiansen Merna Haley PhD 2014 Great Work of Time. Voluptatum ut error." oldValue="[e32] InProceedings The Torment of Others Shantay Sanford Percy Grady Genevieve Rice Sherlyn Gibson DDS Sonja Quigley Otto Kemmer Missy Christiansen Merna Haley PhD 2014 Great Work of Time">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.26"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+</changes:ModelChangeSet>

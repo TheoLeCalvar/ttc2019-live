@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionListDeletion" index="72">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Ms. Loren Kuhlman. Excepturi in rerum omnis incidunt pariatur est. Iusto voluptas eum illum aut sed ullam illum." oldValue="Ms. Loren Kuhlman">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.334"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="2">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+  </changes>
+</changes:ModelChangeSet>

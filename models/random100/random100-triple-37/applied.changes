@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <changes xsi:type="changes:CompositionMoveToList" index="145">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.145"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Tenetur recusandae sed. Explicabo velit ipsum ut et deleniti distinctio." oldValue="Titles List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListInsertion" index="26">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.26"/>
+  </changes>
+</changes:ModelChangeSet>
