@@ -219,7 +219,7 @@ public class Generator {
 	private static void saveToFile(final BibTeXFile bibtexFile, final File fDestination) throws IOException {
 		final ResourceSet rs = new ResourceSetImpl();
 		rs.getPackageRegistry().put(BibtexPackage.eNS_URI, BibtexPackage.eINSTANCE);
-		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put("bibtex", new XMIResourceFactoryImpl());
+		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put("*", new XMIResourceFactoryImpl());
 		final Resource resource = rs.createResource(URI.createFileURI(fDestination.getCanonicalPath()));
 		resource.getContents().add(bibtexFile);
 		resource.save(null);
