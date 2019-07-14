@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mutator
+Bundle-SymbolicName: ttc2019.live.mutator
+Bundle-Version: 1.0.0.qualifier
+Export-Package: ttc2019.live.mutator
+Require-Bundle: ttc2019.live.metamodels;bundle-version="1.0.0",
+ ttc2019.live.generator;bundle-version="1.0.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.16.0"
