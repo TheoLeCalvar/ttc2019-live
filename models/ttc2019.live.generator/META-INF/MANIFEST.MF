@@ -14,3 +14,5 @@ Bundle-ClassPath: lib/jars/automaton-1.11-8.jar,
  lib/jars/javafaker-0.18.jar,
  lib/jars/snakeyaml-1.23.jar,
  .
+Export-Package: com.github.javafaker,
+ ttc2019.live.generator
