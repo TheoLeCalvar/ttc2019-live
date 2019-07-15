@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Odit sed pariatur quod a.">
         <paras content="[e0] PhDThesis An Acceptable Time Anna West Shanika Conn Christoper Schneider Roger Haag DDS Maria Olson Felton Fritsch Lindsay Vandervort Carlita McKenzie Nilsa Gerlach 2013 Heller College"/>
         <paras content="[e1] Proceedings Fear and Trembling 2010"/>
         <paras content="[e10] InCollection The Violent Bear It Away Nancie Abbott Rocky Hilll Brande Adams 2017 If I Forget Thee Jerusalem Carcanet Press"/>
@@ -3655,7 +3655,6 @@
         <paras content="Miss Clay Feil"/>
         <paras content="Miss Clyde Fritsch"/>
         <paras content="Miss Coleman Gislason"/>
-        <paras content="Quisquam perferendis omnis. Nihil voluptas aut consequuntur tempora labore rerum autem. Amet in sit eum. Tempora dignissimos sit quo natus quos animi magni."/>
         <paras content="Miss Conrad Stark"/>
         <paras content="Miss Damion McClure"/>
         <paras content="Miss Daren Rohan"/>
@@ -3852,7 +3851,7 @@
         <paras content="Mr. Doyle Batz"/>
         <paras content="Mr. Dusty Tremblay"/>
         <paras content="Mr. Earlene Corwin"/>
-        <paras content="Mr. Elijah Collins. Voluptates eum omnis id magnam hic. Rerum cupiditate quia."/>
+        <paras content="Mr. Elijah Collins"/>
         <paras content="Mr. Elliott Pollich"/>
         <paras content="Mr. Ellis O'Connell"/>
         <paras content="Mr. Elvina Trantow"/>
@@ -4667,7 +4666,7 @@
         <paras content="Sang Hamill"/>
         <paras content="Sang Hodkiewicz"/>
         <paras content="Sang Lang"/>
-        <paras content="Sanjuanita Gorczany"/>
+        <paras content="Sanjuanita Gorczany. Numquam sit quod unde est. Vel omnis et dolore."/>
         <paras content="Sanjuanita Skiles"/>
         <paras content="Santos Hamill"/>
         <paras content="Santos Kohler III"/>
@@ -5445,7 +5444,7 @@
         <paras content="Where Angels Fear to Tread"/>
         <paras content="Wildfire at Midnight"/>
       </sections_1>
-      <sections_1 title="Journals List. Aut laboriosam ut consectetur incidunt distinctio voluptas sunt. Molestiae aut odio quos. Rerum aut quaerat.">
+      <sections_1 title="Journals List. Dolores omnis suscipit non et unde porro. Et maxime dolore impedit enim consequatur neque asperiores. Vitae porro alias ullam et similique.">
         <paras content="A Catskill Eagle"/>
         <paras content="A Confederacy of Dunces"/>
         <paras content="A Darkling Plain"/>

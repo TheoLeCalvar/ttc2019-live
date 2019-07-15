@@ -14,24 +14,12 @@
         <paras content="[e8] PhDThesis The Millstone Ayana Towne Jewell Labadie DDS Karry Legros Nadia Cole Lindsey Rogahn Josiah Hudson Glinda Rodriguez 2008 Eastern Morar Institute"/>
         <paras content="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd"/>
       </sections_1>
-      <sections_1 title="Titles List">
-        <paras content="A Confederacy of Dunces"/>
-        <paras content="A Darkling Plain"/>
-        <paras content="A Glass of Blessings"/>
-        <paras content="By Grand Central Station I Sat Down and Wept"/>
-        <paras content="Fair Stood the Wind for France"/>
-        <paras content="Look Homeward, Angel"/>
-        <paras content="The Lathe of Heaven"/>
-        <paras content="The Millstone"/>
-        <paras content="This Lime Tree Bower"/>
-        <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
       <sections_1 title="Authors list">
         <paras content="Abram Carter III"/>
         <paras content="Alejandro Roob"/>
         <paras content="Allan Anderson"/>
         <paras content="Andrea Marvin DVM"/>
-        <paras content="Armando Conn Sr."/>
+        <paras content="Armando Conn Sr.Ut quod eum blanditiis expedita dolorem. Sit vel earum facere. Odio accusantium asperiores cumque omnis eius et."/>
         <paras content="Augustine Mueller V"/>
         <paras content="Ayana Towne"/>
         <paras content="Cecelia Schumm"/>
@@ -40,7 +28,6 @@
         <paras content="Donald Robel"/>
         <paras content="Dulce Zieme Jr."/>
         <paras content="Ema Wilkinson"/>
-        <paras content="Ethan Marvin"/>
         <paras content="Francesca O'Conner"/>
         <paras content="Gemma Sanford DVM"/>
         <paras content="Glinda Rodriguez"/>
@@ -71,6 +58,18 @@
         <paras content="Sung Mertz"/>
         <paras content="Williemae Block"/>
         <paras content="Winter Hodkiewicz"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A Confederacy of Dunces"/>
+        <paras content="A Darkling Plain"/>
+        <paras content="A Glass of Blessings"/>
+        <paras content="By Grand Central Station I Sat Down and Wept"/>
+        <paras content="Fair Stood the Wind for France"/>
+        <paras content="Look Homeward, Angel"/>
+        <paras content="The Lathe of Heaven"/>
+        <paras content="The Millstone"/>
+        <paras content="This Lime Tree Bower"/>
+        <paras content="Where Angels Fear to Tread"/>
       </sections_1>
       <sections_1 title="Journals List">
         <paras content="A Time of Gifts"/>

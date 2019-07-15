@@ -2,8 +2,8 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Aspernatur consequatur sint odio accusantium dolor nulla. Sit quis corrupti.">
-        <paras content="[e0] Proceedings The Lathe of Heaven 2019. Qui unde asperiores ut aut. Sit fuga qui neque magnam et impedit ipsa."/>
+      <sections_1 title="References List">
+        <paras content="[e0] Proceedings The Lathe of Heaven 2019"/>
         <paras content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
         <paras content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
         <paras content="[e3] PhDThesis Where Angels Fear to Tread Ethan Marvin Rufina Walter Javier Berge Normand Jacobson Hosea Marks Jeanice Hoeger Andrea Marvin DVM 2000 Western Mraz Academy"/>
@@ -40,6 +40,7 @@
         <paras content="Jewell Labadie DDS"/>
         <paras content="Josiah Hudson"/>
         <paras content="Karry Legros"/>
+        <paras content="Mrs. Abram Greenfelder"/>
         <paras content="Karyl Stehr"/>
         <paras content="Lesley Johns"/>
         <paras content="Lewis Schneider"/>
@@ -49,7 +50,6 @@
         <paras content="Merissa Johns"/>
         <paras content="Mikel Homenick"/>
         <paras content="Mr. Catarina McKenzie"/>
-        <paras content="Mrs. Abram Greenfelder"/>
         <paras content="Nadia Cole"/>
         <paras content="Noemi Simonis"/>
         <paras content="Normand Jacobson"/>

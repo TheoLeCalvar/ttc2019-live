@@ -14,10 +14,6 @@
         <paras content="[e8] PhDThesis The Millstone Ayana Towne Jewell Labadie DDS Karry Legros Nadia Cole Lindsey Rogahn Josiah Hudson Glinda Rodriguez 2008 Eastern Morar Institute"/>
         <paras content="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd"/>
       </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="A Time of Gifts"/>
-        <paras content="Sleep the Brave"/>
-      </sections_1>
       <sections_1 title="Authors list">
         <paras content="Abram Carter III"/>
         <paras content="Alejandro Roob"/>
@@ -33,7 +29,6 @@
         <paras content="Dulce Zieme Jr."/>
         <paras content="Ema Wilkinson"/>
         <paras content="Ethan Marvin"/>
-        <paras content="Francesca O'Conner"/>
         <paras content="Gemma Sanford DVM"/>
         <paras content="Glinda Rodriguez"/>
         <paras content="Hosea Marks"/>
@@ -56,11 +51,11 @@
         <paras content="Mrs. Abram Greenfelder"/>
         <paras content="Nadia Cole"/>
         <paras content="Noemi Simonis"/>
-        <paras content="Normand Jacobson"/>
         <paras content="Rochel Mitchell"/>
         <paras content="Rufina Walter"/>
         <paras content="Shara Kohler I"/>
         <paras content="Sung Mertz"/>
+        <paras content="Francesca O'Conner"/>
         <paras content="Williemae Block"/>
         <paras content="Winter Hodkiewicz"/>
       </sections_1>
@@ -70,10 +65,15 @@
         <paras content="A Glass of Blessings"/>
         <paras content="By Grand Central Station I Sat Down and Wept"/>
         <paras content="Fair Stood the Wind for France"/>
+        <paras content="Look Homeward, Angel"/>
         <paras content="The Lathe of Heaven"/>
         <paras content="The Millstone"/>
         <paras content="This Lime Tree Bower"/>
         <paras content="Where Angels Fear to Tread"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="A Time of Gifts"/>
+        <paras content="Sleep the Brave"/>
       </sections_1>
     </articles>
   </books>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Jeanice Hoeger. Sunt eos ratione autem modi vero sapiente. Architecto impedit eum est nobis repellat libero." oldValue="Jeanice Hoeger">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.21"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Cumque quae amet et consequatur. Facilis quam error nam incidunt. Exercitationem ea vel beatae dolorem autem." oldValue="Authors list">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Javier Berge. Quis eaque natus velit enim et reprehenderit. Quibusdam aperiam architecto ut aut expedita quis." oldValue="Javier Berge">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.20"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
-  <changes xsi:type="changes:CompositionListDeletion" index="33">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-  </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Ayana Towne. Voluptatum ut error." oldValue="Ayana Towne">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.6"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="1">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
   </changes>
 </changes:ModelChangeSet>

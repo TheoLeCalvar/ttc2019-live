@@ -84,7 +84,6 @@
         <paras content="[e8] Book The Violent Bear It Away Ronnie Langworth Mira Hansen Celinda McClure Nicky Corkery Aretha Sanford Jimmie Kohler I 2009 FabJob"/>
         <paras content="[e80] Proceedings Sleep the Brave 2004"/>
         <paras content="[e81] InCollection Sleep the Brave Ute Funk DVM Brandi Walker Tyree Fay Desiree Olson Wiley Pouros Basil Blick Maybell Hilll Julia McLaughlin Kellie Becker 2018 Tirra Lirra by the River E. P. Dutton"/>
-        <paras content="Sit possimus quia. Voluptatum sint non voluptate fugit. Quis quia repellat. Debitis est voluptatem pariatur consequatur. Laudantium inventore aut ratione."/>
         <paras content="[e82] InCollection If I Forget Thee Jerusalem Dominick Friesen 2012 The Lathe of Heaven Verso Books"/>
         <paras content="[e83] PhDThesis The Violent Bear It Away Theron Greenholt Jr. Elvin Bernhard Verlene Bergstrom Jarod Schulist Jewell Ondricka Heath Mante DVM Mariko Emmerich Miss Johana Jones Eldridge Armstrong Rafael Streich DDS 2017 Northern Kemmer"/>
         <paras content="[e84] InBook A Passage to India Phil Grady Tennie Herman Dr. Desmond Bernier Sam Bashirian Ms. Bari Ondricka Juliet Koepp Daisy Flatley I 2015 Flame Tree Publishing 23"/>
@@ -105,7 +104,7 @@
         <paras content="[e98] InCollection Such, Such Were the Joys Isaiah O'Kon Alton Kub V Eloy Harber Sarina Raynor MD Garland Reynolds Miss Diedre Gislason 2014 Edna O'Brien Virgin Publishing"/>
         <paras content="[e99] InBook Dulce et Decorum Est Jacelyn Casper Cornelius D'Amore Glenn Stiedemann Micheal Auer 2013 Carnegie Mellon University Press 1"/>
       </sections_1>
-      <sections_1 title="Authors list">
+      <sections_1 title="Authors list. Ut eius neque porro sed accusantium quibusdam. Beatae autem ad. Deserunt quia rerum quo totam.">
         <paras content="Addie Little"/>
         <paras content="Addie Monahan DDS"/>
         <paras content="Al Cronin V"/>
@@ -314,6 +313,7 @@
         <paras content="Johnnie Barton"/>
         <paras content="Joni Spencer"/>
         <paras content="Jordan Borer I"/>
+        <paras content="Jordon Bartell IV"/>
         <paras content="Josef Emmerich Jr."/>
         <paras content="Jospeh Jast"/>
         <paras content="Josue Brakus"/>
@@ -333,6 +333,7 @@
         <paras content="Kiera Hodkiewicz"/>
         <paras content="Kimberly Conroy"/>
         <paras content="Kirk Kris"/>
+        <paras content="Non adipisci quisquam. Eos labore officia ea necessitatibus nulla. In fuga vel doloribus quia. Possimus ut eligendi labore neque sunt. Deleniti veritatis nemo officia non."/>
         <paras content="Klara Stroman"/>
         <paras content="Kris Wolf"/>
         <paras content="Kristofer Hyatt"/>
@@ -393,6 +394,7 @@
         <paras content="Miss Diedre Gislason"/>
         <paras content="Miss Elayne Metz"/>
         <paras content="Miss Gene King"/>
+        <paras content="Miss Gerardo Welch"/>
         <paras content="Miss Greg Crona"/>
         <paras content="Miss Irwin Langworth"/>
         <paras content="Miss Issac Kozey"/>
@@ -657,13 +659,6 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>

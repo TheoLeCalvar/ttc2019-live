@@ -7,6 +7,7 @@
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
         <paras content="[e11] Book A Catskill Eagle Chang Ondricka Ione Hahn Deanne Spencer Howard Nader Cheryll Boyle Lyndon Hackett Mr. Lazaro Reynolds Ernie Kihn Helena Feil 2004 Nauka"/>
+        <paras content="Temporibus voluptas aliquam quia. Fuga velit quia et. Repellat dignissimos dignissimos dolorum quas cupiditate."/>
         <paras content="[e12] InProceedings The Stars' Tennis Balls Charlette Ratke Omar Grant Shaunte Littel Angelina White DDS Dana Kovacek Jospeh Jast Vivian Gleason Julio Thompson Velva Beatty George Parker 2002 Endless Night"/>
         <paras content="[e13] PhDThesis Number the Stars Carma Huel Andrew Boyer Markus Mayer Addie Monahan DDS Shayne Stracke Pamela Zulauf Forest Klein 2006 Eastern Maggio"/>
         <paras content="[e14] Proceedings Beyond the Mexique Bay 2017"/>
@@ -103,13 +104,6 @@
         <paras content="[e97] PhDThesis The Waste Land Danita Brown DDS Mrs. Lilliana Willms Dr. Chang Greenholt Barabara O'Kon Kerry Bergnaum Dan Williamson Dr. Penney Osinski Daphine Steuber Miss Greg Crona Ms. Tanner Hansen 2002 North Iowa University"/>
         <paras content="[e98] InCollection Such, Such Were the Joys Isaiah O'Kon Alton Kub V Eloy Harber Sarina Raynor MD Garland Reynolds Miss Diedre Gislason 2014 Edna O'Brien Virgin Publishing"/>
         <paras content="[e99] InBook Dulce et Decorum Est Jacelyn Casper Cornelius D'Amore Glenn Stiedemann Micheal Auer 2013 Carnegie Mellon University Press 1"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
       <sections_1 title="Authors list">
         <paras content="Addie Little"/>
@@ -256,7 +250,6 @@
         <paras content="Eugene Bruen"/>
         <paras content="Everette Roberts"/>
         <paras content="Fabian Bahringer"/>
-        <paras content="Felicia McCullough"/>
         <paras content="Fermin Wiza DVM"/>
         <paras content="Floyd Hauck"/>
         <paras content="Forest Klein"/>
@@ -504,7 +497,6 @@
         <paras content="Rocky Rowe"/>
         <paras content="Ronnie Langworth"/>
         <paras content="Roosevelt Medhurst"/>
-        <paras content="Tamar Hammes"/>
         <paras content="Rosalinda Jaskolski Jr."/>
         <paras content="Rosalinda Witting"/>
         <paras content="Rosaline D'Amore"/>
@@ -532,6 +524,7 @@
         <paras content="Sheree Schultz"/>
         <paras content="Sheridan Strosin"/>
         <paras content="Sherlyn Gibson DDS"/>
+        <paras content="Shiela Conroy"/>
         <paras content="Shirley Russel"/>
         <paras content="Sidney Ernser"/>
         <paras content="Silas Collins"/>
@@ -540,6 +533,7 @@
         <paras content="Steven Pagac MD"/>
         <paras content="Sung Kulas"/>
         <paras content="Tam Rodriguez"/>
+        <paras content="Tamar Hammes"/>
         <paras content="Tamica Bruen"/>
         <paras content="Tammi Ward"/>
         <paras content="Tanika Kassulke"/>
@@ -582,6 +576,7 @@
         <paras content="Wilfred Armstrong"/>
         <paras content="Winford Streich"/>
         <paras content="Winifred Nikolaus"/>
+        <paras content="Felicia McCullough"/>
         <paras content="Yuki Pouros"/>
         <paras content="Zachary Ruecker"/>
         <paras content="Zella Wyman"/>
@@ -664,6 +659,13 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="East of Eden"/>
+        <paras content="Endless Night"/>
+        <paras content="In Death Ground"/>
+        <paras content="O Pioneers!"/>
+        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>

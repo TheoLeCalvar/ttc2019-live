@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListInsertion" index="92">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.92"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e35] Proceedings To Say Nothing of the Dog 2005. Eos molestiae sunt. Eius ipsa ea nam." oldValue="[e35] Proceedings To Say Nothing of the Dog 2005">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.279"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
-  <changes xsi:type="changes:CompositionListDeletion" index="1">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Zelda Abbott. Aliquam debitis et non ut voluptatem dolorum. In et suscipit. Ex magni quia optio adipisci reprehenderit totam voluptas." oldValue="Zelda Abbott">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.4236"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

@@ -14,22 +14,6 @@
         <paras content="[e8] PhDThesis The Millstone Ayana Towne Jewell Labadie DDS Karry Legros Nadia Cole Lindsey Rogahn Josiah Hudson Glinda Rodriguez 2008 Eastern Morar Institute"/>
         <paras content="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd"/>
       </sections_1>
-      <sections_1 title="Titles List">
-        <paras content="A Confederacy of Dunces"/>
-        <paras content="A Darkling Plain"/>
-        <paras content="A Glass of Blessings"/>
-        <paras content="By Grand Central Station I Sat Down and Wept"/>
-        <paras content="Fair Stood the Wind for France"/>
-        <paras content="Look Homeward, Angel"/>
-        <paras content="The Lathe of Heaven"/>
-        <paras content="The Millstone"/>
-        <paras content="This Lime Tree Bower"/>
-        <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List. Perferendis distinctio sit. Voluptates ipsum consectetur nesciunt quis.">
-        <paras content="A Time of Gifts"/>
-        <paras content="Sleep the Brave"/>
-      </sections_1>
       <sections_1 title="Authors list">
         <paras content="Abram Carter III"/>
         <paras content="Alejandro Roob"/>
@@ -42,24 +26,26 @@
         <paras content="Chung Hammes"/>
         <paras content="Clemmie Ward"/>
         <paras content="Donald Robel"/>
+        <paras content="Dulce Zieme Jr."/>
         <paras content="Ema Wilkinson"/>
         <paras content="Ethan Marvin"/>
         <paras content="Francesca O'Conner"/>
         <paras content="Gemma Sanford DVM"/>
         <paras content="Glinda Rodriguez"/>
-        <paras content="Hosea Marks"/>
         <paras content="Ian Jerde"/>
         <paras content="Janise Schneider"/>
         <paras content="Javier Berge"/>
         <paras content="Jeanice Hoeger"/>
         <paras content="Jewell Labadie DDS"/>
         <paras content="Josiah Hudson"/>
+        <paras content="Qui reprehenderit corporis at aut neque sint. Facere consequuntur magni. Nulla dicta et magnam aspernatur placeat hic omnis. Est deleniti omnis id nostrum officiis. Consequuntur quaerat dignissimos nihil sit."/>
         <paras content="Karry Legros"/>
         <paras content="Karyl Stehr"/>
         <paras content="Lesley Johns"/>
         <paras content="Lewis Schneider"/>
         <paras content="Lindsey Rogahn"/>
         <paras content="Maggie Huels"/>
+        <paras content="Hosea Marks"/>
         <paras content="Malcom Thiel"/>
         <paras content="Merissa Johns"/>
         <paras content="Mikel Homenick"/>
@@ -74,6 +60,22 @@
         <paras content="Sung Mertz"/>
         <paras content="Williemae Block"/>
         <paras content="Winter Hodkiewicz"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A Confederacy of Dunces"/>
+        <paras content="A Darkling Plain"/>
+        <paras content="A Glass of Blessings"/>
+        <paras content="By Grand Central Station I Sat Down and Wept"/>
+        <paras content="Fair Stood the Wind for France"/>
+        <paras content="Look Homeward, Angel"/>
+        <paras content="The Lathe of Heaven"/>
+        <paras content="The Millstone"/>
+        <paras content="This Lime Tree Bower"/>
+        <paras content="Where Angels Fear to Tread"/>
+      </sections_1>
+      <sections_1 title="Journals List. Eveniet magni modi sint. Et non similique. Ipsam reprehenderit et quasi.">
+        <paras content="A Time of Gifts"/>
+        <paras content="Sleep the Brave"/>
       </sections_1>
     </articles>
   </books>

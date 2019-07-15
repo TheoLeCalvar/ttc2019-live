@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Occaecati optio aperiam consequuntur et minima. Deserunt ab dicta aliquid ullam quidem et. Ex doloribus temporibus.">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -63,6 +63,7 @@
         <paras content="[e60] PhDThesis The Proper Study Tracey Dickens Denisha Mueller Rob Jaskolski Debora Bergnaum Travis Altenwerth May Kiehn Ted Hartmann Hector Ward Josue Torphy Roosevelt Medhurst 2005 West Ohio University"/>
         <paras content="[e61] PhDThesis The Last Temptation Earnest Turner Wanita Predovic Kirk Kris Everette Roberts Werner McClure Royce Durgan Reyes Langworth Rachal Kuhic Landon Dibbert 2006 Western Mitchell Academy"/>
         <paras content="[e62] InBook Where Angels Fear to Tread Stanford Kling 2014 Oberon Books 3"/>
+        <paras content="Et ut cupiditate ea iusto. Voluptatem quis quis omnis optio aspernatur. Sapiente voluptatem suscipit qui. Aperiam reiciendis error enim. Non voluptatem quibusdam unde."/>
         <paras content="[e63] InBook In a Dry Season Trevor Hilll Rosalinda Jaskolski Jr. Homer Homenick Valentin Turner Victor Reichel Tammi Ward 2001 Hackett Publishing Company 14"/>
         <paras content="[e64] InBook The Doors of Perception Sidney Ernser Lanny Blanda Georgiann Bednar Ozzie Prosacco 2012 Pen and Sword Books 2"/>
         <paras content="[e65] MasterThesis Carrion Comfort Mrs. Lanie Treutel 2008 North Colorado Institute"/>
@@ -104,7 +105,7 @@
         <paras content="[e98] InCollection Such, Such Were the Joys Isaiah O'Kon Alton Kub V Eloy Harber Sarina Raynor MD Garland Reynolds Miss Diedre Gislason 2014 Edna O'Brien Virgin Publishing"/>
         <paras content="[e99] InBook Dulce et Decorum Est Jacelyn Casper Cornelius D'Amore Glenn Stiedemann Micheal Auer 2013 Carnegie Mellon University Press 1"/>
       </sections_1>
-      <sections_1 title="Authors list">
+      <sections_1 title="Authors list. A labore dolore et temporibus.">
         <paras content="Addie Little"/>
         <paras content="Addie Monahan DDS"/>
         <paras content="Al Cronin V"/>
@@ -122,7 +123,6 @@
         <paras content="Angel Kshlerin V"/>
         <paras content="Angelina White DDS"/>
         <paras content="Arcelia Ward"/>
-        <paras content="Corina Raynor"/>
         <paras content="Arden Labadie"/>
         <paras content="Aretha Sanford"/>
         <paras content="Arielle Hoeger"/>
@@ -180,6 +180,7 @@
         <paras content="Columbus Weber DDS"/>
         <paras content="Concha Green"/>
         <paras content="Coretta Robel IV"/>
+        <paras content="Corina Raynor"/>
         <paras content="Cornelius D'Amore"/>
         <paras content="Cornelius Rice"/>
         <paras content="Corrin Huel"/>
@@ -409,7 +410,6 @@
         <paras content="Mr. Glennis Leannon"/>
         <paras content="Mr. Lazaro Reynolds"/>
         <paras content="Mr. Leon Mills"/>
-        <paras content="Ms. Muriel Gleason"/>
         <paras content="Mr. Rafael Runolfsson"/>
         <paras content="Mr. Romaine Borer"/>
         <paras content="Mrs. Carmelita Gutkowski"/>
@@ -443,6 +443,7 @@
         <paras content="Ms. Jules Nolan"/>
         <paras content="Ms. Loren Kuhlman"/>
         <paras content="Ms. Margret Paucek"/>
+        <paras content="Ms. Muriel Gleason"/>
         <paras content="Ms. Nolan Barrows"/>
         <paras content="Ms. Pat Predovic"/>
         <paras content="Ms. Phillis Gutkowski"/>
@@ -615,6 +616,7 @@
         <paras content="In a Glass Darkly"/>
         <paras content="Jacob Have I Loved"/>
         <paras content="Lilies of the Field"/>
+        <paras content="Mr Standfast"/>
         <paras content="Nine Coaches Waiting"/>
         <paras content="No Country for Old Men"/>
         <paras content="Now Sleeps the Crimson Petal"/>
@@ -656,7 +658,6 @@
         <paras content="Waiting for the Barbarians"/>
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
-        <paras content="Mr Standfast"/>
         <paras content="Where Angels Fear to Tread"/>
       </sections_1>
       <sections_1 title="Journals List">

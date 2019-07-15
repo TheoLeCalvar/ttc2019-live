@@ -303,6 +303,7 @@
         <paras content="Mitzie Bailey"/>
         <paras content="Morris Wisoky"/>
         <paras content="Mr. Christopher Kirlin"/>
+        <paras content="Mr. Christy Glover"/>
         <paras content="Mr. Glennis Leannon"/>
         <paras content="Mr. Lazaro Reynolds"/>
         <paras content="Mr. Leon Mills"/>
@@ -367,7 +368,6 @@
         <paras content="Otto Kemmer"/>
         <paras content="Ozzie Prosacco"/>
         <paras content="Pablo Shields"/>
-        <paras content="Rhonda Runte"/>
         <paras content="Page Mayert II"/>
         <paras content="Pamela Borer"/>
         <paras content="Pamela Zulauf"/>
@@ -387,6 +387,7 @@
         <paras content="Rene Raynor I"/>
         <paras content="Reyes Hickle"/>
         <paras content="Reyes Langworth"/>
+        <paras content="Rhonda Runte"/>
         <paras content="Richard Anderson"/>
         <paras content="Rob Jaskolski"/>
         <paras content="Robbi Russel I"/>
@@ -445,7 +446,6 @@
         <paras content="Tomika Morar"/>
         <paras content="Tomiko Howe Jr."/>
         <paras content="Tommie Muller"/>
-        <paras content="Toney Brown"/>
         <paras content="Tracey Dickens"/>
         <paras content="Tracie Runte"/>
         <paras content="Travis Altenwerth"/>
@@ -477,6 +477,13 @@
         <paras content="Zachary Ruecker"/>
         <paras content="Zella Wyman"/>
         <paras content="Zoraida Jacobi"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="East of Eden"/>
+        <paras content="Endless Night"/>
+        <paras content="In Death Ground"/>
+        <paras content="O Pioneers!"/>
+        <paras content="Recalled to Life"/>
       </sections_1>
       <sections_1 title="Titles List">
         <paras content="A Catskill Eagle"/>
@@ -555,13 +562,6 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>

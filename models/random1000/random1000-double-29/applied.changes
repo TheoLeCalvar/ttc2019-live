@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="References List. Corrupti vel doloremque et molestiae voluptates aliquam. Dolorem inventore qui quia dolorem. Similique vel magni ea." oldValue="References List">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  <changes xsi:type="changes:CompositionListDeletion" index="1">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="[e683] TechReport A Scanner Darkly Grover Harber Rosamaria Kirlin III Elida Grady 2005. Cupiditate nam dolorum facere tempore eum. Accusamus qui ab maiores sint iusto nam. Cupiditate ut et voluptatem." oldValue="[e683] TechReport A Scanner Darkly Grover Harber Rosamaria Kirlin III Elida Grady 2005">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.649"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionListInsertion" index="255">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.255"/>
   </changes>
 </changes:ModelChangeSet>

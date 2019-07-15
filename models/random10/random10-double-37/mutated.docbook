@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Dolores saepe necessitatibus ab sint quas magni at. Veritatis nihil veniam cupiditate.">
+      <sections_1 title="References List">
         <paras content="[e0] Proceedings The Lathe of Heaven 2019"/>
         <paras content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
         <paras content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
@@ -36,7 +36,7 @@
         <paras content="Ian Jerde"/>
         <paras content="Janise Schneider"/>
         <paras content="Javier Berge"/>
-        <paras content="Jeanice Hoeger. Amet unde voluptatem. Est illum dignissimos est qui eius sunt atque."/>
+        <paras content="Jeanice Hoeger"/>
         <paras content="Jewell Labadie DDS"/>
         <paras content="Josiah Hudson"/>
         <paras content="Karry Legros"/>
@@ -54,9 +54,9 @@
         <paras content="Noemi Simonis"/>
         <paras content="Normand Jacobson"/>
         <paras content="Rochel Mitchell"/>
-        <paras content="Rufina Walter"/>
+        <paras content="Rufina Walter. Eos molestiae sunt. Eius ipsa ea nam."/>
         <paras content="Shara Kohler I"/>
-        <paras content="Sung Mertz"/>
+        <paras content="Sung Mertz. Aliquam debitis et non ut voluptatem dolorum. In et suscipit. Ex magni quia optio adipisci reprehenderit totam voluptas."/>
         <paras content="Williemae Block"/>
         <paras content="Winter Hodkiewicz"/>
       </sections_1>

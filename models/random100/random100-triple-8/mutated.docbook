@@ -3,7 +3,6 @@
   <books>
     <articles title="BibTeXML to DocBook">
       <sections_1 title="References List">
-        <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
         <paras content="[e11] Book A Catskill Eagle Chang Ondricka Ione Hahn Deanne Spencer Howard Nader Cheryll Boyle Lyndon Hackett Mr. Lazaro Reynolds Ernie Kihn Helena Feil 2004 Nauka"/>
@@ -94,6 +93,7 @@
         <paras content="[e89] InBook Bury My Heart at Wounded Knee Lyman Ferry Norma Romaguera Clotilde Kunde III James O'Connell Nery White Ruben Tillman Rosaline D'Amore Kris Wolf 1999 University of Minnesota Press 14"/>
         <paras content="[e9] Proceedings Dulce et Decorum Est 2008"/>
         <paras content="[e90] Article The Line of Beauty Milo Weissnat Werner Cremin Ms. Loren Kuhlman Dr. Dean Beier Ms. Phillis Gutkowski Nanci Haag Danelle Nikolaus Winford Streich Lanora Kautzer Tennie Connelly 2006 O Pioneers!"/>
+        <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e91] TechReport The Mermaids Singing Clayton Satterfield 2015"/>
         <paras content="[e92] InBook The Way Through the Woods Berta Welch Tyson Beatty Dierdre Cummerata Ms. Pat Predovic Mckinley Herzog 2010 Viking Press 11"/>
         <paras content="[e93] Manual Fear and Trembling"/>
@@ -154,7 +154,7 @@
         <paras content="Carin Reichel"/>
         <paras content="Carlena Legros III"/>
         <paras content="Carma Huel"/>
-        <paras content="Carma Schaden IV. Aperiam quisquam molestias id. Eius ab et voluptatem dolore inventore dolore. Amet iusto labore et perspiciatis."/>
+        <paras content="Carma Schaden IV"/>
         <paras content="Cary Bins IV"/>
         <paras content="Cassi Sporer"/>
         <paras content="Celena Upton"/>
@@ -162,7 +162,6 @@
         <paras content="Chance Bradtke"/>
         <paras content="Chang Ondricka"/>
         <paras content="Charlette Ratke"/>
-        <paras content="Charley Klein"/>
         <paras content="Charolette Towne"/>
         <paras content="Chase Glover"/>
         <paras content="Cheryll Boyle"/>
@@ -202,7 +201,7 @@
         <paras content="Dean Lesch"/>
         <paras content="Deanne Spencer"/>
         <paras content="Debora Bergnaum"/>
-        <paras content="Delmar Schmitt"/>
+        <paras content="Deloras Kuhlman"/>
         <paras content="Denisha Mueller"/>
         <paras content="Desiree Olson"/>
         <paras content="Dierdre Cummerata"/>
@@ -231,6 +230,7 @@
         <paras content="Eldridge Armstrong"/>
         <paras content="Elenore Stanton"/>
         <paras content="Elida Dickinson"/>
+        <paras content="Delmar Schmitt"/>
         <paras content="Elijah Mann"/>
         <paras content="Ellie Denesik"/>
         <paras content="Elmo Rolfson DDS"/>
@@ -516,6 +516,7 @@
         <paras content="Shantay Sanford"/>
         <paras content="Shantelle Ebert"/>
         <paras content="Shaunte Littel"/>
+        <paras content="Shawna Mante"/>
         <paras content="Shayne Stracke"/>
         <paras content="Sheldon Pollich"/>
         <paras content="Shelton Parker"/>
@@ -545,7 +546,6 @@
         <paras content="Tillie Baumbach"/>
         <paras content="Tomika Morar"/>
         <paras content="Tomiko Howe Jr."/>
-        <paras content="Shawna Mante"/>
         <paras content="Tommie Muller"/>
         <paras content="Toney Brown"/>
         <paras content="Tracey Dickens"/>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion" index="1101">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  <changes xsi:type="changes:CompositionMoveToList">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="[e553] InProceedings A Scanner Darkly Fabian Predovic Lenny Larkin Luvenia Lehner V Chi Hickle Joesph Tremblay DVM Joel Parisian Ethan Dicki Marget Daniel 2004 Look Homeward, Angel. Aut consequuntur aut in adipisci tempora." oldValue="[e553] InProceedings A Scanner Darkly Fabian Predovic Lenny Larkin Luvenia Lehner V Chi Hickle Joesph Tremblay DVM Joel Parisian Ethan Dicki Marget Daniel 2004 Look Homeward, Angel">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.505"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="William Hauck. Consequatur ipsam ut est." oldValue="William Hauck">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.4174"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

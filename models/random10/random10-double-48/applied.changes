@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned. Neque aut nihil id sunt iusto reprehenderit et. Voluptatem officia tenetur molestiae placeat earum eius. Rerum id facilis eius nisi." oldValue="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.1"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionListInsertion">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.0"/>
   </changes>
   <changes xsi:type="changes:CompositionListDeletion" index="1">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
 </changes:ModelChangeSet>

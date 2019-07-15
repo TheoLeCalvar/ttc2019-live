@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListInsertion" index="1029">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:CompositionListInsertion" index="19">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.1029"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.20"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="299">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:CompositionListInsertion" index="17">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.299"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.17"/>
   </changes>
-  <changes xsi:type="changes:CompositionListDeletion" index="357">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  <changes xsi:type="changes:CompositionListDeletion" index="2">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
 </changes:ModelChangeSet>

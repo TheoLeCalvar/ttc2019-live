@@ -2,7 +2,11 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Repudiandae eos officiis harum earum culpa voluptatem. Optio cupiditate qui illum ullam velit saepe non. Enim temporibus corrupti fugit voluptas ut velit.">
+      <sections_1 title="Journals List">
+        <paras content="A Time of Gifts"/>
+        <paras content="Sleep the Brave"/>
+      </sections_1>
+      <sections_1 title="References List">
         <paras content="[e0] Proceedings The Lathe of Heaven 2019"/>
         <paras content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
         <paras content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
@@ -26,6 +30,7 @@
         <paras content="Chung Hammes"/>
         <paras content="Clemmie Ward"/>
         <paras content="Donald Robel"/>
+        <paras content="Dulce Zieme Jr."/>
         <paras content="Ema Wilkinson"/>
         <paras content="Ethan Marvin"/>
         <paras content="Francesca O'Conner"/>
@@ -34,7 +39,6 @@
         <paras content="Hosea Marks"/>
         <paras content="Ian Jerde"/>
         <paras content="Janise Schneider"/>
-        <paras content="Javier Berge"/>
         <paras content="Jeanice Hoeger"/>
         <paras content="Jewell Labadie DDS"/>
         <paras content="Josiah Hudson"/>
@@ -47,8 +51,8 @@
         <paras content="Malcom Thiel"/>
         <paras content="Merissa Johns"/>
         <paras content="Mikel Homenick"/>
-        <paras content="Dulce Zieme Jr."/>
         <paras content="Mr. Catarina McKenzie"/>
+        <paras content="Javier Berge"/>
         <paras content="Mrs. Abram Greenfelder"/>
         <paras content="Nadia Cole"/>
         <paras content="Noemi Simonis"/>
@@ -71,10 +75,6 @@
         <paras content="The Millstone"/>
         <paras content="This Lime Tree Bower"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="A Time of Gifts"/>
-        <paras content="Sleep the Brave"/>
       </sections_1>
     </articles>
   </books>

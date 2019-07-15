@@ -5,9 +5,8 @@
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
     <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.4"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="118">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.118"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Repudiandae culpa explicabo repudiandae nam velit est. Quo mollitia quas molestias praesentium atque. Sapiente quisquam minus ipsum perspiciatis vero iure consequuntur." oldValue="Titles List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
 </changes:ModelChangeSet>

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListInsertion" index="20">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="3077">
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.20"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="This Side of Paradise. Et debitis dolores enim rerum." oldValue="This Side of Paradise">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.171"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionListDeletion" index="1">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Jeannine Will III. Odit nostrum excepturi ad voluptatem. Est temporibus velit voluptas maxime corrupti." oldValue="Jeannine Will III">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.1812"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="519">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.519"/>
   </changes>
 </changes:ModelChangeSet>

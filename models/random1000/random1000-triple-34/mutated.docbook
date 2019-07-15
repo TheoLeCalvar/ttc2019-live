@@ -728,6 +728,7 @@
         <paras content="[e749] Proceedings Specimen Days 2008"/>
         <paras content="[e75] Manual Number the Stars"/>
         <paras content="[e750] Proceedings The World, the Flesh and the Devil 2004"/>
+        <paras content="[e922] InProceedings The Torment of Others Berry Ernser IV Brian Olson Sharika Kuhlman Valencia Farrell Dorsey Kohler II Alexis Gibson Gerardo Greenholt V 2003 The Road Less Traveled"/>
         <paras content="[e751] InCollection Such, Such Were the Joys Miss Casimira Yost 2001 A Farewell to Arms Edupedia Publications"/>
         <paras content="[e752] InProceedings The Mirror Crack'd from Side to Side Delaine Ward Jr. Miss Santina Bode 2013 Little Hands Clapping"/>
         <paras content="[e753] Manual A Swiftly Tilting Planet"/>
@@ -918,7 +919,6 @@
         <paras content="[e92] Book Edna O'Brien Alonzo Turner Lester Rutherford Elton Glover 2016 Black Library"/>
         <paras content="[e920] Proceedings Frequent Hearses 2019"/>
         <paras content="[e921] PhDThesis Taming a Sea Horse Wilhemina Heathcote Kendall Shanahan Lenny Larkin Tosha Schuster Leonard Toy V Mariette Sawayn Sr. Jamaal Gottlieb Annamae Hansen 2006 Eastern Howell University"/>
-        <paras content="[e922] InProceedings The Torment of Others Berry Ernser IV Brian Olson Sharika Kuhlman Valencia Farrell Dorsey Kohler II Alexis Gibson Gerardo Greenholt V 2003 The Road Less Traveled"/>
         <paras content="[e923] TechReport Consider Phlebas Marty Roob Carl Schamberger Arlyne Hilll MD Miss Edwardo Douglas 2007"/>
         <paras content="[e924] Article The Doors of Perception Monica Schowalter Esteban Terry PhD Felicidad Berge IV Jeanett Sanford Peg Franecki Guadalupe Harber 2016 Fran&#xe7;oise Sagan"/>
         <paras content="[e925] InBook The Moving Finger Morris Rempel Leatha Morar Mr. Quentin Dooley Dominick Cummerata Catherin Bergstrom 2017 Target Books 27"/>
@@ -1004,7 +1004,7 @@
         <paras content="[e998] Manual Lilies of the Field"/>
         <paras content="[e999] InBook A Handful of Dust Lindsay Barrows Zachariah Konopelski Kim Roberts 2011 Kogan Page 7"/>
       </sections_1>
-      <sections_1 title="Authors list. Enim voluptate nobis.">
+      <sections_1 title="Authors list">
         <paras content="Aaron Dach"/>
         <paras content="Aaron Labadie III"/>
         <paras content="Aaron Ondricka"/>
@@ -3402,6 +3402,7 @@
         <paras content="Mack Stehr"/>
         <paras content="Macy McLaughlin"/>
         <paras content="Madaline Reynolds"/>
+        <paras content="Madge Nienow MD"/>
         <paras content="Madlyn McClure II"/>
         <paras content="Magali Corkery"/>
         <paras content="Magaret Casper"/>
@@ -4475,7 +4476,6 @@
         <paras content="Raymundo Wisozk Sr."/>
         <paras content="Reatha Prosacco"/>
         <paras content="Rebecka Smitham"/>
-        <paras content="Madge Nienow MD"/>
         <paras content="Reed Gottlieb PhD"/>
         <paras content="Reed Reilly"/>
         <paras content="Reena Kreiger"/>
@@ -5335,6 +5335,7 @@
         <paras content="Jesting Pilate"/>
         <paras content="Let Us Now Praise Famous Men"/>
         <paras content="Lilies of the Field"/>
+        <paras content="Occaecati enim voluptatem enim culpa. Laboriosam dolores expedita. Repudiandae corporis ea. Neque accusantium dolore voluptatum consequatur aliquam voluptatem. Accusantium molestiae aperiam repellat nihil."/>
         <paras content="Little Hands Clapping"/>
         <paras content="Look Homeward, Angel"/>
         <paras content="Look to Windward"/>
@@ -5398,6 +5399,7 @@
         <paras content="The Millstone"/>
         <paras content="The Mirror Crack'd from Side to Side"/>
         <paras content="The Monkey's Raincoat"/>
+        <paras content="The Moon by Night"/>
         <paras content="The Moving Finger"/>
         <paras content="The Moving Toyshop"/>
         <paras content="The Needle's Eye"/>

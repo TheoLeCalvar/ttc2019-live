@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Quis rerum eaque qui nihil provident saepe sunt. Veritatis ipsa animi doloremque saepe. Illo ipsum ut odit animi.">
+      <sections_1 title="References List. Reiciendis voluptate est quibusdam. Minima ducimus et sit ea quas.">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -507,7 +507,7 @@
         <paras content="Rueben Strosin DDS"/>
         <paras content="Sam Bashirian"/>
         <paras content="Sandy Adams"/>
-        <paras content="Sarah Murray. Nihil dolor sit expedita exercitationem quia repudiandae."/>
+        <paras content="Sarah Murray"/>
         <paras content="Sarina Raynor MD"/>
         <paras content="Scott Hintz"/>
         <paras content="Sebastian Doyle"/>
@@ -549,7 +549,6 @@
         <paras content="Tomiko Howe Jr."/>
         <paras content="Tommie Muller"/>
         <paras content="Toney Brown"/>
-        <paras content="Tracey Dickens"/>
         <paras content="Tracie Runte"/>
         <paras content="Travis Altenwerth"/>
         <paras content="Trevor Hilll"/>

@@ -4,9 +4,8 @@
     <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList">
+  <changes xsi:type="changes:CompositionListDeletion">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
   </changes>
 </changes:ModelChangeSet>

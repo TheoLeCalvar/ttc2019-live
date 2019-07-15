@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Mr. Noel Ward. Quia blanditiis nihil. Delectus et placeat quia." oldValue="Mr. Noel Ward">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.2901"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="1">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
   </changes>
-  <changes xsi:type="changes:CompositionListDeletion" index="519">
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Aut quibusdam molestiae doloremque. Iusto ab autem eos aut est." oldValue="Titles List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="269">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-  </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Journals List. Consequatur et beatae et odit. Dolorum numquam aspernatur et dolor magnam. Neque eum sequi." oldValue="Journals List">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
 </changes:ModelChangeSet>

@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Nam laboriosam ducimus sit et. Sapiente nemo velit.Quisquam magni dolorum quisquam ipsam esse ut commodi. Id voluptas qui enim reprehenderit laborum quo error.">
         <paras content="[e0] PhDThesis An Acceptable Time Anna West Shanika Conn Christoper Schneider Roger Haag DDS Maria Olson Felton Fritsch Lindsay Vandervort Carlita McKenzie Nilsa Gerlach 2013 Heller College"/>
         <paras content="[e1] Proceedings Fear and Trembling 2010"/>
         <paras content="[e10] InCollection The Violent Bear It Away Nancie Abbott Rocky Hilll Brande Adams 2017 If I Forget Thee Jerusalem Carcanet Press"/>
@@ -1959,6 +1959,7 @@
         <paras content="Donald Kihn"/>
         <paras content="Donald Macejkovic"/>
         <paras content="Donald Nader"/>
+        <paras content="Donella Rippin"/>
         <paras content="Donette Rohan"/>
         <paras content="Dong Hoppe I"/>
         <paras content="Dong Marvin"/>
@@ -2796,7 +2797,7 @@
         <paras content="Jarrod Wilderman"/>
         <paras content="Jarvis Bechtelar Sr."/>
         <paras content="Jarvis Bosco Jr."/>
-        <paras content="Jarvis Gutmann. Reprehenderit consequuntur dolor non. Iure repellat pariatur omnis ipsum. Voluptatibus corrupti ut est recusandae vitae laborum."/>
+        <paras content="Jarvis Gutmann"/>
         <paras content="Jasmin Howe"/>
         <paras content="Jasmin Steuber DDS"/>
         <paras content="Jason Cummings"/>

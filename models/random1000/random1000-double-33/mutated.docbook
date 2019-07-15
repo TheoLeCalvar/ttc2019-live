@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Molestiae ex dolorem laboriosam dignissimos.">
+      <sections_1 title="References List">
         <paras content="[e0] PhDThesis An Acceptable Time Anna West Shanika Conn Christoper Schneider Roger Haag DDS Maria Olson Felton Fritsch Lindsay Vandervort Carlita McKenzie Nilsa Gerlach 2013 Heller College"/>
         <paras content="[e1] Proceedings Fear and Trembling 2010"/>
         <paras content="[e10] InCollection The Violent Bear It Away Nancie Abbott Rocky Hilll Brande Adams 2017 If I Forget Thee Jerusalem Carcanet Press"/>
@@ -462,6 +462,7 @@
         <paras content="[e509] InProceedings If I Forget Thee Jerusalem Ka Hermann Walter Daniel Angelina Goodwin Sr. 2014 Fame Is the Spur"/>
         <paras content="[e51] Book The Man Within Al Jacobi 2002 Del Rey Books"/>
         <paras content="[e510] Proceedings The Way Through the Woods 2002"/>
+        <paras content="[e511] TechReport A Passage to India Darryl Toy Miss Valeri Buckridge Ella Gorczany Jr. Dr. Wilmer Moore Gilbert Reynolds Dr. Jerome Bernhard Carl Ullrich Geoffrey Kulas Lucy Hirthe Shirlene Weimann 2005"/>
         <paras content="[e512] TechReport No Country for Old Men Nellie Koss Sr. Gayle Gislason II Miss Lorine Bruen Ira Kuphal Jeremy Waters Joseph Trantow Mrs. Mariah Crist Normand Lubowitz II 2001"/>
         <paras content="[e513] InBook The Curious Incident of the Dog in the Night-Time Nilsa Oberbrunner Mr. Rashad Windler Octavio Kuvalis IV Portia Schumm IV Hugo Armstrong Conchita Lueilwitz Katelin Zulauf 2013 Apress 16"/>
         <paras content="[e514] Proceedings Where Angels Fear to Tread 2000"/>
@@ -920,7 +921,6 @@
         <paras content="[e922] InProceedings The Torment of Others Berry Ernser IV Brian Olson Sharika Kuhlman Valencia Farrell Dorsey Kohler II Alexis Gibson Gerardo Greenholt V 2003 The Road Less Traveled"/>
         <paras content="[e923] TechReport Consider Phlebas Marty Roob Carl Schamberger Arlyne Hilll MD Miss Edwardo Douglas 2007"/>
         <paras content="[e924] Article The Doors of Perception Monica Schowalter Esteban Terry PhD Felicidad Berge IV Jeanett Sanford Peg Franecki Guadalupe Harber 2016 Fran&#xe7;oise Sagan"/>
-        <paras content="[e511] TechReport A Passage to India Darryl Toy Miss Valeri Buckridge Ella Gorczany Jr. Dr. Wilmer Moore Gilbert Reynolds Dr. Jerome Bernhard Carl Ullrich Geoffrey Kulas Lucy Hirthe Shirlene Weimann 2005"/>
         <paras content="[e925] InBook The Moving Finger Morris Rempel Leatha Morar Mr. Quentin Dooley Dominick Cummerata Catherin Bergstrom 2017 Target Books 27"/>
         <paras content="[e926] InProceedings For Whom the Bell Tolls Boris Bartoletti Diedra Stanton Pok Marvin Sang Lang Domenic Hyatt Mr. Alease Runolfsson Gail Botsford V Filiberto Lebsack Deanne Mante Kamilah Beahan 2016 Noli Me Tangere"/>
         <paras content="[e927] TechReport Things Fall Apart Petrina Lind Fern Dooley Mr. Trey Stiedemann Leroy Kassulke Teodoro Fisher Mellissa Gaylord Ms. Davis Conroy Suzie Koelpin 2007"/>
@@ -1038,7 +1038,6 @@
         <paras content="Adrian Bednar MD"/>
         <paras content="Adrian Dickens"/>
         <paras content="Adrian Kovacek"/>
-        <paras content="Adrian Miller"/>
         <paras content="Adriane Dietrich"/>
         <paras content="Adriane Koelpin"/>
         <paras content="Adrianna Pfeffer"/>
@@ -1203,6 +1202,7 @@
         <paras content="Antoine Morissette"/>
         <paras content="Antoine Olson III"/>
         <paras content="Antoinette Jaskolski"/>
+        <paras content="Adrian Miller"/>
         <paras content="Anton Koepp II"/>
         <paras content="Antone Lakin MD"/>
         <paras content="Antonia Cummings"/>
@@ -4794,6 +4794,7 @@
         <paras content="Sid Satterfield"/>
         <paras content="Sidney Kiehn"/>
         <paras content="Sidney Lind"/>
+        <paras content="Sunshine Bruen"/>
         <paras content="Sidney Paucek"/>
         <paras content="Sierra Dickinson"/>
         <paras content="Sigrid Mitchell"/>
@@ -4863,7 +4864,6 @@
         <paras content="Sunday Jaskolski"/>
         <paras content="Sung Beatty"/>
         <paras content="Sunni Huel PhD"/>
-        <paras content="Sunshine Bruen"/>
         <paras content="Susana Kiehn II"/>
         <paras content="Suzie Koelpin"/>
         <paras content="Suzy Gislason"/>

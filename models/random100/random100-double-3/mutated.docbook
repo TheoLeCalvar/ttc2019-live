@@ -350,7 +350,6 @@
         <paras content="Lonnie Stiedemann Jr."/>
         <paras content="Lonny Larson"/>
         <paras content="Louisa Hilpert"/>
-        <paras content="Scott Hintz"/>
         <paras content="Loyd Runte"/>
         <paras content="Lucinda Gorczany"/>
         <paras content="Lucius Stamm"/>
@@ -510,6 +509,7 @@
         <paras content="Sandy Adams"/>
         <paras content="Sarah Murray"/>
         <paras content="Sarina Raynor MD"/>
+        <paras content="Scott Hintz"/>
         <paras content="Sebastian Doyle"/>
         <paras content="Selma Lebsack"/>
         <paras content="Serena Kassulke"/>
@@ -580,6 +580,13 @@
         <paras content="Zachary Ruecker"/>
         <paras content="Zella Wyman"/>
         <paras content="Zoraida Jacobi"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="East of Eden"/>
+        <paras content="Endless Night"/>
+        <paras content="In Death Ground"/>
+        <paras content="O Pioneers!"/>
+        <paras content="Recalled to Life"/>
       </sections_1>
       <sections_1 title="Titles List">
         <paras content="A Catskill Eagle"/>

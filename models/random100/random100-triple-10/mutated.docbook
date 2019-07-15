@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Aspernatur consequatur sint odio accusantium dolor nulla. Sit quis corrupti.">
+      <sections_1 title="References List">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -28,6 +28,7 @@
         <paras content="[e29] Proceedings Postern of Fate 2014"/>
         <paras content="[e3] InProceedings From Here to Eternity Miss Gene King Candelaria Feeney Dean Lesch Mrs. Ervin Corkery Yuki Pouros Arlen Maggio Hermina Price DVM Lonny Larson Deloras Kuhlman Wayne Bednar 2005 The Wives of Bath"/>
         <paras content="[e30] Manual The Last Temptation"/>
+        <paras content="[e94] InBook The Last Enemy Gertrude Paucek 2005 Palgrave Macmillan 29"/>
         <paras content="[e31] InBook A Darkling Plain Cyndy Toy V Olevia Jacobson 2018 Atlas Press 16"/>
         <paras content="[e32] InProceedings The Torment of Others Shantay Sanford Percy Grady Genevieve Rice Sherlyn Gibson DDS Sonja Quigley Otto Kemmer Missy Christiansen Merna Haley PhD 2014 Great Work of Time"/>
         <paras content="[e33] TechReport A Handful of Dust Hildegard Purdy DDS Boyd Wuckert II Elvis Harber Miss Paul Murray Lucius Stamm Clayton Hegmann Myrtis Wunsch Jr. Chong Simonis MD Sheree Schultz 2013"/>
@@ -97,7 +98,6 @@
         <paras content="[e91] TechReport The Mermaids Singing Clayton Satterfield 2015"/>
         <paras content="[e92] InBook The Way Through the Woods Berta Welch Tyson Beatty Dierdre Cummerata Ms. Pat Predovic Mckinley Herzog 2010 Viking Press 11"/>
         <paras content="[e93] Manual Fear and Trembling"/>
-        <paras content="[e94] InBook The Last Enemy Gertrude Paucek 2005 Palgrave Macmillan 29"/>
         <paras content="[e95] InBook Number the Stars Jewell Sipes V Reyes Hickle Eddie Hermann V 1999 Canongate Books 27"/>
         <paras content="[e96] Manual The Moving Finger"/>
         <paras content="[e97] PhDThesis The Waste Land Danita Brown DDS Mrs. Lilliana Willms Dr. Chang Greenholt Barabara O'Kon Kerry Bergnaum Dan Williamson Dr. Penney Osinski Daphine Steuber Miss Greg Crona Ms. Tanner Hansen 2002 North Iowa University"/>
@@ -464,7 +464,6 @@
         <paras content="Noe Conn"/>
         <paras content="Nolan Hammes"/>
         <paras content="Norma Romaguera"/>
-        <paras content="Olevia Jacobson"/>
         <paras content="Omar Grant"/>
         <paras content="Orville Bernhard"/>
         <paras content="Otto Kemmer"/>
@@ -571,7 +570,7 @@
         <paras content="Wanita Predovic"/>
         <paras content="Wayne Bednar"/>
         <paras content="Werner Cremin"/>
-        <paras content="Werner McClure. Qui unde asperiores ut aut. Sit fuga qui neque magnam et impedit ipsa."/>
+        <paras content="Werner McClure"/>
         <paras content="Wiley Pouros"/>
         <paras content="Wilfred Armstrong"/>
         <paras content="Winford Streich"/>

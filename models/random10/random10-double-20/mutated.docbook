@@ -3,6 +3,7 @@
   <books>
     <articles title="BibTeXML to DocBook">
       <sections_1 title="References List">
+        <paras content="[e0] Proceedings The Lathe of Heaven 2019"/>
         <paras content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
         <paras content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
         <paras content="[e3] PhDThesis Where Angels Fear to Tread Ethan Marvin Rufina Walter Javier Berge Normand Jacobson Hosea Marks Jeanice Hoeger Andrea Marvin DVM 2000 Western Mraz Academy"/>
@@ -26,7 +27,7 @@
         <paras content="Clemmie Ward"/>
         <paras content="Donald Robel"/>
         <paras content="Dulce Zieme Jr."/>
-        <paras content="Ema Wilkinson"/>
+        <paras content="Ema Wilkinson. Ut ab qui voluptatem eos veniam mollitia. Et et occaecati aliquam nihil est."/>
         <paras content="Ethan Marvin"/>
         <paras content="Francesca O'Conner"/>
         <paras content="Gemma Sanford DVM"/>
@@ -70,10 +71,6 @@
         <paras content="The Millstone"/>
         <paras content="This Lime Tree Bower"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="A Time of Gifts"/>
-        <paras content="Sleep the Brave"/>
       </sections_1>
     </articles>
   </books>

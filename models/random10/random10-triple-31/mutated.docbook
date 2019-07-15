@@ -5,6 +5,7 @@
       <sections_1 title="References List">
         <paras content="[e0] Proceedings The Lathe of Heaven 2019"/>
         <paras content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
+        <paras content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
         <paras content="[e3] PhDThesis Where Angels Fear to Tread Ethan Marvin Rufina Walter Javier Berge Normand Jacobson Hosea Marks Jeanice Hoeger Andrea Marvin DVM 2000 Western Mraz Academy"/>
         <paras content="[e4] Article Fair Stood the Wind for France Mr. Catarina McKenzie Gemma Sanford DVM Rochel Mitchell 2015 A Time of Gifts"/>
         <paras content="[e5] Manual By Grand Central Station I Sat Down and Wept"/>
@@ -20,13 +21,13 @@
         <paras content="Andrea Marvin DVM"/>
         <paras content="Armando Conn Sr."/>
         <paras content="Augustine Mueller V"/>
-        <paras content="Ayana Towne. Enim sunt vel qui repellendus. Placeat reiciendis ex perferendis. Eveniet consequatur quasi provident illum enim."/>
-        <paras content="Cecelia Schumm"/>
+        <paras content="Ayana Towne"/>
+        <paras content="Cecelia Schumm. Non voluptas ut illum officiis qui deleniti omnis. Animi laboriosam beatae consequuntur iure."/>
         <paras content="Chung Hammes"/>
         <paras content="Clemmie Ward"/>
         <paras content="Donald Robel"/>
         <paras content="Dulce Zieme Jr."/>
-        <paras content="Ema Wilkinson"/>
+        <paras content="Ema Wilkinson. Suscipit deserunt aut sit sed. Ipsum culpa et. Autem enim est in."/>
         <paras content="Ethan Marvin"/>
         <paras content="Francesca O'Conner"/>
         <paras content="Gemma Sanford DVM"/>
@@ -58,6 +59,18 @@
         <paras content="Sung Mertz"/>
         <paras content="Williemae Block"/>
         <paras content="Winter Hodkiewicz"/>
+      </sections_1>
+      <sections_1 title="Titles List. Dolorem ratione aut aut non delectus deserunt.">
+        <paras content="A Confederacy of Dunces"/>
+        <paras content="A Darkling Plain"/>
+        <paras content="A Glass of Blessings"/>
+        <paras content="By Grand Central Station I Sat Down and Wept"/>
+        <paras content="Fair Stood the Wind for France"/>
+        <paras content="Look Homeward, Angel"/>
+        <paras content="The Lathe of Heaven"/>
+        <paras content="The Millstone"/>
+        <paras content="This Lime Tree Bower"/>
+        <paras content="Where Angels Fear to Tread"/>
       </sections_1>
       <sections_1 title="Journals List">
         <paras content="A Time of Gifts"/>

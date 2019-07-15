@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Accusamus architecto expedita. Quia dolorem sed mollitia. Molestias consequatur dolorem eos sed." oldValue="Authors list">
+  <changes xsi:type="changes:CompositionListDeletion" index="2059">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
-  </changes>
-  <changes xsi:type="changes:CompositionListInsertion" index="41">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.41"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Mrs. Alanna Raynor. Consequuntur quidem unde omnis maxime deleniti qui accusamus. Incidunt doloribus doloremque et perspiciatis sint. Tempora eaque sed veritatis." oldValue="Mrs. Alanna Raynor">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.2952"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:CompositionListDeletion" index="684">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="2">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
 </changes:ModelChangeSet>

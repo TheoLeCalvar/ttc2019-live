@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListInsertion" index="3459">
+  <changes xsi:type="changes:CompositionListDeletion" index="2973">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.3459"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="59">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="733">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.59"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.733"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Officia aut ad. Temporibus eaque suscipit ut itaque vitae expedita provident. Voluptatem nesciunt in." oldValue="Authors list">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Absalom, Absalom!. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam." oldValue="Absalom, Absalom!">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3/@paras.4"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

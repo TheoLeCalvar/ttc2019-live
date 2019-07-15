@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionMoveToList" index="6">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.6"/>
-  </changes>
-  <changes xsi:type="changes:CompositionListDeletion" index="1">
+  <changes xsi:type="changes:CompositionMoveToList">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Ayana Towne. Consequatur ipsam ut est." oldValue="Ayana Towne">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.6"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

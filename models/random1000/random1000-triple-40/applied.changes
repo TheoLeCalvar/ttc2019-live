@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion" index="2">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="References List. Occaecati optio aperiam consequuntur et minima. Deserunt ab dicta aliquid ullam quidem et. Ex doloribus temporibus." oldValue="References List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
-  <changes xsi:type="changes:CompositionListInsertion" index="1412">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:CompositionListInsertion" index="778">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.1412"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.778"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="[e512] TechReport No Country for Old Men Nellie Koss Sr. Gayle Gislason II Miss Lorine Bruen Ira Kuphal Jeremy Waters Joseph Trantow Mrs. Mariah Crist Normand Lubowitz II 2001. Doloremque architecto recusandae ex et in est. Eos error eius doloribus dolores." oldValue="[e512] TechReport No Country for Old Men Nellie Koss Sr. Gayle Gislason II Miss Lorine Bruen Ira Kuphal Jeremy Waters Joseph Trantow Mrs. Mariah Crist Normand Lubowitz II 2001">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.460"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. A labore dolore et temporibus." oldValue="Authors list">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
 </changes:ModelChangeSet>

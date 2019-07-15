@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion">
+  <changes xsi:type="changes:CompositionListDeletion" index="107">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
   </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Lanny Blanda. Corrupti qui quam molestias ut sed rerum." oldValue="Lanny Blanda">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.232"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Wanita Predovic. Vel repudiandae dolores voluptatum aut voluptate nesciunt. Qui alias ducimus sit id." oldValue="Wanita Predovic">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.462"/>
     <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
-  <changes xsi:type="changes:CompositionListInsertion" index="3">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="406">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3/@paras.3"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.406"/>
   </changes>
 </changes:ModelChangeSet>

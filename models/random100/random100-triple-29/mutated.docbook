@@ -2,7 +2,14 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Quis rerum eaque qui nihil provident saepe sunt. Veritatis ipsa animi doloremque saepe. Illo ipsum ut odit animi.">
+      <sections_1 title="Journals List">
+        <paras content="East of Eden"/>
+        <paras content="Endless Night"/>
+        <paras content="In Death Ground"/>
+        <paras content="O Pioneers!"/>
+        <paras content="Recalled to Life"/>
+      </sections_1>
+      <sections_1 title="References List. Doloremque iusto molestiae et omnis. Vel dolores et molestiae autem adipisci. Aut qui facere ea inventore magni.">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -119,6 +126,7 @@
         <paras content="Ambrose Monahan"/>
         <paras content="Anderson Schulist"/>
         <paras content="Andrew Boyer"/>
+        <paras content="Angel Kshlerin V"/>
         <paras content="Angelina White DDS"/>
         <paras content="Arcelia Ward"/>
         <paras content="Arden Labadie"/>
@@ -373,6 +381,7 @@
         <paras content="Marni Douglas"/>
         <paras content="Marshall Gusikowski"/>
         <paras content="Marybelle Hintz"/>
+        <paras content="Matha Block"/>
         <paras content="Maurine Effertz"/>
         <paras content="May Kiehn"/>
         <paras content="Maybell Hilll"/>
@@ -656,13 +665,6 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>

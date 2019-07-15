@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion" index="3662">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Ulysses Price. Suscipit deserunt aut sit sed. Ipsum culpa et. Autem enim est in." oldValue="Ulysses Price">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.4057"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="1">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="[e842] InBook The Golden Bowl Berenice Thompson Kennith Lebsack Tuan Runte Cleo Bins I Jay Balistreri Lillia Dare Rueben Langosh Harlan Rogahn Miss Priscilla O'Hara 2008 Cloverdale Corporation 19. Non voluptas ut illum officiis qui deleniti omnis. Animi laboriosam beatae consequuntur iure." oldValue="[e842] InBook The Golden Bowl Berenice Thompson Kennith Lebsack Tuan Runte Cleo Bins I Jay Balistreri Lillia Dare Rueben Langosh Harlan Rogahn Miss Priscilla O'Hara 2008 Cloverdale Corporation 19">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.826"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
-  <changes xsi:type="changes:CompositionListInsertion" index="960">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.960"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Titles List. Dolorem ratione aut aut non delectus deserunt." oldValue="Titles List">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
 </changes:ModelChangeSet>

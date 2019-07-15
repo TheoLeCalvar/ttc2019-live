@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Dolores saepe necessitatibus ab sint quas magni at. Veritatis nihil veniam cupiditate.">
+      <sections_1 title="References List">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -134,7 +134,7 @@
         <paras content="Austin Blick"/>
         <paras content="Avery Daniel"/>
         <paras content="Ayana Zemlak"/>
-        <paras content="Barabara O'Kon"/>
+        <paras content="Barabara O'Kon. Aliquam debitis et non ut voluptatem dolorum. In et suscipit. Ex magni quia optio adipisci reprehenderit totam voluptas."/>
         <paras content="Barbera McCullough"/>
         <paras content="Barton Ryan"/>
         <paras content="Basil Blick"/>
@@ -332,7 +332,7 @@
         <paras content="Kevin Schumm"/>
         <paras content="Kiera Hodkiewicz"/>
         <paras content="Kimberly Conroy"/>
-        <paras content="Kirk Kris. Amet unde voluptatem. Est illum dignissimos est qui eius sunt atque."/>
+        <paras content="Kirk Kris"/>
         <paras content="Klara Stroman"/>
         <paras content="Kris Wolf"/>
         <paras content="Kristofer Hyatt"/>
@@ -374,7 +374,7 @@
         <paras content="Marni Douglas"/>
         <paras content="Marshall Gusikowski"/>
         <paras content="Marybelle Hintz"/>
-        <paras content="Matha Block"/>
+        <paras content="Matha Block. Eos molestiae sunt. Eius ipsa ea nam."/>
         <paras content="Maurine Effertz"/>
         <paras content="May Kiehn"/>
         <paras content="Maybell Hilll"/>

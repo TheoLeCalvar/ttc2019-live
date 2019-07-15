@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion" index="2444">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="9">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0/@paras.9"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="1405">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+  <changes xsi:type="changes:CompositionListInsertion" index="36">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.1406"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3/@paras.36"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="224">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.224"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Bobby Stanton. Aperiam repudiandae sed quasi quia officiis aut fuga. Accusantium animi iste qui unde incidunt corrupti tempora." oldValue="Bobby Stanton">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.377"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
 </changes:ModelChangeSet>

@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Nam laboriosam ducimus sit et. Sapiente nemo velit.Quisquam magni dolorum quisquam ipsam esse ut commodi. Id voluptas qui enim reprehenderit laborum quo error.">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -47,7 +47,6 @@
         <paras content="[e46] InBook An Instant In The Wind Byron Collins Wilfred Armstrong 2012 Ignatius Press 13"/>
         <paras content="[e47] Proceedings Mr Standfast 2007"/>
         <paras content="[e48] Manual The Doors of Perception"/>
-        <paras content="[e79] Proceedings East of Eden 2008"/>
         <paras content="[e49] InCollection Now Sleeps the Crimson Petal Emery Homenick Cornelius Rice Marni Douglas Marianela Parker Kareem Bartell Klara Stroman Dante Davis Mr. Leon Mills Cary Bins IV Keven Beahan I 2001 Tender Is the Night G. P. Putnam's Sons"/>
         <paras content="[e5] Proceedings The Wives of Bath 2015"/>
         <paras content="[e50] InCollection An Evil Cradling Chance Bradtke Hillary Renner Alla Ferry MD Alissa Hodkiewicz 2018 Edna O'Brien Virgin Publishing"/>
@@ -81,6 +80,7 @@
         <paras content="[e76] Article Waiting for the Barbarians Tracie Runte Tommie Muller Barton Ryan Izola Abernathy Ike O'Connell 2008 Endless Night"/>
         <paras content="[e77] InBook A Passage to India Coretta Robel IV Megan Corkery 2004 Velazquez Press 21"/>
         <paras content="[e78] PhDThesis The Cricket on the Hearth Arcelia Ward Lynetta Dickinson Bud Lesch DDS Mrs. Janella Quitzon Emanuel Durgan Angel Kshlerin V 2009 Tremblay College"/>
+        <paras content="[e79] Proceedings East of Eden 2008"/>
         <paras content="[e8] Book The Violent Bear It Away Ronnie Langworth Mira Hansen Celinda McClure Nicky Corkery Aretha Sanford Jimmie Kohler I 2009 FabJob"/>
         <paras content="[e80] Proceedings Sleep the Brave 2004"/>
         <paras content="[e81] InCollection Sleep the Brave Ute Funk DVM Brandi Walker Tyree Fay Desiree Olson Wiley Pouros Basil Blick Maybell Hilll Julia McLaughlin Kellie Becker 2018 Tirra Lirra by the River E. P. Dutton"/>
@@ -663,7 +663,6 @@
         <paras content="East of Eden"/>
         <paras content="Endless Night"/>
         <paras content="In Death Ground"/>
-        <paras content="Reiciendis error et ratione et dolor. Ab nihil cumque dolorem totam asperiores tenetur. Nihil quia totam laudantium perferendis."/>
         <paras content="O Pioneers!"/>
         <paras content="Recalled to Life"/>
       </sections_1>

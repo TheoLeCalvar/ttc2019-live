@@ -313,6 +313,7 @@
         <paras content="Johnnie Barton"/>
         <paras content="Joni Spencer"/>
         <paras content="Jordan Borer I"/>
+        <paras content="Jordon Bartell IV"/>
         <paras content="Josef Emmerich Jr."/>
         <paras content="Jospeh Jast"/>
         <paras content="Josue Brakus"/>
@@ -392,6 +393,7 @@
         <paras content="Miss Diedre Gislason"/>
         <paras content="Miss Elayne Metz"/>
         <paras content="Miss Gene King"/>
+        <paras content="Miss Gerardo Welch"/>
         <paras content="Miss Greg Crona"/>
         <paras content="Miss Irwin Langworth"/>
         <paras content="Miss Issac Kozey"/>
@@ -579,6 +581,13 @@
         <paras content="Zella Wyman"/>
         <paras content="Zoraida Jacobi"/>
       </sections_1>
+      <sections_1 title="Journals List. Sit eos adipisci et repellat nobis. Voluptatum exercitationem eligendi quo quos quos corrupti.">
+        <paras content="East of Eden"/>
+        <paras content="Endless Night"/>
+        <paras content="In Death Ground"/>
+        <paras content="O Pioneers!"/>
+        <paras content="Recalled to Life"/>
+      </sections_1>
       <sections_1 title="Titles List">
         <paras content="A Catskill Eagle"/>
         <paras content="A Confederacy of Dunces"/>
@@ -656,13 +665,6 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>

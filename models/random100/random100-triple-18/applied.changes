@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListDeletion" index="3">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Bury My Heart at Wounded Knee. Consequatur eius aut consequatur vel dolor ipsa. Culpa autem fugiat ut. Est fuga veniam sed." oldValue="Bury My Heart at Wounded Knee">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3/@paras.12"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
-  <changes xsi:type="changes:CompositionListDeletion">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Sarina Raynor MD. Vitae ducimus praesentium iusto vitae non et enim. Delectus impedit temporibus omnis consequatur. Illum repellat enim quasi asperiores sed adipisci." oldValue="Sarina Raynor MD">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.403"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
   </changes>
   <changes xsi:type="changes:CompositionMoveToList" index="1">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>

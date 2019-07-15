@@ -2,7 +2,14 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Repudiandae eos officiis harum earum culpa voluptatem. Optio cupiditate qui illum ullam velit saepe non. Enim temporibus corrupti fugit voluptas ut velit.">
+      <sections_1 title="Journals List">
+        <paras content="East of Eden"/>
+        <paras content="Endless Night"/>
+        <paras content="In Death Ground"/>
+        <paras content="O Pioneers!"/>
+        <paras content="Recalled to Life"/>
+      </sections_1>
+      <sections_1 title="References List">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -69,7 +76,6 @@
         <paras content="[e66] Book As I Lay Dying Charley Klein Rocky Rowe Ms. Hannah Murazik Ashlie Zieme Kasha Nolan 2017 Tachyon Publications"/>
         <paras content="[e67] PhDThesis The Mirror Crack'd from Side to Side Mae Block Alva Schmitt Ethan Padberg II Myrle Littel DVM Miss Dan Crona Golden Feest Cyndy Lynch Arden Labadie 2018 Northern New Hampshire Institute"/>
         <paras content="[e68] Book The Little Foxes Carma Schaden IV Mr. Christy Glover Marita Moen PhD Ramiro Ortiz Leonel Runolfsdottir Chuck Emard Janeth Ryan Dr. Denver Mraz Bennie Labadie 2018 Mainstream Publishing"/>
-        <paras content="[e69] MasterThesis Nine Coaches Waiting Luke Rodriguez Lillia VonRueden Dr. Jerrell Metz Chase Glover Chuck Christiansen Tula Yundt Addie Little Jewel Predovic Tamar Hammes 2016 Goldner Institute"/>
         <paras content="[e7] TechReport Where Angels Fear to Tread Barbera McCullough Nelson Parker 2016"/>
         <paras content="[e70] TechReport To a God Unknown Silas Collins Elijah Mann Ms. Emil Franecki Ms. Sonny Denesik Mrs. Pablo Larson 2015"/>
         <paras content="[e71] InBook Everything is Illuminated Hassan Stehr IV Elida Dickinson Marianela Marvin Floyd Hauck 2007 Reed Publishing 16"/>
@@ -97,6 +103,7 @@
         <paras content="[e91] TechReport The Mermaids Singing Clayton Satterfield 2015"/>
         <paras content="[e92] InBook The Way Through the Woods Berta Welch Tyson Beatty Dierdre Cummerata Ms. Pat Predovic Mckinley Herzog 2010 Viking Press 11"/>
         <paras content="[e93] Manual Fear and Trembling"/>
+        <paras content="[e69] MasterThesis Nine Coaches Waiting Luke Rodriguez Lillia VonRueden Dr. Jerrell Metz Chase Glover Chuck Christiansen Tula Yundt Addie Little Jewel Predovic Tamar Hammes 2016 Goldner Institute"/>
         <paras content="[e94] InBook The Last Enemy Gertrude Paucek 2005 Palgrave Macmillan 29"/>
         <paras content="[e95] InBook Number the Stars Jewell Sipes V Reyes Hickle Eddie Hermann V 1999 Canongate Books 27"/>
         <paras content="[e96] Manual The Moving Finger"/>
@@ -280,7 +287,6 @@
         <paras content="Herbert Cartwright"/>
         <paras content="Hermina Price DVM"/>
         <paras content="Hildegard Purdy DDS"/>
-        <paras content="Rosalinda Witting"/>
         <paras content="Hillary Renner"/>
         <paras content="Hilma O'Hara Jr."/>
         <paras content="Hilma Runolfsdottir"/>
@@ -499,6 +505,7 @@
         <paras content="Ronnie Langworth"/>
         <paras content="Roosevelt Medhurst"/>
         <paras content="Rosalinda Jaskolski Jr."/>
+        <paras content="Rosalinda Witting"/>
         <paras content="Rosaline D'Amore"/>
         <paras content="Rosendo Mills"/>
         <paras content="Roxanna Von"/>
@@ -658,13 +665,6 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>

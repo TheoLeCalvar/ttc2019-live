@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Ducimus magni eligendi eos unde voluptatem. Id sint suscipit laudantium explicabo voluptas modi.">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -55,7 +55,6 @@
         <paras content="[e53] InProceedings Gone with the Wind Chester Leuschke Ms. Dennise Huels Mrs. Emmaline Harber Celena Upton Marybelle Hintz Leif Kohler Theresia Labadie 2005 This Lime Tree Bower"/>
         <paras content="[e54] InCollection A Darkling Plain Cristy Smith 2001 The Far-Distant Oxus Ballantine Books"/>
         <paras content="[e55] Book The Grapes of Wrath Sarah Murray Kimberly Conroy Pablo Shields Daniella Mueller Jr. Mitzie Bailey Miss Elayne Metz Estell Stehr Page Mayert II Zachary Ruecker Melvin Schaefer 2008 Cisco Press"/>
-        <paras content="Dolor repudiandae fugit quo. Sed in provident velit. Porro sed asperiores. Minima aut quia a et culpa. Quaerat amet deleniti."/>
         <paras content="[e56] InBook The Mirror Crack'd from Side to Side Shirley Russel Patti Balistreri Concha Green Elvira Roob Cyril Bode Darin Bednar DVM Mr. Rafael Runolfsson Dayna Simonis Michell Goyette 2005 Packt Publishing 5"/>
         <paras content="[e57] InProceedings A Catskill Eagle Newton Bailey Marguerita Fay Gaye Schamberger Sr. Mariette Boyer MD Miss Irwin Langworth Scott Hintz Miss Jess D'Amore Patrick Rolfson Newton Haley 2008 Quo Vadis"/>
         <paras content="[e58] InProceedings Time To Murder And Create Katia Hermiston II Ermelinda Dach Leonard Muller Roxanna Von Dr. Neida Schultz Winifred Nikolaus Corina Raynor Matha Block 2016 To Your Scattered Bodies Go"/>
@@ -105,7 +104,7 @@
         <paras content="[e98] InCollection Such, Such Were the Joys Isaiah O'Kon Alton Kub V Eloy Harber Sarina Raynor MD Garland Reynolds Miss Diedre Gislason 2014 Edna O'Brien Virgin Publishing"/>
         <paras content="[e99] InBook Dulce et Decorum Est Jacelyn Casper Cornelius D'Amore Glenn Stiedemann Micheal Auer 2013 Carnegie Mellon University Press 1"/>
       </sections_1>
-      <sections_1 title="Authors list">
+      <sections_1 title="Authors list. Quas error quaerat vel vitae autem dignissimos occaecati. Voluptatem veniam incidunt.">
         <paras content="Addie Little"/>
         <paras content="Addie Monahan DDS"/>
         <paras content="Al Cronin V"/>
@@ -492,7 +491,6 @@
         <paras content="Reyes Langworth"/>
         <paras content="Rhonda Runte"/>
         <paras content="Richard Anderson"/>
-        <paras content="Shantay Sanford"/>
         <paras content="Rob Jaskolski"/>
         <paras content="Robbi Russel I"/>
         <paras content="Roberta Bednar"/>
@@ -516,6 +514,7 @@
         <paras content="Selma Lebsack"/>
         <paras content="Serena Kassulke"/>
         <paras content="Shakita Muller"/>
+        <paras content="Shantay Sanford"/>
         <paras content="Shantelle Ebert"/>
         <paras content="Shaunte Littel"/>
         <paras content="Shawna Mante"/>

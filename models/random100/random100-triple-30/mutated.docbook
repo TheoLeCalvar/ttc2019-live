@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Odit sed pariatur quod a.">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -104,7 +104,7 @@
         <paras content="[e98] InCollection Such, Such Were the Joys Isaiah O'Kon Alton Kub V Eloy Harber Sarina Raynor MD Garland Reynolds Miss Diedre Gislason 2014 Edna O'Brien Virgin Publishing"/>
         <paras content="[e99] InBook Dulce et Decorum Est Jacelyn Casper Cornelius D'Amore Glenn Stiedemann Micheal Auer 2013 Carnegie Mellon University Press 1"/>
       </sections_1>
-      <sections_1 title="Authors list. Rerum est cupiditate qui ut placeat dolores rerum.">
+      <sections_1 title="Authors list">
         <paras content="Addie Little"/>
         <paras content="Addie Monahan DDS"/>
         <paras content="Al Cronin V"/>
@@ -169,6 +169,7 @@
         <paras content="Chester Leuschke"/>
         <paras content="Chong Simonis MD"/>
         <paras content="Christoper Conn IV"/>
+        <paras content="Chuck Christiansen"/>
         <paras content="Chuck Emard"/>
         <paras content="Clayton Hegmann"/>
         <paras content="Clayton Satterfield"/>
@@ -259,7 +260,7 @@
         <paras content="Gala Kautzer"/>
         <paras content="Garland Reynolds"/>
         <paras content="Gaye Schamberger Sr."/>
-        <paras content="Genevieve Rice"/>
+        <paras content="Genevieve Rice. Numquam sit quod unde est. Vel omnis et dolore."/>
         <paras content="George Parker"/>
         <paras content="Georgiann Bednar"/>
         <paras content="Gertrude Paucek"/>
@@ -496,7 +497,6 @@
         <paras content="Rocky Rowe"/>
         <paras content="Ronnie Langworth"/>
         <paras content="Roosevelt Medhurst"/>
-        <paras content="Chuck Christiansen"/>
         <paras content="Rosalinda Jaskolski Jr."/>
         <paras content="Rosalinda Witting"/>
         <paras content="Rosaline D'Amore"/>
@@ -507,7 +507,7 @@
         <paras content="Rueben Strosin DDS"/>
         <paras content="Sam Bashirian"/>
         <paras content="Sandy Adams"/>
-        <paras content="Sarah Murray. Nihil dolor sit expedita exercitationem quia repudiandae."/>
+        <paras content="Sarah Murray"/>
         <paras content="Sarina Raynor MD"/>
         <paras content="Scott Hintz"/>
         <paras content="Sebastian Doyle"/>
@@ -659,7 +659,7 @@
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
       </sections_1>
-      <sections_1 title="Journals List">
+      <sections_1 title="Journals List. Dolores omnis suscipit non et unde porro. Et maxime dolore impedit enim consequatur neque asperiores. Vitae porro alias ullam et similique.">
         <paras content="East of Eden"/>
         <paras content="Endless Night"/>
         <paras content="In Death Ground"/>

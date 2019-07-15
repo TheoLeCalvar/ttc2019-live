@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:CompositionListInsertion" index="8">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.2/@paras.8"/>
-  </changes>
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Journals List. Illum esse aspernatur voluptatem soluta. Quis culpa ut sequi quis. Officia quia et est quasi." oldValue="Journals List">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.3"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
-  </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="2954">
+  <changes xsi:type="changes:CompositionListInsertion" index="2895">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.2954"/>
+    <addedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.2895"/>
+  </changes>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Ut eius neque porro sed accusantium quibusdam. Beatae autem ad. Deserunt quia rerum quo totam." oldValue="Authors list">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
+  </changes>
+  <changes xsi:type="changes:CompositionListDeletion" index="3">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>
 </changes:ModelChangeSet>

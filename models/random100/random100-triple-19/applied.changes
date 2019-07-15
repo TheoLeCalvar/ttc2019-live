@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <changes:ModelChangeSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:changes="http://nmf.codeplex.com/changes/2019live" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
-  <changes xsi:type="changes:AttributePropertyChange" newValue="Shantay Sanford. Numquam tenetur adipisci nobis et dolores. Dolores nobis asperiores sunt. Cupiditate et aspernatur quod." oldValue="Shantay Sanford">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.409"/>
-    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//Para/content"/>
+  <changes xsi:type="changes:AttributePropertyChange" newValue="Authors list. Culpa tempore molestiae molestiae odio accusamus quia. Qui perferendis quo cupiditate. Autem enim totam mollitia non dolor." oldValue="Authors list">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.0"/>
+    <feature xsi:type="ecore:EAttribute" href="https://www.transformation-tool-contest.eu/2019/docbook#//TitledElement/title"/>
   </changes>
-  <changes xsi:type="changes:CompositionMoveToList" index="76">
-    <affectedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
-    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Section/paras"/>
-    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1/@paras.76"/>
+  <changes xsi:type="changes:CompositionMoveToList" index="2">
+    <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
+    <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
+    <movedElement href="mutated.docbook#//@books.0/@articles.0/@sections_1.1"/>
   </changes>
-  <changes xsi:type="changes:CompositionListDeletion" index="3">
+  <changes xsi:type="changes:CompositionListDeletion">
     <affectedElement href="mutated.docbook#//@books.0/@articles.0"/>
     <feature xsi:type="ecore:EReference" href="https://www.transformation-tool-contest.eu/2019/docbook#//Article/sections_1"/>
   </changes>

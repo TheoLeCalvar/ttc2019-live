@@ -736,6 +736,7 @@
         <paras content="[e756] Book Unweaving the Rainbow Edwardo Cartwright Irwin Wilderman 2013 Harvard University Press"/>
         <paras content="[e757] MasterThesis Such, Such Were the Joys Lynwood Shields III Ismael Breitenberg Nia Spinka 2009 Southern Tennessee University"/>
         <paras content="[e758] PhDThesis Precious Bane Santos Pagac 2009 West Skiles Academy"/>
+        <paras content="[e959] InBook Taming a Sea Horse Shawna Howell Halley Schamberger 2000 Secker &amp; Warburg 25"/>
         <paras content="[e759] Proceedings The Soldier's Art 2014"/>
         <paras content="[e76] MasterThesis No Country for Old Men Sarah Rutherford Tracie Rowe Dennis Kemmer Jr. Aleen Senger IV Evita Morar Steffanie Halvorson Gus Huels Dudley Shanahan Tuan Bode Antwan Kirlin 2018 Emard College"/>
         <paras content="[e760] PhDThesis All the King's Men Sheron Rath 2006 West Adams"/>
@@ -958,7 +959,6 @@
         <paras content="[e956] MasterThesis Eyeless in Gaza Deanne Quitzon Kendall Langosh Gertrudis Fadel Kitty Olson 2012 North California University"/>
         <paras content="[e957] Article The World, the Flesh and the Devil Sheldon Stehr Jaqueline Pouros Blake Upton I Darnell Runolfsson Marry Bashirian Luis Schmitt 2006 Jesting Pilate"/>
         <paras content="[e958] TechReport Of Human Bondage Parker Gottlieb Darnell Grady Zack Sawayn Tamala Okuneva Jesica Senger DDS June Beer Deena Raynor 2006"/>
-        <paras content="[e959] InBook Taming a Sea Horse Shawna Howell Halley Schamberger 2000 Secker &amp; Warburg 25"/>
         <paras content="[e96] MasterThesis Those Barren Leaves, Thrones, Dominations Tomi Pacocha Gary Mante Mr. Karine Rolfson Brooks Leuschke Obdulia Carroll Jr. Ileana Kozey 2008 Armstrong Institute"/>
         <paras content="[e960] Article The Parliament of Man Miss Seymour Hudson Arron Casper DDS Kennith Howe Buford Bogan Jeremiah Rolfson Genny Farrell Mr. Loise Kertzmann 2005 The Parliament of Man"/>
         <paras content="[e961] Proceedings The Skull Beneath the Skin 2005"/>
@@ -1004,7 +1004,7 @@
         <paras content="[e998] Manual Lilies of the Field"/>
         <paras content="[e999] InBook A Handful of Dust Lindsay Barrows Zachariah Konopelski Kim Roberts 2011 Kogan Page 7"/>
       </sections_1>
-      <sections_1 title="Authors list. Officia aut ad. Temporibus eaque suscipit ut itaque vitae expedita provident. Voluptatem nesciunt in.">
+      <sections_1 title="Authors list">
         <paras content="Aaron Dach"/>
         <paras content="Aaron Labadie III"/>
         <paras content="Aaron Ondricka"/>
@@ -1064,7 +1064,6 @@
         <paras content="Alane Mills"/>
         <paras content="Albert Hane Sr."/>
         <paras content="Albert Roob"/>
-        <paras content="Deann Harvey DVM"/>
         <paras content="Alberto Gottlieb"/>
         <paras content="Alberto Haag Sr."/>
         <paras content="Albina Monahan"/>
@@ -1830,6 +1829,7 @@
         <paras content="Deane Ledner"/>
         <paras content="Deangelo Heathcote"/>
         <paras content="Deangelo Turner Jr."/>
+        <paras content="Deann Harvey DVM"/>
         <paras content="Deanne Mante"/>
         <paras content="Deanne Quitzon"/>
         <paras content="Deb Erdman"/>
@@ -3978,7 +3978,6 @@
         <paras content="Mrs. Criselda Moore"/>
         <paras content="Mrs. Danae Swift"/>
         <paras content="Mrs. Darren Hodkiewicz"/>
-        <paras content="Mrs. Darron Nolan"/>
         <paras content="Mrs. Davida Herzog"/>
         <paras content="Mrs. Dorian Reichert"/>
         <paras content="Mrs. Ed Rosenbaum"/>
@@ -4464,7 +4463,6 @@
         <paras content="Raul Dickens IV"/>
         <paras content="Raul Kemmer DDS"/>
         <paras content="Raul Ondricka"/>
-        <paras content="Placeat consectetur impedit corporis et. Voluptatibus nobis aut et ut velit. Eos et magnam provident aliquid. Quod labore quas mollitia. Atque sunt unde debitis officiis omnis nostrum."/>
         <paras content="Ray Nikolaus V"/>
         <paras content="Ray Schumm"/>
         <paras content="Rayford Botsford DVM"/>
@@ -5450,7 +5448,7 @@
         <paras content="A Confederacy of Dunces"/>
         <paras content="A Darkling Plain"/>
         <paras content="A Summer Bird-Cage"/>
-        <paras content="Absalom, Absalom!"/>
+        <paras content="Absalom, Absalom!. Quod et ipsa veritatis eum hic aut. Voluptatum doloremque rerum suscipit aut. Sapiente et eaque amet laborum esse et veniam."/>
         <paras content="Ah, Wilderness!"/>
         <paras content="All Passion Spent"/>
         <paras content="An Acceptable Time"/>

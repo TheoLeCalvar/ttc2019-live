@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Maxime a quia id laborum nobis. Voluptatem voluptas molestiae voluptate voluptatibus voluptas.">
         <paras content="[e0] PhDThesis An Acceptable Time Anna West Shanika Conn Christoper Schneider Roger Haag DDS Maria Olson Felton Fritsch Lindsay Vandervort Carlita McKenzie Nilsa Gerlach 2013 Heller College"/>
         <paras content="[e1] Proceedings Fear and Trembling 2010"/>
         <paras content="[e10] InCollection The Violent Bear It Away Nancie Abbott Rocky Hilll Brande Adams 2017 If I Forget Thee Jerusalem Carcanet Press"/>
@@ -1004,7 +1004,7 @@
         <paras content="[e998] Manual Lilies of the Field"/>
         <paras content="[e999] InBook A Handful of Dust Lindsay Barrows Zachariah Konopelski Kim Roberts 2011 Kogan Page 7"/>
       </sections_1>
-      <sections_1 title="Authors list">
+      <sections_1 title="Authors list. Doloremque in nostrum omnis. Non consequuntur dolorem officia commodi ipsam amet.">
         <paras content="Aaron Dach"/>
         <paras content="Aaron Labadie III"/>
         <paras content="Aaron Ondricka"/>
@@ -1924,6 +1924,7 @@
         <paras content="Dione Krajcik"/>
         <paras content="Dirk MacGyver"/>
         <paras content="Dirk Rau Sr."/>
+        <paras content="Divina Cassin IV"/>
         <paras content="Dodie Botsford"/>
         <paras content="Dodie Rodriguez DDS"/>
         <paras content="Dodie Upton"/>
@@ -4034,7 +4035,7 @@
         <paras content="Mrs. Newton Dickinson"/>
         <paras content="Mrs. Newton Mann"/>
         <paras content="Mrs. Pearl Hoeger"/>
-        <paras content="Mrs. Pierre Goyette"/>
+        <paras content="Mrs. Pierre Goyette. Iusto aut excepturi facere autem quo quisquam."/>
         <paras content="Mrs. Rashad Lynch"/>
         <paras content="Mrs. Ressie Stark"/>
         <paras content="Mrs. Reuben Streich"/>
@@ -4127,6 +4128,7 @@
         <paras content="Ms. Heath Borer"/>
         <paras content="Ms. Herb Nienow"/>
         <paras content="Ms. Hilton Mann"/>
+        <paras content="Ms. Hyun Gislason"/>
         <paras content="Ms. Idell Romaguera"/>
         <paras content="Ms. India Anderson"/>
         <paras content="Ms. Jacinta Nolan"/>
@@ -4574,7 +4576,6 @@
         <paras content="Roman Swift"/>
         <paras content="Romeo Feest"/>
         <paras content="Romeo Langworth Jr."/>
-        <paras content="Divina Cassin IV"/>
         <paras content="Romeo Upton"/>
         <paras content="Romona Lubowitz"/>
         <paras content="Rona Bernier"/>
@@ -5348,7 +5349,6 @@
         <paras content="No Longer at Ease"/>
         <paras content="Noli Me Tangere"/>
         <paras content="Now Sleeps the Crimson Petal"/>
-        <paras content="Voluptas consequatur odio assumenda quo. Illum dolore sunt suscipit exercitationem cumque inventore aut. Debitis quae vel ut asperiores."/>
         <paras content="Number the Stars"/>
         <paras content="O Jerusalem!"/>
         <paras content="O Pioneers!"/>

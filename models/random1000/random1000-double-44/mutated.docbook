@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Reiciendis voluptate est quibusdam. Minima ducimus et sit ea quas.">
         <paras content="[e0] PhDThesis An Acceptable Time Anna West Shanika Conn Christoper Schneider Roger Haag DDS Maria Olson Felton Fritsch Lindsay Vandervort Carlita McKenzie Nilsa Gerlach 2013 Heller College"/>
         <paras content="[e1] Proceedings Fear and Trembling 2010"/>
         <paras content="[e10] InCollection The Violent Bear It Away Nancie Abbott Rocky Hilll Brande Adams 2017 If I Forget Thee Jerusalem Carcanet Press"/>
@@ -730,7 +730,6 @@
         <paras content="[e750] Proceedings The World, the Flesh and the Devil 2004"/>
         <paras content="[e751] InCollection Such, Such Were the Joys Miss Casimira Yost 2001 A Farewell to Arms Edupedia Publications"/>
         <paras content="[e752] InProceedings The Mirror Crack'd from Side to Side Delaine Ward Jr. Miss Santina Bode 2013 Little Hands Clapping"/>
-        <paras content="Tempore dolores voluptatem ipsa. Molestiae soluta quam rerum voluptatum dicta quis. Ut officia in sit magni sit."/>
         <paras content="[e753] Manual A Swiftly Tilting Planet"/>
         <paras content="[e754] InBook Lilies of the Field Corliss Collier Mireille Pollich Miss Fallon King Jonas Quitzon Silvia Daugherty DVM Ned Hudson IV Lashaunda Wintheiser DDS Lester Quitzon Martin King DVM Josh Bartell 2003 Earthscan 20"/>
         <paras content="[e755] Proceedings Some Buried Caesar 2012"/>
@@ -1148,7 +1147,6 @@
         <paras content="Anamaria Marvin"/>
         <paras content="Anamaria Schoen"/>
         <paras content="Anastasia Lang"/>
-        <paras content="Andera Stanton"/>
         <paras content="Andrea Berge"/>
         <paras content="Andrea Nolan"/>
         <paras content="Andrea Parisian"/>
@@ -5445,7 +5443,7 @@
         <paras content="Where Angels Fear to Tread"/>
         <paras content="Wildfire at Midnight"/>
       </sections_1>
-      <sections_1 title="Journals List. Fuga laboriosam sed ea. Excepturi itaque dignissimos dolor. Cumque perferendis est facilis perferendis consectetur.">
+      <sections_1 title="Journals List">
         <paras content="A Catskill Eagle"/>
         <paras content="A Confederacy of Dunces"/>
         <paras content="A Darkling Plain"/>

@@ -12,11 +12,8 @@
         <paras content="[e6] TechReport A Confederacy of Dunces Francesca O'Conner Dulce Zieme Jr. Winter Hodkiewicz Noemi Simonis Clemmie Ward Lewis Schneider Chung Hammes Shara Kohler I Ema Wilkinson Maggie Huels 2016"/>
         <paras content="[e7] Manual This Lime Tree Bower"/>
         <paras content="[e8] PhDThesis The Millstone Ayana Towne Jewell Labadie DDS Karry Legros Nadia Cole Lindsey Rogahn Josiah Hudson Glinda Rodriguez 2008 Eastern Morar Institute"/>
+        <paras content="Temporibus voluptas aliquam quia. Fuga velit quia et. Repellat dignissimos dignissimos dolorum quas cupiditate."/>
         <paras content="[e9] InProceedings Look Homeward, Angel Karyl Stehr Williemae Block 2002 Far From the Madding Crowd"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="A Time of Gifts"/>
-        <paras content="Sleep the Brave"/>
       </sections_1>
       <sections_1 title="Authors list">
         <paras content="Abram Carter III"/>
@@ -43,11 +40,11 @@
         <paras content="Jeanice Hoeger"/>
         <paras content="Jewell Labadie DDS"/>
         <paras content="Josiah Hudson"/>
-        <paras content="Karry Legros"/>
         <paras content="Karyl Stehr"/>
         <paras content="Lesley Johns"/>
         <paras content="Lewis Schneider"/>
         <paras content="Lindsey Rogahn"/>
+        <paras content="Karry Legros"/>
         <paras content="Maggie Huels"/>
         <paras content="Malcom Thiel"/>
         <paras content="Merissa Johns"/>
@@ -56,6 +53,7 @@
         <paras content="Mrs. Abram Greenfelder"/>
         <paras content="Nadia Cole"/>
         <paras content="Noemi Simonis"/>
+        <paras content="Normand Jacobson"/>
         <paras content="Rochel Mitchell"/>
         <paras content="Rufina Walter"/>
         <paras content="Shara Kohler I"/>
@@ -68,12 +66,16 @@
         <paras content="A Darkling Plain"/>
         <paras content="A Glass of Blessings"/>
         <paras content="By Grand Central Station I Sat Down and Wept"/>
+        <paras content="Fair Stood the Wind for France"/>
         <paras content="Look Homeward, Angel"/>
         <paras content="The Lathe of Heaven"/>
-        <paras content="Fair Stood the Wind for France"/>
         <paras content="The Millstone"/>
         <paras content="This Lime Tree Bower"/>
         <paras content="Where Angels Fear to Tread"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="A Time of Gifts"/>
+        <paras content="Sleep the Brave"/>
       </sections_1>
     </articles>
   </books>

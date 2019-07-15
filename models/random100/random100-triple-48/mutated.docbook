@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Nisi harum numquam qui aut. Blanditiis sequi expedita aut molestiae ea quae. Praesentium et aspernatur et.">
+      <sections_1 title="References List">
         <paras content="[e0] TechReport I Know Why the Caged Bird Sings Elenore Stanton 2002"/>
         <paras content="[e1] PhDThesis When the Green Woods Laugh Augustus Pollich Christoper Conn IV Hilma Runolfsdottir Sebastian Doyle Aleshia Nicolas Clemente Borer DDS Althea Krajcik 2012 Walter College"/>
         <paras content="[e10] Proceedings An Evil Cradling 2013"/>
@@ -16,7 +16,6 @@
         <paras content="[e18] PhDThesis Lilies of the Field Bertha Wilkinson Maegan Rath Thomas Grady V Tam Rodriguez Mr. Glennis Leannon Jordon Bartell IV Glenn Bednar Jr. Dr. Doug Kshlerin 2014 Northern Rhode Island Academy"/>
         <paras content="[e19] Article Dying of the Light Verna Grant 2017 In Death Ground"/>
         <paras content="[e2] InProceedings The Man Within Mr. Romaine Borer Vicente Kuhn PhD Dr. Raymundo Gerhold Jefferey VonRueden 2007 The Painted Veil"/>
-        <paras content="Molestias nam ipsum modi. Neque sit aut numquam nulla. At magnam dolor consequatur omnis est illo iure. Accusantium atque amet aliquam omnis delectus laborum corporis."/>
         <paras content="[e20] Article If I Forget Thee Jerusalem Robbi Russel I Asuncion Volkman Ms. Gene Fay Marcellus Larson Efren Hoppe Mechelle Marquardt Josef Emmerich Jr. 2011 Recalled to Life"/>
         <paras content="[e21] Article In Death Ground Ms. Wiley Jerde Rhonda Runte Johnnie Barton Orville Bernhard Nerissa Gleason Sr. Carlena Legros III Audrie Howe 2000 East of Eden"/>
         <paras content="[e22] Proceedings All Passion Spent 2004"/>
@@ -401,7 +400,7 @@
         <paras content="Miss Jess D'Amore"/>
         <paras content="Miss Johana Jones"/>
         <paras content="Miss Paul Murray"/>
-        <paras content="Miss Seth Mohr"/>
+        <paras content="Miss Seth Mohr. Voluptatem eligendi fugiat qui sapiente voluptate debitis quis. Quod aspernatur sit. Ut occaecati eveniet occaecati voluptatem debitis."/>
         <paras content="Missy Christiansen"/>
         <paras content="Mitzie Bailey"/>
         <paras content="Morris Wisoky"/>
@@ -582,7 +581,7 @@
         <paras content="Zella Wyman"/>
         <paras content="Zoraida Jacobi"/>
       </sections_1>
-      <sections_1 title="Titles List. Voluptatem excepturi consequatur.">
+      <sections_1 title="Titles List">
         <paras content="A Catskill Eagle"/>
         <paras content="A Confederacy of Dunces"/>
         <paras content="A Darkling Plain"/>
@@ -590,7 +589,6 @@
         <paras content="A Passage to India"/>
         <paras content="All Passion Spent"/>
         <paras content="An Acceptable Time"/>
-        <paras content="An Evil Cradling"/>
         <paras content="An Instant In The Wind"/>
         <paras content="As I Lay Dying"/>
         <paras content="Beyond the Mexique Bay"/>
@@ -634,7 +632,7 @@
         <paras content="The Grapes of Wrath"/>
         <paras content="The House of Mirth"/>
         <paras content="The Last Enemy"/>
-        <paras content="The Last Temptation"/>
+        <paras content="The Last Temptation. Exercitationem rerum velit reprehenderit doloremque ad eligendi. Quod dolor quis."/>
         <paras content="The Line of Beauty"/>
         <paras content="The Little Foxes"/>
         <paras content="The Man Within"/>

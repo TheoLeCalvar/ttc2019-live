@@ -2,7 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
+      <sections_1 title="References List. Voluptas ipsum amet quos ratione. Repudiandae impedit et ut.">
         <paras content="[e0] PhDThesis An Acceptable Time Anna West Shanika Conn Christoper Schneider Roger Haag DDS Maria Olson Felton Fritsch Lindsay Vandervort Carlita McKenzie Nilsa Gerlach 2013 Heller College"/>
         <paras content="[e1] Proceedings Fear and Trembling 2010"/>
         <paras content="[e10] InCollection The Violent Bear It Away Nancie Abbott Rocky Hilll Brande Adams 2017 If I Forget Thee Jerusalem Carcanet Press"/>
@@ -3003,7 +3003,7 @@
         <paras content="Junior McLaughlin"/>
         <paras content="Justine O'Connell"/>
         <paras content="Jutta Ebert"/>
-        <paras content="Ka Hermann. Beatae a ab. Itaque similique eveniet eos sunt nesciunt. Atque dolorem et."/>
+        <paras content="Ka Hermann"/>
         <paras content="Kaci Fisher"/>
         <paras content="Kaci Koepp"/>
         <paras content="Kacie Abbott"/>
@@ -5254,7 +5254,7 @@
         <paras content="Zulma Koss"/>
         <paras content="Zulma Schuppe"/>
       </sections_1>
-      <sections_1 title="Journals List. Eligendi quia aspernatur rerum ut. Consequatur minima quidem. Et est distinctio quia animi reprehenderit.">
+      <sections_1 title="Journals List. Aliquam qui quae. Sint impedit est veniam repellat quasi assumenda.">
         <paras content="A Catskill Eagle"/>
         <paras content="A Confederacy of Dunces"/>
         <paras content="A Darkling Plain"/>

@@ -2,8 +2,7 @@
 <docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
   <books>
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List. Quis rerum eaque qui nihil provident saepe sunt. Veritatis ipsa animi doloremque saepe. Illo ipsum ut odit animi.">
-        <paras content="[e0] Proceedings The Lathe of Heaven 2019"/>
+      <sections_1 title="References List. Reiciendis voluptate est quibusdam. Minima ducimus et sit ea quas.">
         <paras content="[e1] InProceedings A Darkling Plain Armando Conn Sr. Malcom Thiel Abram Carter III Allan Anderson Mikel Homenick Donald Robel Mrs. Abram Greenfelder 2007 Brandy of the Damned"/>
         <paras content="[e2] Article A Glass of Blessings Lesley Johns Alejandro Roob Sung Mertz Merissa Johns Ian Jerde Janise Schneider Augustine Mueller V Cecelia Schumm 2017 Sleep the Brave"/>
         <paras content="[e3] PhDThesis Where Angels Fear to Tread Ethan Marvin Rufina Walter Javier Berge Normand Jacobson Hosea Marks Jeanice Hoeger Andrea Marvin DVM 2000 Western Mraz Academy"/>
@@ -65,7 +64,7 @@
         <paras content="A Darkling Plain"/>
         <paras content="A Glass of Blessings"/>
         <paras content="By Grand Central Station I Sat Down and Wept"/>
-        <paras content="Fair Stood the Wind for France. Nihil dolor sit expedita exercitationem quia repudiandae."/>
+        <paras content="Fair Stood the Wind for France"/>
         <paras content="Look Homeward, Angel"/>
         <paras content="The Lathe of Heaven"/>
         <paras content="The Millstone"/>

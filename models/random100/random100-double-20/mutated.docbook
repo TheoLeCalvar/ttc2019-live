@@ -423,7 +423,7 @@
         <paras content="Mrs. Janella Quitzon"/>
         <paras content="Mrs. Kiley Jaskolski"/>
         <paras content="Mrs. Lanie Treutel"/>
-        <paras content="Mrs. Lilliana Willms"/>
+        <paras content="Mrs. Lilliana Willms. Ut ab qui voluptatem eos veniam mollitia. Et et occaecati aliquam nihil est."/>
         <paras content="Mrs. Loyd Rau"/>
         <paras content="Mrs. Pablo Larson"/>
         <paras content="Mrs. Quintin Ankunding"/>
@@ -629,6 +629,7 @@
         <paras content="Taming a Sea Horse"/>
         <paras content="The Cricket on the Hearth"/>
         <paras content="The Doors of Perception"/>
+        <paras content="The Glory and the Dream"/>
         <paras content="The Grapes of Wrath"/>
         <paras content="The House of Mirth"/>
         <paras content="The Last Enemy"/>
@@ -657,13 +658,6 @@
         <paras content="What's Become of Waring"/>
         <paras content="When the Green Woods Laugh"/>
         <paras content="Where Angels Fear to Tread"/>
-      </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="East of Eden"/>
-        <paras content="Endless Night"/>
-        <paras content="In Death Ground"/>
-        <paras content="O Pioneers!"/>
-        <paras content="Recalled to Life"/>
       </sections_1>
     </articles>
   </books>
