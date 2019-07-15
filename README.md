@@ -1,8 +1,8 @@
-# The TTC 2018 Social Media Case
+# The TTC 2019 Live Case: BibTeX to DocBook
 
 ## Case description
 
-The `docs/2018_TTC_Live.pdf` file contains the [case description](https://github.com/TransformationToolContest/ttc2018liveContest/raw/master/docs/2018_TTC_Live.pdf).
+The `docs/case` directory contains the [case description](https://raw.githubusercontent.com/TransformationToolContest/ttc2019-live/master/docs/case/case-description.pdf).
 
 ## Prerequisites
 
