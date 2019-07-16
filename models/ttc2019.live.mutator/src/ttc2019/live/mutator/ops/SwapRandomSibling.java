@@ -1,5 +1,6 @@
 package ttc2019.live.mutator.ops;
 
+import java.util.Optional;
 import java.util.Random;
 
 import org.eclipse.emf.common.util.EList;
@@ -22,8 +23,13 @@ public class SwapRandomSibling extends AbstractMutationOperator implements IMuta
 	}
 
 	@Override
-	public void apply(DocBook toMutate, ModelChangeSet changes) {
-		final EObject target = pickRandomOf(toMutate, targetEClass);
+	public void apply(DocBook source, DocBook toMutate, ModelChangeSet changes) {
+		final Optional<EObject> oTarget = pickRandomOf(toMutate, targetEClass);
+		if (!oTarget.isPresent()) {
+			return;
+		}
+		final EObject target = oTarget.get();
+
 		final EReference feature = (EReference) target.eContainingFeature();
 		@SuppressWarnings("unchecked")
 		final EList<EObject> eList = (EList<EObject>) target.eContainer().eGet(feature);

@@ -2,6 +2,7 @@ package ttc2019.live.mutator.ops;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 import org.eclipse.emf.common.util.TreeIterator;
@@ -29,9 +30,10 @@ public abstract class AbstractMutationOperator implements IMutationOperator {
 	}
 
 	/**
-	 * Picks a random instance of the specified type, with a uniform distribution.
+	 * Picks a random instance of the specified type, with a uniform distribution,
+	 * or returns an empty value if none exist.
 	 */
-	protected EObject pickRandomOf(DocBook toMutate, EClass targetEClass) {
+	protected Optional<EObject> pickRandomOf(DocBook toMutate, EClass targetEClass) {
 		final List<EObject> allOf = new ArrayList<>();
 		final TreeIterator<EObject> itContent = toMutate.eAllContents();
 		while (itContent.hasNext()) {
@@ -43,10 +45,10 @@ public abstract class AbstractMutationOperator implements IMutationOperator {
 
 		// Apply the change
 		if (allOf.isEmpty()) {
-			throw new IllegalStateException("No instances of type " + targetEClass.getName() + " found");
+			return Optional.empty();
 		}
 
-		return allOf.get(rnd.nextInt(allOf.size()));
+		return Optional.of(allOf.get(rnd.nextInt(allOf.size())));
 	}
 	
 }

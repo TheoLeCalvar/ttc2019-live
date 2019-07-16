@@ -1,5 +1,6 @@
 package ttc2019.live.mutator.ops;
 
+import java.util.Optional;
 import java.util.Random;
 
 import org.eclipse.emf.common.util.EList;
@@ -27,8 +28,14 @@ public class RemoveRandomInstance extends AbstractMutationOperator {
 	}
 
 	@Override
-	public void apply(DocBook toMutate, ModelChangeSet changes) {
-		final EObject target = pickRandomOf(toMutate, targetEClass);
+	public void apply(DocBook source, DocBook toMutate, ModelChangeSet changes) {
+		final Optional<EObject> oTarget = pickRandomOf(toMutate, targetEClass);
+		if (!oTarget.isPresent()) {
+			return;
+		}
+		final EObject target = oTarget.get();
+
+		final String uriFragment = target.eResource().getURIFragment(target);
 		final EObject eContainer = target.eContainer();
 		final EReference feature = (EReference) target.eContainingFeature();
 
@@ -44,10 +51,9 @@ public class RemoveRandomInstance extends AbstractMutationOperator {
 			target.eUnset(feature);
 		}
 
-		// Log the change (cannot link to deleted object - EMF won't save then)
-		// Docbook metamodel only has compositions, no plain associations
+		final EObject targetInSource = source.eResource().getEObject(uriFragment);
 		CompositionListDeletion change = ChangesFactory.eINSTANCE.createCompositionListDeletion();
-		change.setAffectedElement(eContainer);
+		change.setAffectedElement(targetInSource);
 		change.setFeature(feature);
 		change.setIndex(idxTarget);
 		changes.getChanges().add(change);

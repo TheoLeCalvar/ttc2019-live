@@ -26,7 +26,7 @@ public class AddRandomPara extends AbstractMutationOperator {
 	}
 
 	@Override
-	public void apply(DocBook toMutate, ModelChangeSet changes) {
+	public void apply(DocBook source, DocBook toMutate, ModelChangeSet changes) {
 		final Book book = toMutate.getBooks().get(0);
 		final Article article = book.getArticles().get(0);
 		final EList<Sect1> sections1 = article.getSections_1();

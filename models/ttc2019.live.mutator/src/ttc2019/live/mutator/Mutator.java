@@ -74,6 +74,7 @@ public class Mutator {
 	public void mutate(DocBook docbook, int nMutants) throws IOException {
 		for (int iMutant = 0; iMutant < nMutants; ++iMutant) {
 			mutate(docbook);
+			System.out.println(String.format("Produced mutant %d out of %d", iMutant + 1, nMutants));
 		}
 	}
 
@@ -96,19 +97,11 @@ public class Mutator {
 		try {
 			for (int iMutation = 0; iMutation < mutationsPerMutant; ++iMutation) {
 				final IMutationOperator op = operators.get(rnd.nextInt(operators.size()));
-				op.apply(toMutate, changeSet);
+				op.apply(source, toMutate, changeSet);
 			}
 		} finally {
 			rMutated.save(null);
-
-			// Sometimes, if a later mutation deletes an element that was previously changed, we may
-			// end up with dangling hrefs from the changes model. Discard those in that case.
-			rChanges.save(
-				Collections.singletonMap(
-					XMLResource.OPTION_PROCESS_DANGLING_HREF,
-					XMLResource.OPTION_PROCESS_DANGLING_HREF_DISCARD
-				)
-			);
+			rChanges.save(null);
 		}
 	}
 

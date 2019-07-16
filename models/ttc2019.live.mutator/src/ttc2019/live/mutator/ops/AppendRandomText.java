@@ -1,5 +1,6 @@
 package ttc2019.live.mutator.ops;
 
+import java.util.Optional;
 import java.util.Random;
 
 import org.eclipse.emf.ecore.EAttribute;
@@ -28,8 +29,12 @@ public class AppendRandomText extends AbstractMutationOperator {
 	}
 
 	@Override
-	public void apply(DocBook toMutate, ModelChangeSet changes) {
-		final EObject eob = pickRandomOf(toMutate, targetEClass);
+	public void apply(DocBook source, DocBook toMutate, ModelChangeSet changes) {
+		final Optional<EObject> oTarget = pickRandomOf(toMutate, targetEClass);
+		if (!oTarget.isPresent()) {
+			return;
+		}
+		final EObject eob = oTarget.get();
 
 		@SuppressWarnings("unused")
 		final String oldValue = (String) eob.eGet(targetEAttribute);

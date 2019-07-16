@@ -14,6 +14,11 @@ public interface IMutationOperator {
 	 */
 	String getName();
 
-	void apply(DocBook toMutate, ModelChangeSet changes);
+	/**
+	 * Applies the mutation on the <code>toMutate</code> document, which
+	 * was originally a clone of the <code>source</code> document. Changes
+	 * should be recorded to the <code>changes</code> {@link ModelChangeSet}.
+	 */
+	void apply(DocBook source, DocBook toMutate, ModelChangeSet changes);
 
 }
