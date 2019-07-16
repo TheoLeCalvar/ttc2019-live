@@ -34,7 +34,9 @@ public class CLIRunner {
 		final ResourceSet rs = new ResourceSetImpl();
 		rs.getPackageRegistry().put(DocbookPackage.eNS_URI, DocbookPackage.eINSTANCE);
 		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put("*", new XMIResourceFactoryImpl());
-		final Resource r = rs.createResource(URI.createFileURI(fSource.getAbsolutePath()));
+
+		// Need to use path as-is rather than through createFileURI, so portable relative paths will be produced
+		final Resource r = rs.createResource(URI.createURI(fSource.getPath()));
 
 		try {
 			r.load(null);
