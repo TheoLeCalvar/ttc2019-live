@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="ASCII"?>
-<docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook">
-  <books>
+<docb:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docb="https://www.transformation-tool-contest.eu/2019/docbook" id="doc">
+  <books id="book">
     <articles title="BibTeXML to DocBook">
-      <sections_1 title="References List">
-        <paras content="[a] PhDThesis Interrogation continue des Syst&#xe8;mes d'Information de Proximit&#xe9; Touzet, D. 2004 IFSIC"/>
-        <paras content="[b] MasterThesis Etude des Design Patterns et de leur impact sur la r&#xe9;utilisabilit&#xe9; Belangour, A. 2000 ENSIAS"/>
-        <paras content="[c] Article Platform independent Web Application Modeling and Development with Netsilon B&#xe9;zivin, J. Fondement, F. Muller, P. Studer, P. 2005 Journal on Software and Systems Modeling"/>
-        <paras content="[d] TechReport An Eclipse-based IDE for the ATL model transformation language B&#xe9;zivin, J. Jouault, F. Valduriez, P. 2004"/>
-        <paras content="[e] Unpublished Model Engineering: Principles and Definitions B&#xe9;zivin, J. Jouault, F. Touzet, D. Draft"/>
-        <paras content="[f] Manual ATL User Manual"/>
-        <paras content="[g] InProceedings On the Need for Megamodels B&#xe9;zivin, J. Jouault, F. Valduriez, P. 2004 Proceedings of OOPSLA and GPCE Workshop"/>
-        <paras content="[h] InCollection Discriminative Model Selection for Density Models Meek, C. Thiesson, B. 2003 Proceedings of Ninth International Workshop on Artificial Intelligence and Statistics The Society for Artificial Intelligence and Statistics"/>
-        <paras content="[i] Proceedings Proceedings of OOPSLA and GPCE Workshop 2004"/>
-        <paras content="[j] Booklet 1998"/>
-        <paras content="[k] Book eclipse Modeling Framework Budinsky, F. Steinberg, D. Merks, E. Ellersick, R. Grose, T. J. 2004 Addison-Wesley"/>
-        <paras content="[l] InBook Software Factories Greenfield, J. Short, K. 2004 Wiley 1"/>
-        <paras content="[m] Misc"/>
-        <paras content="[n] Article Graph Transformations on Domain-Specific Models Agrawal, A. Karsai, G. Shi, F. 2003 Journal on Software and Systems Modeling"/>
-        <paras content="[o] Article Sur les principes de base de l'ing&#xe9;nierie des mod&#xe8;les B&#xe9;zivin, J. 2004 RSTI-L'Objet"/>
-        <paras content="[p] TechReport An Introduction to the ATLAS Model Management Architecture B&#xe9;zivin, J. Jouault, F. Touzet, D. 2005"/>
+      <sections_1 id="se1" title="References List">
+        <paras id="24b42352-8c15-4cb2-a5f9-3d25d14a9418" content="[a] PhDThesis Interrogation continue des Syst&#xe8;mes d'Information de Proximit&#xe9; Touzet, D. 2004 IFSIC"/>
+        <paras id="05800ba7-d999-46de-bd82-d508bac11197" content="[b] MasterThesis Etude des Design Patterns et de leur impact sur la r&#xe9;utilisabilit&#xe9; Belangour, A. 2000 ENSIAS"/>
+        <paras id="f91eb6e4-0663-41fe-b82b-5f6ea8b5ab50" content="[c] Article Platform independent Web Application Modeling and Development with Netsilon B&#xe9;zivin, J. Fondement, F. Muller, P. Studer, P. 2005 Journal on Software and Systems Modeling"/>
+        <paras id="aa6e11a4-6093-4fa7-be1c-971e6153277e" content="[d] TechReport An Eclipse-based IDE for the ATL model transformation language B&#xe9;zivin, J. Jouault, F. Valduriez, P. 2004"/>
+        <paras id="3f35c149-adcd-4c99-bb5e-10ac1c86e999" content="[e] Unpublished Model Engineering: Principles and Definitions B&#xe9;zivin, J. Jouault, F. Touzet, D. Draft"/>
+        <paras id="d9e0ed74-d987-4c9e-a1b6-aafe01e3abfc" content="[f] Manual ATL User Manual"/>
+        <paras id="28fc6def-28dc-4962-934e-9fe732327769" content="[g] InProceedings On the Need for Megamodels B&#xe9;zivin, J. Jouault, F. Valduriez, P. 2004 Proceedings of OOPSLA and GPCE Workshop"/>
+        <paras id="52144f8b-6f9c-4018-8e86-ffe685f21dbf" content="[h] InCollection Discriminative Model Selection for Density Models Meek, C. Thiesson, B. 2003 Proceedings of Ninth International Workshop on Artificial Intelligence and Statistics The Society for Artificial Intelligence and Statistics"/>
+        <paras id="2ce65918-2ad5-46ce-a12a-4d892bfa1646" content="[i] Proceedings Proceedings of OOPSLA and GPCE Workshop 2004"/>
+        <paras id="3ee86adf-48e3-44bd-b0e5-1f66c0755b8a" content="[j] Booklet 1998"/>
+        <paras id="19e49c0b-a4bb-4901-95c6-4586add718df" content="[k] Book eclipse Modeling Framework Budinsky, F. Steinberg, D. Merks, E. Ellersick, R. Grose, T. J. 2004 Addison-Wesley"/>
+        <paras id="c96b9c50-2ab0-4b45-9e15-f8b01cf18413" content="[l] InBook Software Factories Greenfield, J. Short, K. 2004 Wiley 1"/>
+        <paras id="83387d6d-b52c-4d9f-a23c-3c65f4faa12a" content="[m] Misc"/>
+        <paras id="2ef0e924-ff6a-4a97-8702-d7475a0bf44d" content="[n] Article Graph Transformations on Domain-Specific Models Agrawal, A. Karsai, G. Shi, F. 2003 Journal on Software and Systems Modeling"/>
+        <paras id="cc2a8f11-cfff-4484-a6b1-26a89579bad9" content="[o] Article Sur les principes de base de l'ing&#xe9;nierie des mod&#xe8;les B&#xe9;zivin, J. 2004 RSTI-L'Objet"/>
+        <paras id="151a23f3-1934-4467-a220-1869643dff52" content="[p] TechReport An Introduction to the ATLAS Model Management Architecture B&#xe9;zivin, J. Jouault, F. Touzet, D. 2005"/>
       </sections_1>
-      <sections_1 title="Authors list">
-        <paras content="Agrawal, A."/>
-        <paras content="Belangour, A."/>
-        <paras content="Budinsky, F."/>
-        <paras content="B&#xe9;zivin, J."/>
-        <paras content="Ellersick, R."/>
-        <paras content="Fondement, F."/>
-        <paras content="Greenfield, J."/>
-        <paras content="Grose, T. J."/>
-        <paras content="Jouault, F."/>
-        <paras content="Karsai, G."/>
-        <paras content="Meek, C."/>
-        <paras content="Merks, E."/>
-        <paras content="Muller, P."/>
-        <paras content="Shi, F."/>
-        <paras content="Short, K."/>
-        <paras content="Steinberg, D."/>
-        <paras content="Studer, P."/>
-        <paras content="Thiesson, B."/>
-        <paras content="Touzet, D."/>
-        <paras content="Valduriez, P."/>
+      <sections_1 id="se2" title="Authors list">
+        <paras id="cd526a39-3c30-43a4-b5ec-19fcaea91e44" content="Agrawal, A."/>
+        <paras id="e4130502-7ca9-4d7c-8dbb-9fbf2ea91603" content="Belangour, A."/>
+        <paras id="b9708866-1d40-47c9-afe0-b7467e19ce23" content="Budinsky, F."/>
+        <paras id="74317315-fcd4-4d1c-96f8-e49875201523" content="B&#xe9;zivin, J."/>
+        <paras id="56dc3178-eb8d-4331-acde-1c9c7378360f" content="Ellersick, R."/>
+        <paras id="f8380824-a810-4bd3-8780-d858bd49c660" content="Fondement, F."/>
+        <paras id="e713e3bd-4729-499a-ba09-ff051962adff" content="Greenfield, J."/>
+        <paras id="3febb83f-0e76-4ad4-8b9a-404bc938eb3e" content="Grose, T. J."/>
+        <paras id="a4b4b059-1f30-44aa-ba79-c36bbaa2a58b" content="Jouault, F."/>
+        <paras id="a349fc87-cfbb-4079-8ebe-fca980c195a2" content="Karsai, G."/>
+        <paras id="2a094296-c68a-4f20-8787-df6d18a8897d" content="Meek, C."/>
+        <paras id="d27d78be-6a53-4da8-8103-f1678cb56964" content="Merks, E."/>
+        <paras id="4a9fad28-ac63-4336-8de5-974d81ad858e" content="Muller, P."/>
+        <paras id="ef21d577-04fb-4e21-aee6-af808481b5db" content="Shi, F."/>
+        <paras id="4649a227-1402-4dc0-ba3b-cc29353f6c93" content="Short, K."/>
+        <paras id="8e4e4f5f-884a-4643-87ac-416a6c3cf286" content="Steinberg, D."/>
+        <paras id="e1ee1866-61e5-451e-8f8f-20610b9614bc" content="Studer, P."/>
+        <paras id="c4cfce01-c0d9-4d60-a189-c18c9b878c64" content="Thiesson, B."/>
+        <paras id="f32934e2-50d5-4c3a-8ef8-b3341e100fb6" content="Touzet, D."/>
+        <paras id="46501c92-5417-4f77-bedb-0c78005d01e6" content="Valduriez, P."/>
       </sections_1>
-      <sections_1 title="Titles List">
-        <paras content="ATL User Manual"/>
-        <paras content="An Eclipse-based IDE for the ATL model transformation language"/>
-        <paras content="An Introduction to the ATLAS Model Management Architecture"/>
-        <paras content="Discriminative Model Selection for Density Models"/>
-        <paras content="Etude des Design Patterns et de leur impact sur la r&#xe9;utilisabilit&#xe9;"/>
-        <paras content="Graph Transformations on Domain-Specific Models"/>
-        <paras content="Interrogation continue des Syst&#xe8;mes d'Information de Proximit&#xe9;"/>
-        <paras content="Model Engineering: Principles and Definitions"/>
-        <paras content="On the Need for Megamodels"/>
-        <paras content="Platform independent Web Application Modeling and Development with Netsilon"/>
-        <paras content="Proceedings of OOPSLA and GPCE Workshop"/>
-        <paras content="Software Factories"/>
-        <paras content="Sur les principes de base de l'ing&#xe9;nierie des mod&#xe8;les"/>
-        <paras content="eclipse Modeling Framework"/>
+      <sections_1 id="se3" title="Titles List">
+        <paras id="86ccc38c-0625-4bd2-b916-42beccdbfd92" content="ATL User Manual"/>
+        <paras id="337dd5e0-4ab8-4456-a8ef-44619b0ecf2d" content="An Eclipse-based IDE for the ATL model transformation language"/>
+        <paras id="942fd68c-4f4e-489d-a3c4-f73184239267" content="An Introduction to the ATLAS Model Management Architecture"/>
+        <paras id="fe8bd889-3d11-4efb-81e7-102f8a50e159" content="Discriminative Model Selection for Density Models"/>
+        <paras id="93f35756-9f7b-4ec2-a497-9c58109b357c" content="Etude des Design Patterns et de leur impact sur la r&#xe9;utilisabilit&#xe9;"/>
+        <paras id="daa8f4d5-3cb7-41ae-b80a-f1dfdfff6865" content="Graph Transformations on Domain-Specific Models"/>
+        <paras id="bdaeb128-e575-44df-99f1-2f71f1c71b2b" content="Interrogation continue des Syst&#xe8;mes d'Information de Proximit&#xe9;"/>
+        <paras id="2a18a2d9-c79e-4115-b02f-194efb457012" content="Model Engineering: Principles and Definitions"/>
+        <paras id="121aa0f3-ab60-4b72-a8b1-6d9118f5a32a" content="On the Need for Megamodels"/>
+        <paras id="92d0b5a6-4b25-41ee-9474-efc4ff73aff4" content="Platform independent Web Application Modeling and Development with Netsilon"/>
+        <paras id="200f205f-a4e9-4339-a10f-8dc1b1153805" content="Proceedings of OOPSLA and GPCE Workshop"/>
+        <paras id="dc10f3a7-0f58-4cec-8139-7106e89ba987" content="Software Factories"/>
+        <paras id="fc7e517c-5017-4df5-a0f8-9884e028f1a4" content="Sur les principes de base de l'ing&#xe9;nierie des mod&#xe8;les"/>
+        <paras id="764968d4-2338-4392-aefe-a3c7ab10cfec" content="eclipse Modeling Framework"/>
       </sections_1>
-      <sections_1 title="Journals List">
-        <paras content="Journal on Software and Systems Modeling"/>
-        <paras content="RSTI-L'Objet"/>
+      <sections_1 id="se4" title="Journals List">
+        <paras id="ebb8ba74-dd53-45db-b901-24a7f0e44d53" content="Journal on Software and Systems Modeling"/>
+        <paras id="f4b2b6a4-a8c6-436f-b341-27caa84072d4" content="RSTI-L'Objet"/>
       </sections_1>
     </articles>
   </books>
