@@ -7,6 +7,7 @@ import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EReference;
+import org.eclipse.emf.ecore.resource.Resource;
 
 import ttc2019.live.changes.ChangesFactory;
 import ttc2019.live.changes.CompositionMoveToList;
@@ -30,19 +31,23 @@ public class SwapRandomSibling extends AbstractMutationOperator implements IMuta
 		}
 		final EObject target = oTarget.get();
 
+		final Resource targetResource = target.eResource();
+		final String containerFragment = targetResource.getURIFragment(target.eContainer());
+		final String targetFragment = targetResource.getURIFragment(target);
+
 		final EReference feature = (EReference) target.eContainingFeature();
 		@SuppressWarnings("unchecked")
 		final EList<EObject> eList = (EList<EObject>) target.eContainer().eGet(feature);
-
 		final int idxTarget = eList.indexOf(target);
 		final int idxSwapTo = rnd.nextInt(eList.size());
 		eList.move(idxSwapTo, idxTarget);
 
 		// Docbook metamodel only has compositions, no plain associations
+		final Resource sourceResource = source.eResource();
 		CompositionMoveToList change = ChangesFactory.eINSTANCE.createCompositionMoveToList();
-		change.setAffectedElement(target.eContainer());
+		change.setAffectedElement(sourceResource.getEObject(containerFragment));
 		change.setFeature(feature);
-		change.setMovedElement(target);
+		change.setMovedElement(sourceResource.getEObject(targetFragment));
 		change.setIndex(idxSwapTo);
 		changes.getChanges().add(change);
 	}

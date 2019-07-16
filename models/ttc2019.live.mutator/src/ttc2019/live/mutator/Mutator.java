@@ -3,7 +3,6 @@ package ttc2019.live.mutator;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -12,14 +11,12 @@ import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.util.EcoreUtil;
-import org.eclipse.emf.ecore.xmi.XMLResource;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
 import ttc2019.live.changes.ChangesFactory;
 import ttc2019.live.changes.ModelChangeSet;
 import ttc2019.live.docbook.DocBook;
 import ttc2019.live.docbook.DocbookPackage;
-import ttc2019.live.mutator.ops.AddRandomPara;
 import ttc2019.live.mutator.ops.AppendRandomText;
 import ttc2019.live.mutator.ops.IMutationOperator;
 import ttc2019.live.mutator.ops.RemoveRandomInstance;
@@ -50,7 +47,7 @@ public class Mutator {
 		operators.add(new RemoveRandomInstance("RPA", pkg.getPara(), rnd));
 		operators.add(new SwapRandomSibling("SS1", pkg.getSect1(), rnd));
 		operators.add(new SwapRandomSibling("SPA", pkg.getPara(), rnd));
-		operators.add(new AddRandomPara(rnd));
+		//operators.add(new AddRandomPara(rnd));
 		operators.add(new AppendRandomText("PS1", pkg.getSect1(), pkg.getTitledElement_Title(), rnd));
 		operators.add(new AppendRandomText("PPA", pkg.getPara(), pkg.getPara_Content(), rnd));
 	}

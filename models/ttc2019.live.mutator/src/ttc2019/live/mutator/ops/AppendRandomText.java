@@ -35,6 +35,7 @@ public class AppendRandomText extends AbstractMutationOperator {
 			return;
 		}
 		final EObject eob = oTarget.get();
+		final String eobFragment = eob.eResource().getURIFragment(eob);
 
 		@SuppressWarnings("unused")
 		final String oldValue = (String) eob.eGet(targetEAttribute);
@@ -42,7 +43,7 @@ public class AppendRandomText extends AbstractMutationOperator {
 		eob.eSet(targetEAttribute, newValue);
 
 		AttributePropertyChange change = ChangesFactory.eINSTANCE.createAttributePropertyChange();
-		change.setAffectedElement(eob);
+		change.setAffectedElement(source.eResource().getEObject(eobFragment));
 		change.setFeature(targetEAttribute);
 		change.setNewValue(newValue);
 		change.setOldValue(oldValue);
