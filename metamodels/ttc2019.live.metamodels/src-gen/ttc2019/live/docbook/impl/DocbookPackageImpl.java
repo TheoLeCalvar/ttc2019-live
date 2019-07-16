@@ -14,6 +14,7 @@ import ttc2019.live.docbook.Book;
 import ttc2019.live.docbook.DocBook;
 import ttc2019.live.docbook.DocbookFactory;
 import ttc2019.live.docbook.DocbookPackage;
+import ttc2019.live.docbook.Identifiable;
 import ttc2019.live.docbook.Para;
 import ttc2019.live.docbook.Sect1;
 import ttc2019.live.docbook.Sect2;
@@ -84,6 +85,13 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	private EClass paraEClass = null;
 
 	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass identifiableEClass = null;
+
+	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
 	 * {@link org.eclipse.emf.ecore.EPackage.Registry EPackage.Registry} by the package
 	 * package URI value.
@@ -149,6 +157,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getDocBook() {
 		return docBookEClass;
 	}
@@ -158,6 +167,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getDocBook_Books() {
 		return (EReference)docBookEClass.getEStructuralFeatures().get(0);
 	}
@@ -167,6 +177,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getBook() {
 		return bookEClass;
 	}
@@ -176,6 +187,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getBook_Articles() {
 		return (EReference)bookEClass.getEStructuralFeatures().get(0);
 	}
@@ -185,6 +197,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getTitledElement() {
 		return titledElementEClass;
 	}
@@ -194,6 +207,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getTitledElement_Title() {
 		return (EAttribute)titledElementEClass.getEStructuralFeatures().get(0);
 	}
@@ -203,6 +217,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getArticle() {
 		return articleEClass;
 	}
@@ -212,6 +227,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getArticle_Sections_1() {
 		return (EReference)articleEClass.getEStructuralFeatures().get(0);
 	}
@@ -221,6 +237,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getSection() {
 		return sectionEClass;
 	}
@@ -230,6 +247,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getSection_Paras() {
 		return (EReference)sectionEClass.getEStructuralFeatures().get(0);
 	}
@@ -239,6 +257,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getSect1() {
 		return sect1EClass;
 	}
@@ -248,6 +267,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getSect1_Sections_2() {
 		return (EReference)sect1EClass.getEStructuralFeatures().get(0);
 	}
@@ -257,6 +277,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getSect2() {
 		return sect2EClass;
 	}
@@ -266,6 +287,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getPara() {
 		return paraEClass;
 	}
@@ -275,6 +297,7 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getPara_Content() {
 		return (EAttribute)paraEClass.getEStructuralFeatures().get(0);
 	}
@@ -284,6 +307,27 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
+	public EClass getIdentifiable() {
+		return identifiableEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getIdentifiable_Id() {
+		return (EAttribute)identifiableEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public DocbookFactory getDocbookFactory() {
 		return (DocbookFactory)getEFactoryInstance();
 	}
@@ -329,6 +373,9 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 
 		paraEClass = createEClass(PARA);
 		createEAttribute(paraEClass, PARA__CONTENT);
+
+		identifiableEClass = createEClass(IDENTIFIABLE);
+		createEAttribute(identifiableEClass, IDENTIFIABLE__ID);
 	}
 
 	/**
@@ -359,10 +406,14 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 		// Set bounds for type parameters
 
 		// Add supertypes to classes
+		docBookEClass.getESuperTypes().add(this.getIdentifiable());
+		bookEClass.getESuperTypes().add(this.getIdentifiable());
+		titledElementEClass.getESuperTypes().add(this.getIdentifiable());
 		articleEClass.getESuperTypes().add(this.getTitledElement());
 		sectionEClass.getESuperTypes().add(this.getTitledElement());
 		sect1EClass.getESuperTypes().add(this.getSection());
 		sect2EClass.getESuperTypes().add(this.getSection());
+		paraEClass.getESuperTypes().add(this.getIdentifiable());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(docBookEClass, DocBook.class, "DocBook", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -387,6 +438,9 @@ public class DocbookPackageImpl extends EPackageImpl implements DocbookPackage {
 
 		initEClass(paraEClass, Para.class, "Para", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getPara_Content(), ecorePackage.getEString(), "content", null, 1, 1, Para.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+
+		initEClass(identifiableEClass, Identifiable.class, "Identifiable", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getIdentifiable_Id(), ecorePackage.getEString(), "id", null, 1, 1, Identifiable.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

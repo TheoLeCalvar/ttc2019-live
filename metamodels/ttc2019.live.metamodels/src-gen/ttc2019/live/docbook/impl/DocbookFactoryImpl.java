@@ -72,6 +72,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocBook createDocBook() {
 		DocBookImpl docBook = new DocBookImpl();
 		return docBook;
@@ -82,6 +83,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Book createBook() {
 		BookImpl book = new BookImpl();
 		return book;
@@ -92,6 +94,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Article createArticle() {
 		ArticleImpl article = new ArticleImpl();
 		return article;
@@ -102,6 +105,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Sect1 createSect1() {
 		Sect1Impl sect1 = new Sect1Impl();
 		return sect1;
@@ -112,6 +116,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Sect2 createSect2() {
 		Sect2Impl sect2 = new Sect2Impl();
 		return sect2;
@@ -122,6 +127,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Para createPara() {
 		ParaImpl para = new ParaImpl();
 		return para;
@@ -132,6 +138,7 @@ public class DocbookFactoryImpl extends EFactoryImpl implements DocbookFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DocbookPackage getDocbookPackage() {
 		return (DocbookPackage)getEPackage();
 	}

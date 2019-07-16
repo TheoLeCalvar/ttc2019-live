@@ -7,8 +7,6 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 import ttc2019.live.docbook.DocbookPackage;
 import ttc2019.live.docbook.TitledElement;
 
@@ -25,7 +23,7 @@ import ttc2019.live.docbook.TitledElement;
  *
  * @generated
  */
-public abstract class TitledElementImpl extends MinimalEObjectImpl.Container implements TitledElement {
+public abstract class TitledElementImpl extends IdentifiableImpl implements TitledElement {
 	/**
 	 * The default value of the '{@link #getTitle() <em>Title</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -70,6 +68,7 @@ public abstract class TitledElementImpl extends MinimalEObjectImpl.Container imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getTitle() {
 		return title;
 	}
@@ -79,6 +78,7 @@ public abstract class TitledElementImpl extends MinimalEObjectImpl.Container imp
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setTitle(String newTitle) {
 		String oldTitle = title;
 		title = newTitle;

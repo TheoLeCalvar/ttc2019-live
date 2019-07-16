@@ -57,6 +57,43 @@ public interface DocbookPackage extends EPackage {
 	DocbookPackage eINSTANCE = ttc2019.live.docbook.impl.DocbookPackageImpl.init();
 
 	/**
+	 * The meta object id for the '{@link ttc2019.live.docbook.impl.IdentifiableImpl <em>Identifiable</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see ttc2019.live.docbook.impl.IdentifiableImpl
+	 * @see ttc2019.live.docbook.impl.DocbookPackageImpl#getIdentifiable()
+	 * @generated
+	 */
+	int IDENTIFIABLE = 8;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int IDENTIFIABLE__ID = 0;
+
+	/**
+	 * The number of structural features of the '<em>Identifiable</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int IDENTIFIABLE_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Identifiable</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int IDENTIFIABLE_OPERATION_COUNT = 0;
+
+	/**
 	 * The meta object id for the '{@link ttc2019.live.docbook.impl.DocBookImpl <em>Doc Book</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -67,13 +104,22 @@ public interface DocbookPackage extends EPackage {
 	int DOC_BOOK = 0;
 
 	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DOC_BOOK__ID = IDENTIFIABLE__ID;
+
+	/**
 	 * The feature id for the '<em><b>Books</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int DOC_BOOK__BOOKS = 0;
+	int DOC_BOOK__BOOKS = IDENTIFIABLE_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Doc Book</em>' class.
@@ -82,7 +128,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int DOC_BOOK_FEATURE_COUNT = 1;
+	int DOC_BOOK_FEATURE_COUNT = IDENTIFIABLE_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of operations of the '<em>Doc Book</em>' class.
@@ -91,7 +137,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int DOC_BOOK_OPERATION_COUNT = 0;
+	int DOC_BOOK_OPERATION_COUNT = IDENTIFIABLE_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link ttc2019.live.docbook.impl.BookImpl <em>Book</em>}' class.
@@ -104,13 +150,22 @@ public interface DocbookPackage extends EPackage {
 	int BOOK = 1;
 
 	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BOOK__ID = IDENTIFIABLE__ID;
+
+	/**
 	 * The feature id for the '<em><b>Articles</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int BOOK__ARTICLES = 0;
+	int BOOK__ARTICLES = IDENTIFIABLE_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Book</em>' class.
@@ -119,7 +174,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BOOK_FEATURE_COUNT = 1;
+	int BOOK_FEATURE_COUNT = IDENTIFIABLE_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of operations of the '<em>Book</em>' class.
@@ -128,7 +183,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int BOOK_OPERATION_COUNT = 0;
+	int BOOK_OPERATION_COUNT = IDENTIFIABLE_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link ttc2019.live.docbook.impl.TitledElementImpl <em>Titled Element</em>}' class.
@@ -141,13 +196,22 @@ public interface DocbookPackage extends EPackage {
 	int TITLED_ELEMENT = 2;
 
 	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TITLED_ELEMENT__ID = IDENTIFIABLE__ID;
+
+	/**
 	 * The feature id for the '<em><b>Title</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TITLED_ELEMENT__TITLE = 0;
+	int TITLED_ELEMENT__TITLE = IDENTIFIABLE_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Titled Element</em>' class.
@@ -156,7 +220,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int TITLED_ELEMENT_FEATURE_COUNT = 1;
+	int TITLED_ELEMENT_FEATURE_COUNT = IDENTIFIABLE_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of operations of the '<em>Titled Element</em>' class.
@@ -165,7 +229,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int TITLED_ELEMENT_OPERATION_COUNT = 0;
+	int TITLED_ELEMENT_OPERATION_COUNT = IDENTIFIABLE_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link ttc2019.live.docbook.impl.ArticleImpl <em>Article</em>}' class.
@@ -176,6 +240,15 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 */
 	int ARTICLE = 3;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ARTICLE__ID = TITLED_ELEMENT__ID;
 
 	/**
 	 * The feature id for the '<em><b>Title</b></em>' attribute.
@@ -224,6 +297,15 @@ public interface DocbookPackage extends EPackage {
 	int SECTION = 4;
 
 	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SECTION__ID = TITLED_ELEMENT__ID;
+
+	/**
 	 * The feature id for the '<em><b>Title</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -268,6 +350,15 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 */
 	int SECT1 = 5;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SECT1__ID = SECTION__ID;
 
 	/**
 	 * The feature id for the '<em><b>Title</b></em>' attribute.
@@ -325,6 +416,15 @@ public interface DocbookPackage extends EPackage {
 	int SECT2 = 6;
 
 	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SECT2__ID = SECTION__ID;
+
+	/**
 	 * The feature id for the '<em><b>Title</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -371,13 +471,22 @@ public interface DocbookPackage extends EPackage {
 	int PARA = 7;
 
 	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PARA__ID = IDENTIFIABLE__ID;
+
+	/**
 	 * The feature id for the '<em><b>Content</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PARA__CONTENT = 0;
+	int PARA__CONTENT = IDENTIFIABLE_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Para</em>' class.
@@ -386,7 +495,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int PARA_FEATURE_COUNT = 1;
+	int PARA_FEATURE_COUNT = IDENTIFIABLE_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of operations of the '<em>Para</em>' class.
@@ -395,7 +504,7 @@ public interface DocbookPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int PARA_OPERATION_COUNT = 0;
+	int PARA_OPERATION_COUNT = IDENTIFIABLE_OPERATION_COUNT + 0;
 
 
 	/**
@@ -556,6 +665,27 @@ public interface DocbookPackage extends EPackage {
 	EAttribute getPara_Content();
 
 	/**
+	 * Returns the meta object for class '{@link ttc2019.live.docbook.Identifiable <em>Identifiable</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Identifiable</em>'.
+	 * @see ttc2019.live.docbook.Identifiable
+	 * @generated
+	 */
+	EClass getIdentifiable();
+
+	/**
+	 * Returns the meta object for the attribute '{@link ttc2019.live.docbook.Identifiable#getId <em>Id</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Id</em>'.
+	 * @see ttc2019.live.docbook.Identifiable#getId()
+	 * @see #getIdentifiable()
+	 * @generated
+	 */
+	EAttribute getIdentifiable_Id();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -713,6 +843,24 @@ public interface DocbookPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute PARA__CONTENT = eINSTANCE.getPara_Content();
+
+		/**
+		 * The meta object literal for the '{@link ttc2019.live.docbook.impl.IdentifiableImpl <em>Identifiable</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see ttc2019.live.docbook.impl.IdentifiableImpl
+		 * @see ttc2019.live.docbook.impl.DocbookPackageImpl#getIdentifiable()
+		 * @generated
+		 */
+		EClass IDENTIFIABLE = eINSTANCE.getIdentifiable();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute IDENTIFIABLE__ID = eINSTANCE.getIdentifiable_Id();
 
 	}
 

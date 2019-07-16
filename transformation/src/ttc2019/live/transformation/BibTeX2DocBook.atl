@@ -1,10 +1,12 @@
 module BibTeX2DocBook;
 create OUT : DocBook from IN : BibTeX;
 
-
 -------------------------------------------------------------------------------
 -- HELPERS --------------------------------------------------------------------
 -------------------------------------------------------------------------------
+
+helper context OclAny def : randomUUID() : String =
+	"#native"!"java::util::UUID".refInvokeStaticOperation('randomUUID', Sequence{}).toString();
 
 -- This helper builds the set of distinct authors referenced in the input BibTeX
 -- model.
@@ -75,10 +77,12 @@ rule Main {
         bib : BibTeX!BibTeXFile
 	to 
 		doc : DocBook!DocBook (
-			books <- Sequence { boo }
+			books <- Sequence { boo },
+			id <- 'doc'
 		),
 		boo : DocBook!Book (
-			articles <- Sequence { art }
+			articles <- Sequence { art },
+			id <- 'book'
 		),
 		art : DocBook!Article (
 			title <- 'BibTeXML to DocBook',
@@ -86,19 +90,23 @@ rule Main {
 		),
 		se1 : DocBook!Sect1 (
 			title <- 'References List',
-			paras <- BibTeX!BibTeXEntry.allInstances()->sortedBy(e | e.id)
+			paras <- BibTeX!BibTeXEntry.allInstances()->sortedBy(e | e.id),
+			id <- 'se1'
 		),
 		se2 : DocBook!Sect1 (
 			title <- 'Authors list',
-			paras <- thisModule.authorSet
+			paras <- thisModule.authorSet,
+			id <- 'se2'
 		),
 		se3 : DocBook!Sect1 (
 			title <- 'Titles List',
-			paras <- thisModule.titledEntrySet->collect(e | thisModule.resolveTemp(e, 'title_para'))
+			paras <- thisModule.titledEntrySet->collect(e | thisModule.resolveTemp(e, 'title_para')),
+			id <- 'se3'
 		),
 		se4 : DocBook!Sect1 (
 			title <- 'Journals List',
-			paras <- thisModule.articleSet->collect(e | thisModule.resolveTemp(e, 'journal_para'))
+			paras <- thisModule.articleSet->collect(e | thisModule.resolveTemp(e, 'journal_para')),
+			id <- 'se4'
 		)
 }
 
@@ -111,7 +119,8 @@ rule Author {
 			)
 	to
 		p1 : DocBook!Para (
-			content <- a.author
+			content <- a.author,
+			id <- a.randomUUID()
 		)
 }
 
@@ -124,7 +133,8 @@ rule UntitledEntry {
 		)
 	to
 		p : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		)
 }
 
@@ -143,10 +153,12 @@ rule TitledEntry_Title_NoArticle {
 		)
 	to
 		entry_para : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		),
 		title_para : DocBook!Para (
-			content <- e.title
+			content <- e.title,
+			id <- e.randomUUID()
 		)
 }
 
@@ -164,7 +176,8 @@ rule TitledEntry_NoTitle_NoArticle {
 		)
 	to
 		entry_para : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		)
 }
 
@@ -185,13 +198,16 @@ rule Article_Title_Journal {
 		)
 	to
 		entry_para : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		),
 		title_para : DocBook!Para (
-			content <- e.title
+			content <- e.title,
+			id <- e.randomUUID()
 		),
 		journal_para : DocBook!Para (
-			content <- e.journal
+			content <- e.journal,
+			id <- e.randomUUID()
 		)
 }
 
@@ -211,10 +227,12 @@ rule Article_NoTitle_Journal {
 		)
 	to
 		entry_para : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		),
 		journal_para : DocBook!Para (
-			content <- e.journal
+			content <- e.journal,
+			id <- e.randomUUID()
 		)
 }
 
@@ -234,10 +252,12 @@ rule Article_Title_NoJournal {
 		)
 	to
 		entry_para : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		),
 		title_para : DocBook!Para (
-			content <- e.title
+			content <- e.title,
+			id <- e.randomUUID()
 		)
 }
 
@@ -256,6 +276,7 @@ rule Article_NoTitle_NoJournal {
 		)
 	to
 		entry_para : DocBook!Para (
-			content <- e.buildEntryPara()
+			content <- e.buildEntryPara(),
+			id <- e.randomUUID()
 		)
 }

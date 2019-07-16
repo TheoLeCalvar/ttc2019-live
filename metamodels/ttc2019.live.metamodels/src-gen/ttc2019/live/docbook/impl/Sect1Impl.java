@@ -66,6 +66,7 @@ public class Sect1Impl extends SectionImpl implements Sect1 {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Sect2> getSections_2() {
 		if (sections_2 == null) {
 			sections_2 = new EObjectContainmentEList<Sect2>(Sect2.class, this, DocbookPackage.SECT1__SECTIONS_2);

@@ -29,5 +29,8 @@
     <genClasses ecoreClass="DocBook.ecore#//Para">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DocBook.ecore#//Para/content"/>
     </genClasses>
+    <genClasses image="false" ecoreClass="DocBook.ecore#//Identifiable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DocBook.ecore#//Identifiable/id"/>
+    </genClasses>
   </genPackages>
 </genmodel:GenModel>

@@ -10,9 +10,6 @@ import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
-
-import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
@@ -33,7 +30,7 @@ import ttc2019.live.docbook.DocbookPackage;
  *
  * @generated
  */
-public class DocBookImpl extends MinimalEObjectImpl.Container implements DocBook {
+public class DocBookImpl extends IdentifiableImpl implements DocBook {
 	/**
 	 * The cached value of the '{@link #getBooks() <em>Books</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
@@ -68,6 +65,7 @@ public class DocBookImpl extends MinimalEObjectImpl.Container implements DocBook
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Book> getBooks() {
 		if (books == null) {
 			books = new EObjectContainmentEList<Book>(Book.class, this, DocbookPackage.DOC_BOOK__BOOKS);

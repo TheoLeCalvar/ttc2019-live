@@ -66,6 +66,7 @@ public class ArticleImpl extends TitledElementImpl implements Article {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Sect1> getSections_1() {
 		if (sections_1 == null) {
 			sections_1 = new EObjectContainmentEList<Sect1>(Sect1.class, this, DocbookPackage.ARTICLE__SECTIONS_1);

@@ -69,18 +69,21 @@ public class DocbookSwitch<T> extends Switch<T> {
 			case DocbookPackage.DOC_BOOK: {
 				DocBook docBook = (DocBook)theEObject;
 				T result = caseDocBook(docBook);
+				if (result == null) result = caseIdentifiable(docBook);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
 			case DocbookPackage.BOOK: {
 				Book book = (Book)theEObject;
 				T result = caseBook(book);
+				if (result == null) result = caseIdentifiable(book);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
 			case DocbookPackage.TITLED_ELEMENT: {
 				TitledElement titledElement = (TitledElement)theEObject;
 				T result = caseTitledElement(titledElement);
+				if (result == null) result = caseIdentifiable(titledElement);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -88,6 +91,7 @@ public class DocbookSwitch<T> extends Switch<T> {
 				Article article = (Article)theEObject;
 				T result = caseArticle(article);
 				if (result == null) result = caseTitledElement(article);
+				if (result == null) result = caseIdentifiable(article);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -95,6 +99,7 @@ public class DocbookSwitch<T> extends Switch<T> {
 				Section section = (Section)theEObject;
 				T result = caseSection(section);
 				if (result == null) result = caseTitledElement(section);
+				if (result == null) result = caseIdentifiable(section);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -103,6 +108,7 @@ public class DocbookSwitch<T> extends Switch<T> {
 				T result = caseSect1(sect1);
 				if (result == null) result = caseSection(sect1);
 				if (result == null) result = caseTitledElement(sect1);
+				if (result == null) result = caseIdentifiable(sect1);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -111,12 +117,20 @@ public class DocbookSwitch<T> extends Switch<T> {
 				T result = caseSect2(sect2);
 				if (result == null) result = caseSection(sect2);
 				if (result == null) result = caseTitledElement(sect2);
+				if (result == null) result = caseIdentifiable(sect2);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
 			case DocbookPackage.PARA: {
 				Para para = (Para)theEObject;
 				T result = casePara(para);
+				if (result == null) result = caseIdentifiable(para);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case DocbookPackage.IDENTIFIABLE: {
+				Identifiable identifiable = (Identifiable)theEObject;
+				T result = caseIdentifiable(identifiable);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -241,6 +255,21 @@ public class DocbookSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T casePara(Para object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Identifiable</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Identifiable</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseIdentifiable(Identifiable object) {
 		return null;
 	}
 

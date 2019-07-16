@@ -7,49 +7,51 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
 import ttc2019.live.docbook.DocbookPackage;
-import ttc2019.live.docbook.Para;
+import ttc2019.live.docbook.Identifiable;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>Para</b></em>'.
+ * An implementation of the model object '<em><b>Identifiable</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link ttc2019.live.docbook.impl.ParaImpl#getContent <em>Content</em>}</li>
+ *   <li>{@link ttc2019.live.docbook.impl.IdentifiableImpl#getId <em>Id</em>}</li>
  * </ul>
  *
  * @generated
  */
-public class ParaImpl extends IdentifiableImpl implements Para {
+public abstract class IdentifiableImpl extends MinimalEObjectImpl.Container implements Identifiable {
 	/**
-	 * The default value of the '{@link #getContent() <em>Content</em>}' attribute.
+	 * The default value of the '{@link #getId() <em>Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getContent()
+	 * @see #getId()
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String CONTENT_EDEFAULT = null;
+	protected static final String ID_EDEFAULT = null;
 
 	/**
-	 * The cached value of the '{@link #getContent() <em>Content</em>}' attribute.
+	 * The cached value of the '{@link #getId() <em>Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getContent()
+	 * @see #getId()
 	 * @generated
 	 * @ordered
 	 */
-	protected String content = CONTENT_EDEFAULT;
+	protected String id = ID_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParaImpl() {
+	protected IdentifiableImpl() {
 		super();
 	}
 
@@ -60,7 +62,7 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return DocbookPackage.Literals.PARA;
+		return DocbookPackage.Literals.IDENTIFIABLE;
 	}
 
 	/**
@@ -69,8 +71,8 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	 * @generated
 	 */
 	@Override
-	public String getContent() {
-		return content;
+	public String getId() {
+		return id;
 	}
 
 	/**
@@ -79,11 +81,11 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	 * @generated
 	 */
 	@Override
-	public void setContent(String newContent) {
-		String oldContent = content;
-		content = newContent;
+	public void setId(String newId) {
+		String oldId = id;
+		id = newId;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, DocbookPackage.PARA__CONTENT, oldContent, content));
+			eNotify(new ENotificationImpl(this, Notification.SET, DocbookPackage.IDENTIFIABLE__ID, oldId, id));
 	}
 
 	/**
@@ -94,8 +96,8 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case DocbookPackage.PARA__CONTENT:
-				return getContent();
+			case DocbookPackage.IDENTIFIABLE__ID:
+				return getId();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -108,8 +110,8 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case DocbookPackage.PARA__CONTENT:
-				setContent((String)newValue);
+			case DocbookPackage.IDENTIFIABLE__ID:
+				setId((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -123,8 +125,8 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case DocbookPackage.PARA__CONTENT:
-				setContent(CONTENT_EDEFAULT);
+			case DocbookPackage.IDENTIFIABLE__ID:
+				setId(ID_EDEFAULT);
 				return;
 		}
 		super.eUnset(featureID);
@@ -138,8 +140,8 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case DocbookPackage.PARA__CONTENT:
-				return CONTENT_EDEFAULT == null ? content != null : !CONTENT_EDEFAULT.equals(content);
+			case DocbookPackage.IDENTIFIABLE__ID:
+				return ID_EDEFAULT == null ? id != null : !ID_EDEFAULT.equals(id);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -154,10 +156,10 @@ public class ParaImpl extends IdentifiableImpl implements Para {
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (content: ");
-		result.append(content);
+		result.append(" (id: ");
+		result.append(id);
 		result.append(')');
 		return result.toString();
 	}
 
-} //ParaImpl
+} //IdentifiableImpl

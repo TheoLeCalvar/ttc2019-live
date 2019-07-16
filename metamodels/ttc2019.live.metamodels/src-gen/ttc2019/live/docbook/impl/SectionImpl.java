@@ -66,6 +66,7 @@ public abstract class SectionImpl extends TitledElementImpl implements Section {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Para> getParas() {
 		if (paras == null) {
 			paras = new EObjectContainmentEList<Para>(Para.class, this, DocbookPackage.SECTION__PARAS);
