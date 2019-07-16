@@ -1299,7 +1299,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 		initEAttribute(getAssociationListInsertion_Index(), ecorePackage.getEInt(), "index", null, 1, 1, AssociationListInsertion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(compositionListInsertionEClass, CompositionListInsertion.class, "CompositionListInsertion", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCompositionListInsertion_AddedElement(), ecorePackage.getEObject(), null, "addedElement", null, 1, 1, CompositionListInsertion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getCompositionListInsertion_AddedElement(), ecorePackage.getEObject(), null, "addedElement", null, 1, 1, CompositionListInsertion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCompositionListInsertion_Index(), ecorePackage.getEInt(), "index", null, 1, 1, CompositionListInsertion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(attributeListInsertionEClass, AttributeListInsertion.class, "AttributeListInsertion", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -1315,7 +1315,7 @@ public class ChangesPackageImpl extends EPackageImpl implements ChangesPackage {
 		initEReference(getAssociationPropertyChange_OldValue(), ecorePackage.getEObject(), null, "oldValue", null, 0, 1, AssociationPropertyChange.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(compositionPropertyChangeEClass, CompositionPropertyChange.class, "CompositionPropertyChange", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCompositionPropertyChange_NewValue(), ecorePackage.getEObject(), null, "newValue", null, 0, 1, CompositionPropertyChange.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getCompositionPropertyChange_NewValue(), ecorePackage.getEObject(), null, "newValue", null, 0, 1, CompositionPropertyChange.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCompositionPropertyChange_OldValue(), ecorePackage.getEObject(), null, "oldValue", null, 0, 1, CompositionPropertyChange.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(compositionMoveIntoPropertyEClass, CompositionMoveIntoProperty.class, "CompositionMoveIntoProperty", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);

@@ -1104,7 +1104,7 @@ public interface ChangesPackage extends EPackage {
 	int COMPOSITION_LIST_INSERTION__FEATURE = COMPOSITION_CHANGE__FEATURE;
 
 	/**
-	 * The feature id for the '<em><b>Added Element</b></em>' reference.
+	 * The feature id for the '<em><b>Added Element</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -1360,7 +1360,7 @@ public interface ChangesPackage extends EPackage {
 	int COMPOSITION_PROPERTY_CHANGE__FEATURE = COMPOSITION_CHANGE__FEATURE;
 
 	/**
-	 * The feature id for the '<em><b>New Value</b></em>' reference.
+	 * The feature id for the '<em><b>New Value</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -2146,10 +2146,10 @@ public interface ChangesPackage extends EPackage {
 	EClass getCompositionListInsertion();
 
 	/**
-	 * Returns the meta object for the reference '{@link ttc2019.live.changes.CompositionListInsertion#getAddedElement <em>Added Element</em>}'.
+	 * Returns the meta object for the containment reference '{@link ttc2019.live.changes.CompositionListInsertion#getAddedElement <em>Added Element</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Added Element</em>'.
+	 * @return the meta object for the containment reference '<em>Added Element</em>'.
 	 * @see ttc2019.live.changes.CompositionListInsertion#getAddedElement()
 	 * @see #getCompositionListInsertion()
 	 * @generated
@@ -2274,10 +2274,10 @@ public interface ChangesPackage extends EPackage {
 	EClass getCompositionPropertyChange();
 
 	/**
-	 * Returns the meta object for the reference '{@link ttc2019.live.changes.CompositionPropertyChange#getNewValue <em>New Value</em>}'.
+	 * Returns the meta object for the containment reference '{@link ttc2019.live.changes.CompositionPropertyChange#getNewValue <em>New Value</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>New Value</em>'.
+	 * @return the meta object for the containment reference '<em>New Value</em>'.
 	 * @see ttc2019.live.changes.CompositionPropertyChange#getNewValue()
 	 * @see #getCompositionPropertyChange()
 	 * @generated
@@ -2873,7 +2873,7 @@ public interface ChangesPackage extends EPackage {
 		EClass COMPOSITION_LIST_INSERTION = eINSTANCE.getCompositionListInsertion();
 
 		/**
-		 * The meta object literal for the '<em><b>Added Element</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Added Element</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -2977,7 +2977,7 @@ public interface ChangesPackage extends EPackage {
 		EClass COMPOSITION_PROPERTY_CHANGE = eINSTANCE.getCompositionPropertyChange();
 
 		/**
-		 * The meta object literal for the '<em><b>New Value</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>New Value</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

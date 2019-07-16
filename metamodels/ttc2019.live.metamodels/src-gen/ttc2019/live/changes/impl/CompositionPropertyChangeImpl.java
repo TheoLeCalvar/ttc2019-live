@@ -3,6 +3,8 @@
 package ttc2019.live.changes.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.InternalEObject;
@@ -28,7 +30,7 @@ import ttc2019.live.changes.CompositionPropertyChange;
  */
 public class CompositionPropertyChangeImpl extends CompositionChangeImpl implements CompositionPropertyChange {
 	/**
-	 * The cached value of the '{@link #getNewValue() <em>New Value</em>}' reference.
+	 * The cached value of the '{@link #getNewValue() <em>New Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getNewValue()
@@ -73,14 +75,6 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 */
 	@Override
 	public EObject getNewValue() {
-		if (newValue != null && newValue.eIsProxy()) {
-			InternalEObject oldNewValue = (InternalEObject)newValue;
-			newValue = eResolveProxy(oldNewValue);
-			if (newValue != oldNewValue) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE, oldNewValue, newValue));
-			}
-		}
 		return newValue;
 	}
 
@@ -89,8 +83,14 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EObject basicGetNewValue() {
-		return newValue;
+	public NotificationChain basicSetNewValue(EObject newNewValue, NotificationChain msgs) {
+		EObject oldNewValue = newValue;
+		newValue = newNewValue;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE, oldNewValue, newNewValue);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
 	}
 
 	/**
@@ -100,10 +100,17 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 */
 	@Override
 	public void setNewValue(EObject newNewValue) {
-		EObject oldNewValue = newValue;
-		newValue = newNewValue;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE, oldNewValue, newValue));
+		if (newNewValue != newValue) {
+			NotificationChain msgs = null;
+			if (newValue != null)
+				msgs = ((InternalEObject)newValue).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE, null, msgs);
+			if (newNewValue != null)
+				msgs = ((InternalEObject)newNewValue).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE, null, msgs);
+			msgs = basicSetNewValue(newNewValue, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE, newNewValue, newNewValue));
 	}
 
 	/**
@@ -152,11 +159,24 @@ public class CompositionPropertyChangeImpl extends CompositionChangeImpl impleme
 	 * @generated
 	 */
 	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+			case ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE:
+				return basicSetNewValue(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case ChangesPackage.COMPOSITION_PROPERTY_CHANGE__NEW_VALUE:
-				if (resolve) return getNewValue();
-				return basicGetNewValue();
+				return getNewValue();
 			case ChangesPackage.COMPOSITION_PROPERTY_CHANGE__OLD_VALUE:
 				if (resolve) return getOldValue();
 				return basicGetOldValue();
