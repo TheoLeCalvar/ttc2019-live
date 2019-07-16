@@ -43,7 +43,7 @@ public class AppendRandomText extends AbstractMutationOperator {
 		eob.eSet(targetEAttribute, newValue);
 
 		AttributePropertyChange change = ChangesFactory.eINSTANCE.createAttributePropertyChange();
-		change.setAffectedElement(source.eResource().getEObject(eobFragment));
+		change.setAffectedElement(getOriginalObject(eobFragment, source, changes));
 		change.setFeature(targetEAttribute);
 		change.setNewValue(newValue);
 		change.setOldValue(oldValue);

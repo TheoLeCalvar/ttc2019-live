@@ -9,6 +9,7 @@ import org.eclipse.emf.common.util.TreeIterator;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 
+import ttc2019.live.changes.ModelChangeSet;
 import ttc2019.live.docbook.DocBook;
 
 /**
@@ -50,5 +51,17 @@ public abstract class AbstractMutationOperator implements IMutationOperator {
 
 		return Optional.of(allOf.get(rnd.nextInt(allOf.size())));
 	}
-	
+
+	/**
+	 * For a URI fragment, tries to find it in the source model, and then in the
+	 * change model if it is not there.
+	 */
+	protected EObject getOriginalObject(final String eobFragment, DocBook source, ModelChangeSet changes) {
+		EObject eobOriginal = source.eResource().getEObject(eobFragment);
+		if (eobOriginal == null) {
+			eobOriginal = changes.eResource().getEObject(eobFragment);
+		}
+		return eobOriginal;
+	}
+
 }

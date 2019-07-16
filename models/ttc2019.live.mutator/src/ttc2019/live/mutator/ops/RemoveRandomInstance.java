@@ -51,9 +51,8 @@ public class RemoveRandomInstance extends AbstractMutationOperator {
 			target.eUnset(feature);
 		}
 
-		final EObject targetInSource = source.eResource().getEObject(uriFragment);
 		CompositionListDeletion change = ChangesFactory.eINSTANCE.createCompositionListDeletion();
-		change.setAffectedElement(targetInSource);
+		change.setAffectedElement(getOriginalObject(uriFragment, source, changes));
 		change.setFeature(feature);
 		change.setIndex(idxTarget);
 		changes.getChanges().add(change);

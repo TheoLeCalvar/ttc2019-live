@@ -43,11 +43,10 @@ public class SwapRandomSibling extends AbstractMutationOperator implements IMuta
 		eList.move(idxSwapTo, idxTarget);
 
 		// Docbook metamodel only has compositions, no plain associations
-		final Resource sourceResource = source.eResource();
 		CompositionMoveToList change = ChangesFactory.eINSTANCE.createCompositionMoveToList();
-		change.setAffectedElement(sourceResource.getEObject(containerFragment));
+		change.setAffectedElement(getOriginalObject(containerFragment, source, changes));
 		change.setFeature(feature);
-		change.setMovedElement(sourceResource.getEObject(targetFragment));
+		change.setMovedElement(getOriginalObject(targetFragment, source, changes));
 		change.setIndex(idxSwapTo);
 		changes.getChanges().add(change);
 	}
