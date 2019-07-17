@@ -35,9 +35,9 @@ public class RemoveRandomInstance extends AbstractMutationOperator {
 		}
 		final EObject target = oTarget.get();
 
-		final String uriFragment = target.eResource().getURIFragment(target);
 		final EObject eContainer = target.eContainer();
 		final EReference feature = (EReference) target.eContainingFeature();
+		final String uriFragment = eContainer.eResource().getURIFragment(eContainer);
 
 		// Apply the change
 		int idxTarget = 0;
